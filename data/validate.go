@@ -107,7 +107,7 @@ func IsAddressLess(address1 Address, address2 Address) bool {
 }
 
 // check if names are sorted alphabetically
-func CheckNamesSorted(unsortedNames []Name, autoFix bool) (bool, error) {
+func CheckNamesSorted(unsortedNames []Name, autoFix bool) bool {
 	sortedNames := make([]Name, len(unsortedNames))
 	copy(sortedNames, unsortedNames)
 
@@ -123,14 +123,14 @@ func CheckNamesSorted(unsortedNames []Name, autoFix bool) (bool, error) {
 		// if not sorted, apply fix
 		WriteNames(sortedNames)
 
-		return true, nil
+		return true
 	}
 
-	return sorted, nil
+	return sorted
 }
 
 // check if addresses are sorted alphabetically
-func CheckAddressesSorted(unsortedAddresses []Address, autoFix bool) (bool, error) {
+func CheckAddressesSorted(unsortedAddresses []Address, autoFix bool) bool {
 	sortedAddresses := make([]Address, len(unsortedAddresses))
 	copy(sortedAddresses, unsortedAddresses)
 
@@ -146,10 +146,10 @@ func CheckAddressesSorted(unsortedAddresses []Address, autoFix bool) (bool, erro
 		// if not sorted, apply fix
 		WriteAddresses(sortedAddresses)
 
-		return true, nil
+		return true
 	}
 
-	return sorted, nil
+	return sorted
 }
 
 // validate data in names.json
@@ -159,12 +159,33 @@ func ValidateNamesData(autofix bool) error {
 		return err
 	}
 
-	sorted, err := CheckNamesSorted(names, autofix)
-	if err != nil {
-		return err
+	for _, name := range names {
+		// check if person sex enum is valid
+		if !name.Sex.IsValid() {
+			return errors.New(
+				"invalid sex " +
+					string(name.Sex) +
+					" for name " +
+					name.FirstName +
+					" " +
+					name.LastName,
+			)
+		}
+
+		// check if person group enum is valid
+		if !name.Group.IsValid() {
+			return errors.New(
+				"invalid person group " +
+					string(name.Group) +
+					" for name " +
+					name.FirstName +
+					" " +
+					name.LastName,
+			)
+		}
 	}
 
-	if !sorted {
+	if !CheckNamesSorted(names, autofix) {
 		return errors.New("names not sorted properly")
 	}
 
@@ -178,12 +199,27 @@ func ValidateAddressesData(autofix bool) error {
 		return err
 	}
 
-	sorted, err := CheckAddressesSorted(addresses, autofix)
-	if err != nil {
-		return err
+	for _, address := range addresses {
+		// check if address group enum is valid
+		if !address.Group.IsValid() {
+			return errors.New(
+				"invalid person group " +
+					string(address.Group) +
+					" for name " +
+					address.StreetName +
+					", " +
+					address.City +
+					", " +
+					address.State +
+					", " +
+					address.Country +
+					", " +
+					address.PostalCode,
+			)
+		}
 	}
 
-	if !sorted {
+	if !CheckAddressesSorted(addresses, autofix) {
 		return errors.New("addresses not sorted properly")
 	}
 

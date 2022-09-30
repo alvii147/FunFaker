@@ -3,11 +3,12 @@ package data
 import (
 	"encoding/json"
 	"errors"
-	"io/ioutil"
 	"os"
 	"path"
 	"path/filepath"
 	"runtime"
+
+	"github.com/alvii147/FunFaker/utils"
 )
 
 // path to addresses.json
@@ -17,12 +18,23 @@ const ADDRESSES_FILE_NAME = "addresses.json"
 type AddressGroup string
 
 const (
-	AddressGroupBatman         AddressGroup = "Batman"
-	AddressGroupBreakingBad    AddressGroup = "Breaking-Bad"
-	AddressGroupFamilyGuy      AddressGroup = "Family-Guy"
-	AddressGroupSeinfield      AddressGroup = "Seinfeld"
-	AddressGroupTheFlintstones AddressGroup = "The-Flintstones"
+	AddressGroupBatman           AddressGroup = "Batman"
+	AddressGroupBreakingBad      AddressGroup = "Breaking-Bad"
+	AddressGroupFamilyGuy        AddressGroup = "Family-Guy"
+	AddressGroupSeinfield        AddressGroup = "Seinfeld"
+	AddressGroupTheBigBangTheory AddressGroup = "The-Big-Bang-Theory"
+	AddressGroupTheFlintstones   AddressGroup = "The-Flintstones"
 )
+
+// check address group enum is valid
+func (group *AddressGroup) IsValid() bool {
+	return utils.StringSoftEqual(string(*group), string(AddressGroupBatman)) ||
+		utils.StringSoftEqual(string(*group), string(AddressGroupBreakingBad)) ||
+		utils.StringSoftEqual(string(*group), string(AddressGroupFamilyGuy)) ||
+		utils.StringSoftEqual(string(*group), string(AddressGroupSeinfield)) ||
+		utils.StringSoftEqual(string(*group), string(AddressGroupTheBigBangTheory)) ||
+		utils.StringSoftEqual(string(*group), string(AddressGroupTheFlintstones))
+}
 
 // struct representing address from addresses.json
 type Address struct {
@@ -46,13 +58,9 @@ func GetAddresses() ([]Address, error) {
 
 	// open addresses.json
 	addressesFilePath := filepath.Join(path.Dir(filename), ADDRESSES_FILE_NAME)
-	addressesFile, err := os.Open(addressesFilePath)
-	if err != nil {
-		return nil, err
-	}
 
 	// read addresses.json
-	addressesBytes, err := ioutil.ReadAll(addressesFile)
+	addressesBytes, err := os.ReadFile(addressesFilePath)
 	if err != nil {
 		return nil, err
 	}
@@ -84,7 +92,7 @@ func WriteAddresses(addresses []Address) error {
 	}
 
 	// write to addresses.json
-	err = ioutil.WriteFile(addressesFilePath, file, 0644)
+	err = os.WriteFile(addressesFilePath, file, 0644)
 	if err != nil {
 		return err
 	}
