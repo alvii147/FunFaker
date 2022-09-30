@@ -1,9 +1,10 @@
 package router
 
 import (
+	"net/http"
+
 	"github.com/alvii147/FunFaker/address"
 	"github.com/alvii147/FunFaker/person"
-	"net/http"
 )
 
 const (
