@@ -1,0 +1,884 @@
+[
+    {
+        "first-name": "Adrian",
+        "last-name": "Toomes",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Adrian Toomes, also known as Vulture, is a supervillain, the superhero Spider-Man's recurring enemy and the Sinister Six's founding member, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Aleksei",
+        "last-name": "Sytsevich",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Aleksei Sytsevich, also known as Rhino, is a supervillain and one of Spider-Man's most prominent adversaries, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Alex",
+        "last-name": "Summers",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Alexander Summers, also known as Havok, is mutant with an ability to generate plasma blasts, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Alfred",
+        "last-name": "Pennyworth",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Alfred Thaddeus Crane Pennyworth is Bruce Wayne's loyal and tireless butler appearing in American comic books published by DC Comics."
+    },
+    {
+        "first-name": "Anna",
+        "last-name": "Marie",
+        "sex": "Female",
+        "group": "Comics",
+        "trivia": "Anna Marie, also known as Rogue, is a mutant with the ability to absorb superpowers of anyone she touches, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Arthur",
+        "last-name": "Curry",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Arthur Curry, also known by his superhero moniker Aquaman, is an adventurer who is half-human and half-Atlantean in American comic books published by DC Comics."
+    },
+    {
+        "first-name": "Barbara",
+        "last-name": "Gordon",
+        "sex": "Female",
+        "group": "Comics",
+        "trivia": "Barbara Gordon is a superheroine, the daughter of Commissioner James Gordon, and an ally of Batman and Dick Grayson, appearing in American comic books published by DC Comics."
+    },
+    {
+        "first-name": "Barry",
+        "last-name": "Allen",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Bartholomew Henry Allen, also known as The Flash, is a superhero and a reinvention of the original Flash in American comic books published by DC Comics."
+    },
+    {
+        "first-name": "Benjamin",
+        "last-name": "Grimm",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Benjamin Grimm, also known as The Thing, is a superhero and a founding member of the Fantastic Four, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Betty",
+        "last-name": "Brant",
+        "sex": "Female",
+        "group": "Comics",
+        "trivia": "Elizabeth Brant is the personal secretary of J. Jonah Jameson at the Daily Bugle, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Billy",
+        "last-name": "Batson",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Billy Batson, also known as Captain Marvel and Shazam, is a superhero appearing in American comic books published by DC Comics."
+    },
+    {
+        "first-name": "Bobby",
+        "last-name": "Drake",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Robert Louis Drake, also known as Iceman, is a mutant with the ability to manipulate ice, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Bruce",
+        "last-name": "Banner",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Dr. Robert Bruce Banner is a physically weak, socially withdrawn, and emotionally reserved physicist with dissociative identity disorder (DID), primarily represented by his alter ego The Hulk, a green-skinned, hulking and muscular humanoid possessing a limitless degree of physical strength, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Bruce",
+        "last-name": "Wayne",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Bruce Wayne is a wealthy American playboy, philanthropist, and industrialist from Gotham City whose alter ego, Batman, is a superhero appearing in American comic books published by DC Comics."
+    },
+    {
+        "first-name": "Bucky",
+        "last-name": "Barnes",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "James Buchanan Barnes, also known as Winter Soldier, is an American Soldier turned Soviet spy and assassin, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Carmine",
+        "last-name": "Falcone",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Carmine Falcone is a powerful mob boss, an enemy of Batman, and a friend of the Wayne family, appearing in American comic books published by DC Comics."
+    },
+    {
+        "first-name": "Carol",
+        "last-name": "Danvers",
+        "sex": "Female",
+        "group": "Comics",
+        "trivia": "Carol Susan Jane Danvers, also known as Captain Marvel, is a Human/Kree hybrid and a military warrior, appearing in American comic books published by Marvel Comics. "
+    },
+    {
+        "first-name": "Charles",
+        "last-name": "Xavier",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Charles Francis Xavier, also known as Professor X, is the founder and leader of the X-Men and a mutant with powerful telepathic abilities, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Clark",
+        "last-name": "Kent",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Clark Joseph Kent, also known as Kal-El and best known by his superhero persona Superman, is a superhero born on the fictional planet Krypton in the DC Extended Universe series of films, based on the DC Comics character of the same name created by Jerry Siegel and Joe Shuster."
+    },
+    {
+        "first-name": "Cletus",
+        "last-name": "Kasady",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Cletus Cortland Kasady is a supervillain and the first and most infamous host of the Carnage symbiote, an offspring of Venom, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Clint",
+        "last-name": "Barton",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Clinton Francis Barton, also known as Hawkeye, is a fictional character and a member of the Avengers, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Curtis",
+        "last-name": "Connors",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Dr. Curtis Connors, also known as The Lizard, is an enemy of the superhero Spider-Man, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Damian",
+        "last-name": "Wayne",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Damian Wayne, also known as Damian al Ghul is a superhero and the son of Batman and Talia al Ghul, appearing in comic books published by DC Comics."
+    },
+    {
+        "first-name": "Diana",
+        "last-name": "Prince",
+        "sex": "Female",
+        "group": "Comics",
+        "trivia": "Diana Prince, also known as Diana of Themyscira and her superhero title Wonder Woman, is a superheroine and a founding member of the Justice League, appearing in American comic books published by DC Comics."
+    },
+    {
+        "first-name": "Dick",
+        "last-name": "Grayson",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Richard John Grayson is a superhero appearing as the original and most popular incarnation of Robin, Batman's crime-fighting partner, in American comic books published by DC Comics, commonly in association with Batman and Teen Titans."
+    },
+    {
+        "first-name": "Eddie",
+        "last-name": "Brock",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Edward Charles Allan Brock, also known as Venom, is the most well-known host of the Venom symbiote, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Edward",
+        "last-name": "Nigma",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Edward Nigma, also known as The Riddler, is a supervillain and one of the most enduring enemies of the superhero Batman, appearing in American comic books published by DC Comics."
+    },
+    {
+        "first-name": "Emma",
+        "last-name": "Frost",
+        "sex": "Female",
+        "group": "Comics",
+        "trivia": "Emma Grace Frost, also known as the White Queen, is a supervillain and foe of the X-Men, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Eric",
+        "last-name": "Brooks",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Eric Cross Brooks, also known as Blade, is a half-vampire, or Dhampir, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Erik",
+        "last-name": "Lehnsherr",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Erik Lehnsherr, also known as Magneto, is a powerful mutant with the ability to generate and control magnetic fields and a common adversary of the X-Men, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Felicia",
+        "last-name": "Hardy",
+        "sex": "Female",
+        "group": "Comics",
+        "trivia": "Felicia Hardy, also known as Black Cat, is an enemy, love interest, and ally of the superhero Spider-Man, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Flint",
+        "last-name": "Marko",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Flint Marko, also known as Sandman, is a shapeshifter with the ability to turn himself into sand and a recurring adversary to the superhero Spider-Man, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Floyd",
+        "last-name": "Lawton",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Floyd Lawton, also known as Deadshot, is a supervillain appearing in American comic books published by DC Comics."
+    },
+    {
+        "first-name": "Frank",
+        "last-name": "Castle",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Francis Castle, also known as The Punisher, is an antihero appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Franklin",
+        "last-name": "Richards",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Franklin Benjamin Richards is one of the most powerful beings in the Marvel universe and the son of Reed and Sue Richards, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Gabriel",
+        "last-name": "Summers",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Gabriel Summers, also known as Vulcan, is a powerful mutant, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Gwen",
+        "last-name": "Stacy",
+        "sex": "Female",
+        "group": "Comics",
+        "trivia": "Gwendolyne Maxine Stacy is the first romantic interest for Peter Parker, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Hal",
+        "last-name": "Jordan",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Harold Jordan, one of the characters known as Green Lantern, is a superhero appearing in American comic books published by DC Comics."
+    },
+    {
+        "first-name": "Hank",
+        "last-name": "Pym",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Dr. Henry Jonathan Pym is a scientific genius, a founding member of the Avengers, the creator of Pym Particles and of Ultron, and a superhero acting under identities such as Ant-Man, Giant Man, Goliath, Yellowjacket, and the Wasp, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Harley",
+        "last-name": "Quinn",
+        "sex": "Female",
+        "group": "Comics",
+        "trivia": "Harley Quinn, also known as Dr. Harleen Quinzel, is the Joker's sidekick and love interest, appearing in American comic books published by DC Comics."
+    },
+    {
+        "first-name": "Harry",
+        "last-name": "Osborn",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Harold Theopolis Osborn the son of Norman Osborn and the best friend of Peter Parker, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Harvey",
+        "last-name": "Dent",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Harvey Dent, also known as Two-Face, is a supervillain known commonly as an adversary of the superhero Batman, appearing in comic books published by DC Comics."
+    },
+    {
+        "first-name": "Henry",
+        "last-name": "McCoy",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Dr. Henry Philip McCoy, also known as Beast, is a mutant possessing ape-like superhuman physical strength and agility, and a founding member of the X-Men, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "James",
+        "last-name": "Gordon",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "James W. Gordon, Sr. is the police commissioner of Gotham City and an ally of Batman, appearing in American comic books published by DC Comics."
+    },
+    {
+        "first-name": "James",
+        "last-name": "Howlett",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "James Howlett, also known as Wolverine and Logan, is a mutant possessing animal-keen senses, enhanced physical capabilities, a powerful regenerative ability known as a healing factor, and three retractable claws in each hand, appearing in American comic books published by Marvel Comics"
+    },
+    {
+        "first-name": "James",
+        "last-name": "Rhodes",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "James Rupert Rhodes, also known as War Machine, is a skilled military pilot and a superhero that takes on the War Machine mantle, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Jason",
+        "last-name": "Todd",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Jason Peter Todd is a superhero, appearing as Batman's vigilante partner and sidekick in American comic books published by DC Comics."
+    },
+    {
+        "first-name": "Jean",
+        "last-name": "Grey",
+        "sex": "Female",
+        "group": "Comics",
+        "trivia": "Jean Elaine Grey, also known as Phoenix, is a mutant with telekinetic and telepathic powers, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Jennifer",
+        "last-name": "Walters",
+        "sex": "Female",
+        "group": "Comics",
+        "trivia": "Jennifer Walters, also known as She-Hulk, is a lawyer who, after an injury, received an emergency blood transfusion from her cousin, Bruce Banner, and acquired a milder version of his Hulk condition, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Jessica",
+        "last-name": "Jones",
+        "sex": "Female",
+        "group": "Comics",
+        "trivia": "Jessica Campbell Jones Cage is a superheroine with super human strength and durability appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "JJ",
+        "last-name": "Jameson",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "John Jonah Jameson Jr. is the publisher or editor-in-chief of the Daily Bugle, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "John",
+        "last-name": "Stewart",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "John Stewart, one of the characters known as Green Lantern, is a superhero appearing in American comic books published by DC Comics and was the second African-American superhero to appear in DC Comics."
+    },
+    {
+        "first-name": "Jonathan",
+        "last-name": "Crane",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Jonathan Crane, also known as The Scarecrow, is a brilliant professor of psychology turned criminal mastermind appearing as an adversary of Batman in American comic books published by DC Comics."
+    },
+    {
+        "first-name": "Jonathan",
+        "last-name": "Storm",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Jonathan Storm, also known as the Human Torch, is a superhero and a founding member of the Fantastic Four, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Kamala",
+        "last-name": "Khan",
+        "sex": "Female",
+        "group": "Comics",
+        "trivia": "Kamala Khan is Marvel's first Muslim character and South Asian American personality and a superheroine with an ability to stretch her body in almost any way imaginable, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Kara",
+        "last-name": "Danvers",
+        "sex": "Female",
+        "group": "Comics",
+        "trivia": "Kara Danvers, also known as Kara Zor-El and Supergirl, is a superheroine and the cousin of superhero Superman, appearing in American comic books published by DC Comics."
+    },
+    {
+        "first-name": "Kate",
+        "last-name": "Bishop",
+        "sex": "Female",
+        "group": "Comics",
+        "trivia": "Kate Bishop, also known as Hawkeye, is the third character and first female to take the Hawkeye name, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "King",
+        "last-name": "TChalla",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "T'Challa, also known as Black Panther, is the king and protector of the fictional African nation of Wakanda, appeariung in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Kitty",
+        "last-name": "Pryde",
+        "sex": "Female",
+        "group": "Comics",
+        "trivia": "Katherine Anne Pryde is a mutant possessing a \"phasing\" ability that allows her to become intangible, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Kurt",
+        "last-name": "Wagner",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Kurt Wagner, also known as Nightcrawler, is a mutant with the ability to teleport, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Kyle",
+        "last-name": "Rayner",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Kyle Rayner, one of the characters known as Green Lantern, is a superhero appearing in American comic books published by DC Comics."
+    },
+    {
+        "first-name": "Laura",
+        "last-name": "Kinney",
+        "sex": "Female",
+        "group": "Comics",
+        "trivia": "Laura Kinney, also known as X-23, is a superheroine mutant and the daughter of Wolverine, appearing in media published by Marvel Entertainment"
+    },
+    {
+        "first-name": "Lex",
+        "last-name": "Luthor",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Alexander Joseph Luthor, Jr. is the genius, ego-centered Metropolis businessman who, with his company LexCorp, and scientifically advanced Warsuit, has acted as both an antagonist and ally to Superman and the Justice League in American comic books published by DC Comics."
+    },
+    {
+        "first-name": "Lucius",
+        "last-name": "Fox",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Lucius Fox is Bruce Wayne's business manager who supplies Batman's equipment needs as well as financing his operations, appearing in American comic books published by DC Comics, commonly in association with the superhero Batman."
+    },
+    {
+        "first-name": "Luke",
+        "last-name": "Cage",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Lucas Cage, is a superhero with superhuman strength and unbreakable skin, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Mac",
+        "last-name": "Gargan",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "MacDonald Gargan, also known as Scorpion, is a supervillain and an adversary of the superhero Spider-Man, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Matt",
+        "last-name": "Murdock",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Matt Murdock, also known as Daredevil, is a blind lawyer by day and a crime-fighting vigilante by night, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Max",
+        "last-name": "Dillon",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Maxwell Dillon is a supervillain, an adversary to the superhero Spider-Man, and a founding member of the Sinister Six, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Miles",
+        "last-name": "Morales",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Miles Gonzalo Morales a superhero and one of the characters known as Spider-Man, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "MJ",
+        "last-name": "Watson",
+        "sex": "Female",
+        "group": "Comics",
+        "trivia": "Mary Jane Watson is Spider-Man's main love interest and later his wife, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Monica",
+        "last-name": "Rambeau",
+        "sex": "Female",
+        "group": "Comics",
+        "trivia": "Monica Rambeau, also known as Photon, is a superheroine with the ability to convert her body mass into any form of energy, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Natasha",
+        "last-name": "Romanoff",
+        "sex": "Female",
+        "group": "Comics",
+        "trivia": "Natalia Alianovna Romanova, also known as Black Widow, is a former Russian KGB agent and a member of the superhero team the Avengers, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Nathan",
+        "last-name": "Summers",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Nathan Christopher Charles Summers, also known as Cable, is a time-travelling warrior and the son of Cyclops and Madelyne Pryor, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Nick",
+        "last-name": "Fury",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Colonel Nicholas Joseph Fury Sr. is a spy, former Director of S.H.I.E.L.D., and founder of the Avengers, appearing in American comic books published by Marvel Comics.."
+    },
+    {
+        "first-name": "Norman",
+        "last-name": "Osborn",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Norman Osborn, also known as Green Goblin, is Spider-Man's archenemy, and the first and best-known incarnation of the Green Goblin, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Oliver",
+        "last-name": "Queen",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Oliver Queen, also known as Green Arrow, is a superhero who appears in American comic books published by DC Comics."
+    },
+    {
+        "first-name": "Ororo",
+        "last-name": "Munroe",
+        "sex": "Female",
+        "group": "Comics",
+        "trivia": "Ororo Munroe, also known as Storm, is a mutant with the ability to control the weather and atmosphere, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Oswald",
+        "last-name": "Cobblepot",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Oswald Cobblepot, also known as The Penguin, is a supervillain appearing in American comic books published by DC Comics, commonly as an adversary of the superhero Batman."
+    },
+    {
+        "first-name": "Otto",
+        "last-name": "Octavius",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Dr. Otto Gunther Octavius, also known as Doctor Octopus or Dock Ock, is one of Spider-Man's most prominent villains, and the founder and leader of the Sinister Six, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Pamela",
+        "last-name": "Isley",
+        "sex": "Female",
+        "group": "Comics",
+        "trivia": "Dr. Pamela Lillian Isley, also known is Poison Ivy, is a misanthropic botanist and biochemist who possesses a supernatural control over plant life, appearing as an adversary of Batman in American comic books published by DC Comics."
+    },
+    {
+        "first-name": "Patrick",
+        "last-name": "Mulligan",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Patrick Mulligan, also known as Toxin, is former NYPD police officer that became the first host of the Toxin symbiote, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Peter",
+        "last-name": "Parker",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Peter Parker, also known as Spider-Man, is a superhero with superhuman strength, agility, and a sense of danger developed from a bite of a radioactive spider, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Peter",
+        "last-name": "Quill",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Peter Jason Quill, also known as Star-Lord, is a superhero and the leader of the space-based superhero team Guardians of the Galaxy, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Pietro",
+        "last-name": "Maximoff",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Pietro Maximoff, also known as Quicksilver, is a superhero with the superhuman ability to move at great speeds, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Piotr",
+        "last-name": "Rasputin",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Piotr Nikolayevich Rasputin, also known as Colossus, is a mutant with the ability to transform himself into metallic form, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Quentin",
+        "last-name": "Beck",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Quentin Beck, also known as Mysterio, is a supervillain, the enemy of superheroes Spider-Man and Daredevil, and a founding member of Sinister Six, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Raven",
+        "last-name": "Darkholme",
+        "sex": "Female",
+        "group": "Comics",
+        "trivia": "Raven Darkhölme, also known as Mystique, is a mutant shapeshifter, appearing in American comic books published by Marvel Comics, commonly in association with the X-Men."
+    },
+    {
+        "first-name": "Reed",
+        "last-name": "Richards",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Dr. Reed Richards, also known as Mister Fantastic, is a scientist, inventor, and a founding member of the Fantastic Four, considered the smartest man on Earth, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Remy",
+        "last-name": "LeBeau",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Remy Etienne LeBeau, also known as Gambit, is amutant with the ability to mentally create, control, and manipulate pure kinetic energy to his desire, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Roman",
+        "last-name": "Sionis",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Roman Sionis, also known as Black Mask, is a supervillain appearing in comic books published by DC Comics, commonly as an adversary of the superhero Batman."
+    },
+    {
+        "first-name": "Sam",
+        "last-name": "Wilson",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Samuel Thomas Wilson, also known as Falcon, is a superhero with mechanical wings to fly, defend, and attack, appearing in American comic books published by Marvel Comics"
+    },
+    {
+        "first-name": "Scott",
+        "last-name": "Lang",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Scott Lang, also known as Ant-Man, is a superhero and a member of the Avengers, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Scott",
+        "last-name": "Summers",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Scott Summers, also known as Cyclops, is a mutant with the ability to emit powerful beams of energy from his eyes and a founding member of the X-Men, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Selina",
+        "last-name": "Kyle",
+        "sex": "Female",
+        "group": "Comics",
+        "trivia": "Selina Kyle, also known as Catwoman, is an antiheroine and Batman's best known love interest, appearing in American comic books published by DC Comics."
+    },
+    {
+        "first-name": "Sergei",
+        "last-name": "Kravenoff",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Sergei Kravenoff, also known as Kraven the Hunter, is one of Spider-Man's most formidable enemies, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Slade",
+        "last-name": "Wilson",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Slade Joseph Wilson, also known as Deathstroke, is a supervillain appearing in American comic books published by DC Comics."
+    },
+    {
+        "first-name": "Stephen",
+        "last-name": "Strange",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Dr. Stephen Strange is a superhero that serves as the Sorcerer Supreme, the primary protector of Earth against magical and mystical threats, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Steve",
+        "last-name": "Rogers",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Steve Rogers, also known as Captain America, is a superhero, a patriotic supersoldier, and the leader of the Avengers, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Sue",
+        "last-name": "Storm",
+        "sex": "Female",
+        "group": "Comics",
+        "trivia": "Dr. Susan Storm, later Susan Richards and also known as the Invisible Girl, is a superheroine with power including invisibility and force fields, and a founding member of the Fantastic Four, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Terry",
+        "last-name": "McGinnis",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Terrence McGinnis is a superhero who adopts the identity of Batman in the future, appearing in media published by DC Entertainment."
+    },
+    {
+        "first-name": "Tim",
+        "last-name": "Drake",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Timothy Jackson Drake is a superhero and the third character to assume the role of Batman's crime-fighting partner Robin, appearing in American comic books published by DC Comics, commonly in association with the superhero Batman."
+    },
+    {
+        "first-name": "Tony",
+        "last-name": "Stark",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Tony Stark, also known as Iron Man, is a superhero, wealthy American business magnate, playboy, philanthropist, inventor, ingenious scientist, and a founder of the Avengers, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Victor",
+        "last-name": "Creed",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Victor Creed, also known as Sabretooth, is a mutant with a rapid healing factor, razor-sharp fangs and claws, and superhuman senses, and an enemy of X-Men and Wolverine, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Victor",
+        "last-name": "Fries",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Victor Fries, commonly known as Mr. Freeze, is a supervillain appearing in American comic books published by DC Comics, commonly as an adversary of the superhero Batman.."
+    },
+    {
+        "first-name": "Wade",
+        "last-name": "Wilson",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Wade Wilson, also known as, Deadpool, is an antihero and a disfigured mercenary with the superhuman ability of regeneration and physical prowess, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Wally",
+        "last-name": "West",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Wallace Rudolph West is a superhero appearing in American comic books published by DC Comics as the original Kid Flash and the third Flash."
+    },
+    {
+        "first-name": "Wanda",
+        "last-name": "Maximoff",
+        "sex": "Female",
+        "group": "Comics",
+        "trivia": "Wanda Maximoff, also known as Scarlet Witch, is a powerful sorceress with the ability to alter probability, appearing in American comic books published by Marvel Comics"
+    },
+    {
+        "first-name": "Wilson",
+        "last-name": "Fisk",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Wilson Grant Fisk, also known as Kingpin, is a supervillain of Spider-Man and Daredevil, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Yelena",
+        "last-name": "Belova",
+        "sex": "Female",
+        "group": "Comics",
+        "trivia": "Yelena Belova is a spy and the second modern-era character to use the Black Widow name, appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Zheng",
+        "last-name": "Shang-Chi",
+        "sex": "Male",
+        "group": "Comics",
+        "trivia": "Zheng Shang-Chi, also known as the Master of Kung Fu and Brother Hand, is a superhero appearing in American comic books published by Marvel Comics."
+    },
+    {
+        "first-name": "Anakin",
+        "last-name": "Skywalker",
+        "sex": "Male",
+        "group": "Movies",
+        "trivia": "Anakin Skywalker, also known as Darth Vader, was a Force-sensitive Human male who served the Galactic Republic as a Jedi Knight and later served the Galactic Empire as the Sith Lord Darth Vader."
+    },
+    {
+        "first-name": "Beatrix",
+        "last-name": "Kiddo",
+        "sex": "Female",
+        "group": "Movies",
+        "trivia": "Beatrix Michelle Kiddo, also known as The Bride and Black Mamba, is the anti-heroic protagonist and mascot in the Kill Bill series."
+    },
+    {
+        "first-name": "Emmett",
+        "last-name": "Brown",
+        "sex": "Male",
+        "group": "Movies",
+        "trivia": "Dr. Emmett Lathrop Brown, commonly known as Doc Brown, is the deuteragonist of the Back to the Future franchise."
+    },
+    {
+        "first-name": "Forrest",
+        "last-name": "Gump",
+        "sex": "Male",
+        "group": "Movies",
+        "trivia": "Forrest Alexander Gump is the title protagonist of the 1986 novel by Winston Groom and Robert Zemeckis' 1994 film of the same name."
+    },
+    {
+        "first-name": "Han",
+        "last-name": "Solo",
+        "sex": "Male",
+        "group": "Movies",
+        "trivia": "Han Solo is a smuggler from the planet Corellia who achieved galactic fame as a member of the Rebel Alliance and later the New Republic in the Star Wars franchise."
+    },
+    {
+        "first-name": "Hannibal",
+        "last-name": "Lecter",
+        "sex": "Male",
+        "group": "Movies",
+        "trivia": "Hannibal Lecter is a brilliant, cannibalistic serial killer whose assistance is routinely sought out by law enforcement personnel to aid in the capture of other criminals, appearing in the Hannibal Lecter franchise."
+    },
+    {
+        "first-name": "Indiana",
+        "last-name": "Jones",
+        "sex": "Male",
+        "group": "Movies",
+        "trivia": "Dr. Henry Walton \"Indiana\" Jones, Jr. is a fictional professor of archaeology that began in 1981 with the film Raiders of the Lost Ark. In 1984, a prequel, The Temple of Doom, was released, and in 1989, a sequel, The Last Crusade."
+    },
+    {
+        "first-name": "Jack",
+        "last-name": "Sparrow",
+        "sex": "Male",
+        "group": "Movies",
+        "trivia": "Captain Jack Sparrow is a legendary pirate of the Seven Seas, the irreverent trickster of the Caribbean, and the protagonist of the Pirates of the Caribbean film series."
+    },
+    {
+        "first-name": "James",
+        "last-name": "Bond",
+        "sex": "Male",
+        "group": "Movies",
+        "trivia": "James Bond is a fictional British Secret Service agent who featured him in twelve novels and two short-story collections."
+    },
+    {
+        "first-name": "John",
+        "last-name": "McClane",
+        "sex": "Male",
+        "group": "Movies",
+        "trivia": "John McClane Sr. is an Irish-American detective lieutenant with the New York City Police Department and the main protagonist of the Die Hard film series."
+    },
+    {
+        "first-name": "Marty",
+        "last-name": "McFly",
+        "sex": "Male",
+        "group": "Movies",
+        "trivia": "Martin Seamus McFly is the protagonist of the Back to the Future franchise."
+    },
+    {
+        "first-name": "Michael",
+        "last-name": "Corleone",
+        "sex": "Male",
+        "group": "Movies",
+        "trivia": "Michael Corleone is the titular main protagonist of Mario Puzo's novel The Godfather, and the deuteragonist of The Sicilian, as well as the titular protagonist of The Godfather film trilogy."
+    },
+    {
+        "first-name": "Patrick",
+        "last-name": "Bateman",
+        "sex": "Male",
+        "group": "Movies",
+        "trivia": "Patrick Bateman is a wealthy and materialistic yuppie and Wall Street investment banker who leads a secret life as a serial killer, featuring in Ellis' 1991 novel and 2000 movie American Psycho."
+    },
+    {
+        "first-name": "Peter",
+        "last-name": "Venkman",
+        "sex": "Male",
+        "group": "Movies",
+        "trivia": "Dr. Peter Venkman is one of the titular main protagonists of the original Ghostbusters."
+    },
+    {
+        "first-name": "Travis",
+        "last-name": "Bickle",
+        "sex": "Male",
+        "group": "Movies",
+        "trivia": "Travis Bickle is the titular villainous main protagonist of the 1976 psychological crime film Taxi Driver."
+    },
+    {
+        "first-name": "Tyler",
+        "last-name": "Durden",
+        "sex": "Male",
+        "group": "Movies",
+        "trivia": "Tyler Durden is the main antagonist in the 1996 novel Fight Club by Chuck Palahniuk and its 1999 film adaptation of the same name."
+    }
+]
