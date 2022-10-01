@@ -3,43 +3,33 @@ package utils
 import (
 	"log"
 	"net/http"
+	"os"
 )
 
-// log levels
-type LogLevel string
-
-const (
-	LogLevelError LogLevel = "ERROR"
-	LogLevelWarn  LogLevel = "WARN"
-	LogLevelInfo  LogLevel = "INFO"
-	LogLevelDebug LogLevel = "DEBUG"
-)
-
-// log values with given log level
-func LogWithLevel(level LogLevel, v ...interface{}) {
-	logPrefix := "[" + string(level[0]) + "]"
-	logSlice := append([]interface{}{logPrefix}, v...)
-	log.Println(logSlice...)
-}
+// loggers for each log level
+var ErrorLogger *log.Logger = log.New(os.Stderr, "[E] ", log.Ldate|log.Ltime|log.Lmsgprefix)
+var WarnLogger *log.Logger = log.New(os.Stdout, "[W] ", log.Ldate|log.Ltime|log.Lmsgprefix)
+var InfoLogger *log.Logger = log.New(os.Stdout, "[I] ", log.Ldate|log.Ltime|log.Lmsgprefix)
+var DebugLogger *log.Logger = log.New(os.Stdout, "[D] ", log.Ldate|log.Ltime|log.Lmsgprefix)
 
 // log values with log level error
 func LogError(v ...interface{}) {
-	LogWithLevel(LogLevelError, v...)
+	ErrorLogger.Println(v...)
 }
 
 // log values with log level warnings
 func LogWarn(v ...interface{}) {
-	LogWithLevel(LogLevelWarn, v...)
+	WarnLogger.Println(v...)
 }
 
 // log values with log level information
 func LogInfo(v ...interface{}) {
-	LogWithLevel(LogLevelInfo, v...)
+	InfoLogger.Println(v...)
 }
 
 // log values with log level debug
 func LogDebug(v ...interface{}) {
-	LogWithLevel(LogLevelDebug, v...)
+	DebugLogger.Println(v...)
 }
 
 // log HTTP requests and responses data
