@@ -41,11 +41,11 @@ func TestHandleAddress(t *testing.T) {
 		},
 		{
 			name:               "HandleAddress returns random address of Breaking Bad group",
-			url:                "/name?group=breaking-bad",
+			url:                "/name?group=tv-shows",
 			method:             http.MethodGet,
 			expectedStatusCode: http.StatusOK,
 			expectBody:         true,
-			expectedGroup:      data.AddressGroupBreakingBad,
+			expectedGroup:      data.AddressGroupTVShows,
 			expectedValidOnly:  false,
 		},
 		{

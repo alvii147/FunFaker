@@ -18,22 +18,16 @@ const ADDRESSES_FILE_NAME = "addresses.json"
 type AddressGroup string
 
 const (
-	AddressGroupBatman           AddressGroup = "Batman"
-	AddressGroupBreakingBad      AddressGroup = "Breaking-Bad"
-	AddressGroupFamilyGuy        AddressGroup = "Family-Guy"
-	AddressGroupSeinfield        AddressGroup = "Seinfeld"
-	AddressGroupTheBigBangTheory AddressGroup = "The-Big-Bang-Theory"
-	AddressGroupTheFlintstones   AddressGroup = "The-Flintstones"
+	AddressGroupCartoons AddressGroup = "Cartoons"
+	AddressGroupComics   AddressGroup = "Comics"
+	AddressGroupTVShows  AddressGroup = "TV-Shows"
 )
 
 // check address group enum is valid
 func (group *AddressGroup) IsValid() bool {
-	return utils.StringSoftEqual(string(*group), string(AddressGroupBatman)) ||
-		utils.StringSoftEqual(string(*group), string(AddressGroupBreakingBad)) ||
-		utils.StringSoftEqual(string(*group), string(AddressGroupFamilyGuy)) ||
-		utils.StringSoftEqual(string(*group), string(AddressGroupSeinfield)) ||
-		utils.StringSoftEqual(string(*group), string(AddressGroupTheBigBangTheory)) ||
-		utils.StringSoftEqual(string(*group), string(AddressGroupTheFlintstones))
+	return utils.StringSoftEqual(string(*group), string(AddressGroupCartoons)) ||
+		utils.StringSoftEqual(string(*group), string(AddressGroupComics)) ||
+		utils.StringSoftEqual(string(*group), string(AddressGroupTVShows))
 }
 
 // struct representing address from addresses.json

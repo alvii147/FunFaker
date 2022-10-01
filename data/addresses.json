@@ -1,13 +1,33 @@
 [
     {
+        "street-name": "301 Cobblestone Way",
+        "city": "Bedrock",
+        "state": "Arizona",
+        "country": "United States",
+        "postal-code": "70777",
+        "group": "Cartoons",
+        "valid": false,
+        "trivia": "Bedrock is the fictional town located in prehistory that is home to the characters of the hit animated television series The Flintstones."
+    },
+    {
         "street-name": "1007 Mountain Drive",
         "city": "Gotham City",
         "state": "Illinois",
         "country": "United States",
         "postal-code": "60035",
-        "group": "Batman",
+        "group": "Comics",
         "valid": false,
-        "trivia": "In the episode \"The Anvil or the Hammer\", the address of Wayne Manor is briefly shown on an envelope. It is revealed as being \"1007 Mountain Drive\", which was the same address that was also stated to be Wayne Manor's location in the 1993 episode The Demon's Quest from Batman: The Animated Series."
+        "trivia": "In the episode \"The Anvil or the Hammer\", the address of Wayne Manor is briefly shown on an envelope. It is revealed as being \"1007 Mountain Drive\", which was the same address that was also stated to be Wayne Manor's location in the 1993 episode The Demon's Quest from Comics: The Animated Series."
+    },
+    {
+        "street-name": "2311 North Los Robles Avenue",
+        "city": "Pasadena",
+        "state": "California",
+        "country": "United States",
+        "postal-code": "91104",
+        "group": "TV-Shows",
+        "valid": false,
+        "trivia": "The Los Robles Apartment Building, or simply The Building, refers to the apartment building located at 2311 North Los Robles Avenue, Pasadena, California that serves as the residence of Leonard Hofstadter and Sheldon Cooper."
     },
     {
         "street-name": "308 Negra Arroyo Lane",
@@ -15,7 +35,7 @@
         "state": "New Mexico",
         "country": "United States",
         "postal-code": "87104",
-        "group": "Breaking-Bad",
+        "group": "TV-Shows",
         "valid": false,
         "trivia": "The White Residence, located at 308 Negra Arroyo Lane, was the home of the White family including Walter, his wife Skyler, their son Walt Jr. and their infant daughter, Holly."
     },
@@ -25,19 +45,9 @@
         "state": "New Mexico",
         "country": "United States",
         "postal-code": "87111",
-        "group": "Breaking-Bad",
+        "group": "TV-Shows",
         "valid": false,
         "trivia": "6353 Juan Tabo Blvd NE, Apt 6 was Gale Boetticher's apartment in Breaking Bad."
-    },
-    {
-        "street-name": "31 Spooner St.",
-        "city": "Providence",
-        "state": "Rhode Island",
-        "country": "United States",
-        "postal-code": "02907",
-        "group": "Family-Guy",
-        "valid": true,
-        "trivia": "Spooner Street is the street located west of downtown Quahog, Rhode Island where the Griffin Family, the Swanson family, Brown family and Quagmire currently reside."
     },
     {
         "street-name": "129 W 81st St",
@@ -45,28 +55,18 @@
         "state": "New York",
         "country": "United States",
         "postal-code": "10024",
-        "group": "Seinfeld",
+        "group": "TV-Shows",
         "valid": true,
-        "trivia": "Seinfeld's 129 West 81st Street - the apartment building where Jerry and his neighbor Cosmo Kramer lived - is one of the most recognizable addresses in sitcom history."
+        "trivia": "TV-Shows's 129 West 81st Street - the apartment building where Jerry and his neighbor Cosmo Kramer lived - is one of the most recognizable addresses in sitcom history."
     },
     {
-        "street-name": "2311 North Los Robles Avenue",
-        "city": "Pasadena",
-        "state": "California",
+        "street-name": "31 Spooner St.",
+        "city": "Providence",
+        "state": "Rhode Island",
         "country": "United States",
-        "postal-code": "91104",
-        "group": "The-Big-Bang-Theory",
-        "valid": false,
-        "trivia": "The Los Robles Apartment Building, or simply The Building, refers to the apartment building located at 2311 North Los Robles Avenue, Pasadena, California that serves as the residence of Leonard Hofstadter and Sheldon Cooper."
-    },
-    {
-        "street-name": "301 Cobblestone Way",
-        "city": "Bedrock",
-        "state": "Arizona",
-        "country": "United States",
-        "postal-code": "70777",
-        "group": "The-Flintstones",
-        "valid": false,
-        "trivia": "Bedrock is the fictional town located in prehistory that is home to the characters of the hit animated television series The Flintstones."
+        "postal-code": "02907",
+        "group": "TV-Shows",
+        "valid": true,
+        "trivia": "Spooner Street is the street located west of downtown Quahog, Rhode Island where the Griffin Family, the Swanson family, Brown family and Quagmire currently reside."
     }
 ]
