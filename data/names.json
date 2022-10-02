@@ -1027,5 +1027,47 @@
         "sex": "Male",
         "group": "Movies",
         "trivia": "Vito Corleone, also known as Don Corleone and The Godfather, is the founder and first boss of the Corleone Family, the Head of New York criminal world, a wealthy businessman, and the titular deuteragonist of Mario Puzo's bestseller crime novel The Godfather and its 1972 film adaptation by Francis Ford Coppola, as well as its 1974 sequel."
+    },
+    {
+        "first-name": "Dwight",
+        "last-name": "Schrute",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Dwight Kurt Schrute III is one of the highest-ranking salesmen as well as the original assistant to the regional manager, former Assistant Regional Manager at the paper distribution company Dunder Mifflin, and one of the main characters of the sitcom The Office."
+    },
+    {
+        "first-name": "Michael",
+        "last-name": "Scott",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Michael Gary Scott is the regional manager of the Scranton, Pennsylvania branch of paper company, Dunder Mifflin and the central character of the sitcom The Office."
+    },
+    {
+        "first-name": "Saul",
+        "last-name": "Goodman",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Saul Goodman, real name James Morgan McGill, is an Irish-American criminal defense lawyer, scam artist, and convicted criminal, appearing in the Breaking Bad series and later in spinoff Better Call Saul."
+    },
+    {
+        "first-name": "Tony",
+        "last-name": "Soprano",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Anthony John Soprano is the De facto Boss of the DiMeo crime family and the antihero protagonist in the television drama series The Sopranos."
+    },
+    {
+        "first-name": "Tyrion",
+        "last-name": "Lannister",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Lord Tyrion Lannister is a member of House Lannister, the third and youngest child of Lord Tywin Lannister and the late Lady Joanna Lannister, a dwarf, he uses his wit and intellect to overcome the prejudice he faces, and one of the main characters in the A Song of Ice and Fire series of epic fantasy novels by American author George R. R. Martin, and its television adaptation Game of Thrones."
+    },
+    {
+        "first-name": "Walter",
+        "last-name": "White",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Walter Hartwell White Sr., also known as Heisenberg, is a high school teacher turned major narcotics distributor from Albuquerque, New Mexico, whose drug empire became the largest meth operation in American history, appearing in the Breaking Bad TV series."
     }
 ]

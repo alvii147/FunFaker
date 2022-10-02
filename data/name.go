@@ -34,14 +34,16 @@ func (sex *Sex) IsValid() bool {
 type PersonGroup string
 
 const (
-	PersonGroupComics PersonGroup = "Comics"
-	PersonGroupMovies PersonGroup = "Movies"
+	PersonGroupComics  PersonGroup = "Comics"
+	PersonGroupMovies  PersonGroup = "Movies"
+	PersonGroupTVShows PersonGroup = "TV-Shows"
 )
 
 // check person group enum is valid
 func (group *PersonGroup) IsValid() bool {
 	return utils.StringSoftEqual(string(*group), string(PersonGroupComics)) ||
-		utils.StringSoftEqual(string(*group), string(PersonGroupMovies))
+		utils.StringSoftEqual(string(*group), string(PersonGroupMovies)) ||
+		utils.StringSoftEqual(string(*group), string(PersonGroupTVShows))
 }
 
 // struct representing name from names.json
