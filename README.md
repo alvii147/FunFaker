@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-    <strong>FunFaker</strong> is a web API for generating fake data with pop culture references.
+    <strong><i>FunFaker</i></strong> is a web API for generating fake data with pop culture references.
 </p>
 
 # Try it out
