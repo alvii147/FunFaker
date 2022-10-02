@@ -6,11 +6,11 @@
     <strong><i>FunFaker</i></strong> is a web API for generating fake data with pop culture references.
 </p>
 
-<p align="center">
+<div align="center">
 
 [![](https://img.shields.io/github/workflow/status/alvii147/FunFaker/Go%20GitHub%20CI?label=Tests&logo=github)](https://github.com/alvii147/FunFaker/actions) [![](https://goreportcard.com/badge/github.com/alvii147/FunFaker)](https://goreportcard.com/report/github.com/alvii147/FunFaker) [![Live Demo](https://img.shields.io/badge/Northflank-Live%20Demo-02133e)](https://funfaker--api--cgvttg4279tq.code.run/name)
 
-</p>
+</div>
 
 # Try it out
 
