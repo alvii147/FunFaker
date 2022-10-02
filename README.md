@@ -6,6 +6,11 @@
     <strong><i>FunFaker</i></strong> is a web API for generating fake data with pop culture references.
 </p>
 
+<p align="center">
+[![](https://img.shields.io/github/workflow/status/alvii147/FunFaker/Go%20GitHub%20CI?label=Tests&logo=github)](https://github.com/alvii147/FunFaker/actions) [![](https://goreportcard.com/badge/github.com/alvii147/FunFaker)](https://goreportcard.com/report/github.com/alvii147/FunFaker) [![Live Demo](https://img.shields.io/badge/Northflank-Live%20Demo-02133e)](https://funfaker--api--cgvttg4279tq.code.run/name)
+
+</p>
+
 # Try it out
 
 Try out the demo API at `https://funfaker--api--cgvttg4279tq.code.run`:
@@ -24,7 +29,7 @@ Response:
 }
 ```
 
-# Running FunFaker API Locally using Go
+# Running FunFaker API locally using Go
 
 :one: Install Go from the [official website](https://go.dev/). Installation instructions may vary depending on the OS.
 
@@ -42,7 +47,7 @@ make server
 
 This should launch the FunFaker API server on `http://localhost:8080/`.
 
-# Running FunFaker API Locally using Docker
+# Running FunFaker API locally using Docker
 
 :one: Install Docker from the [official website](https://www.docker.com/). Installation instructions may vary depending on the OS.
 
