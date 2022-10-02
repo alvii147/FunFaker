@@ -770,11 +770,32 @@
         "trivia": "Zheng Shang-Chi, also known as the Master of Kung Fu and Brother Hand, is a superhero appearing in American comic books published by Marvel Comics."
     },
     {
+        "first-name": "Ace",
+        "last-name": "Ventura",
+        "sex": "Male",
+        "group": "Movies",
+        "trivia": "Ace Ventura is a Miami-based private detective specializing in the retrieval of missing animals and the main character in films Ace Ventura: Pet Detective (1994) and Ace Ventura: When Nature Calls (1995)."
+    },
+    {
         "first-name": "Anakin",
         "last-name": "Skywalker",
         "sex": "Male",
         "group": "Movies",
         "trivia": "Anakin Skywalker, also known as Darth Vader, was a Force-sensitive Human male who served the Galactic Republic as a Jedi Knight and later served the Galactic Empire as the Sith Lord Darth Vader."
+    },
+    {
+        "first-name": "Anton",
+        "last-name": "Chigurh",
+        "sex": "Male",
+        "group": "Movies",
+        "trivia": "Anton Chigurh is a professional and ruthless hitman and the main antagonist of the 2005 novel No Country for Old Men and its 2007 film adaptation of the same name."
+    },
+    {
+        "first-name": "Axel",
+        "last-name": "Foley",
+        "sex": "Male",
+        "group": "Movies",
+        "trivia": "Detective Axel Foley is the main protagonist of the Beverly Hills Cop film franchise."
     },
     {
         "first-name": "Beatrix",
@@ -784,6 +805,20 @@
         "trivia": "Beatrix Michelle Kiddo, also known as The Bride and Black Mamba, is the anti-heroic protagonist and mascot in the Kill Bill series."
     },
     {
+        "first-name": "Bilbo",
+        "last-name": "Baggins",
+        "sex": "Male",
+        "group": "Movies",
+        "trivia": "Bilbo Baggins was a hobbit of the Shire, the main protagonist of The Hobbit and a secondary character in The Lord of the Rings, featuring in J.R.R. Tolkien's novels and their film adaptations."
+    },
+    {
+        "first-name": "Edna",
+        "last-name": "Mode",
+        "sex": "Female",
+        "group": "Movies",
+        "trivia": "Edna Marie Mode is a fashion designer for Supers and a close friend of the Parr family, appearing in Disney/Pixar's 2004 animated film, The Incredibles and its 2018 sequel."
+    },
+    {
         "first-name": "Emmett",
         "last-name": "Brown",
         "sex": "Male",
@@ -791,11 +826,25 @@
         "trivia": "Dr. Emmett Lathrop Brown, commonly known as Doc Brown, is the deuteragonist of the Back to the Future franchise."
     },
     {
+        "first-name": "Ethan",
+        "last-name": "Hunt",
+        "sex": "Male",
+        "group": "Movies",
+        "trivia": "Ethan Matthew Hunt is a senior field agent for the Impossible Mission Force and the main protagonist of the action spy film series Mission: Impossible."
+    },
+    {
         "first-name": "Forrest",
         "last-name": "Gump",
         "sex": "Male",
         "group": "Movies",
         "trivia": "Forrest Alexander Gump is the title protagonist of the 1986 novel by Winston Groom and Robert Zemeckis' 1994 film of the same name."
+    },
+    {
+        "first-name": "Frank",
+        "last-name": "Drebin",
+        "sex": "Male",
+        "group": "Movies",
+        "trivia": "Franklin Drebin is a Detective Sergeant Lieutenant of Police Squad and the main protagonist in the Police Squad! series and the Naked Gun movies."
     },
     {
         "first-name": "Han",
@@ -812,6 +861,13 @@
         "trivia": "Hannibal Lecter is a brilliant, cannibalistic serial killer whose assistance is routinely sought out by law enforcement personnel to aid in the capture of other criminals, appearing in the Hannibal Lecter franchise."
     },
     {
+        "first-name": "Harry",
+        "last-name": "Potter",
+        "sex": "Male",
+        "group": "Movies",
+        "trivia": "Harry James Potter was an English half-blood wizard, and one of the most famous wizards of modern times, forshadowed by a prophecy to be the one with the power to vanquish Lord Voldemort, appearing in J.K. Rowlings series of novels and their film adaptations."
+    },
+    {
         "first-name": "Indiana",
         "last-name": "Jones",
         "sex": "Male",
@@ -826,11 +882,25 @@
         "trivia": "Captain Jack Sparrow is a legendary pirate of the Seven Seas, the irreverent trickster of the Caribbean, and the protagonist of the Pirates of the Caribbean film series."
     },
     {
+        "first-name": "Jacques",
+        "last-name": "Clouseau",
+        "sex": "Male",
+        "group": "Movies",
+        "trivia": "Chief Inspector Jacques Clouseau (formerly Inspector) is a bumbling and incompetent detective of the French Sûreté in Blake Edwards's Pink Panther series."
+    },
+    {
         "first-name": "James",
         "last-name": "Bond",
         "sex": "Male",
         "group": "Movies",
         "trivia": "James Bond is a fictional British Secret Service agent who featured him in twelve novels and two short-story collections."
+    },
+    {
+        "first-name": "James",
+        "last-name": "Kirk",
+        "sex": "Male",
+        "group": "Movies",
+        "trivia": "James Tiberius Kirk is one of the most famous and sometimes infamous starship captains in Starfleet history, appearing in the Star Trek media franchise."
     },
     {
         "first-name": "John",
@@ -840,6 +910,34 @@
         "trivia": "John McClane Sr. is an Irish-American detective lieutenant with the New York City Police Department and the main protagonist of the Die Hard film series."
     },
     {
+        "first-name": "Jules",
+        "last-name": "Winnfield",
+        "sex": "Male",
+        "group": "Movies",
+        "trivia": "Jules Winnfield is the deuteragonist in Quentin Tarantino's 1994 movie, Pulp Fiction."
+    },
+    {
+        "first-name": "Katniss",
+        "last-name": "Everdeen",
+        "sex": "Female",
+        "group": "Movies",
+        "trivia": "Katniss Everdeen is the main protagonist of the Hunger Games trilogy and film series."
+    },
+    {
+        "first-name": "Lisbeth",
+        "last-name": "Salander",
+        "sex": "Female",
+        "group": "Movies",
+        "trivia": "Lisbeth Salander is a freelancing hacker at Milton Security and the main character of the Millenium Trilogy."
+    },
+    {
+        "first-name": "Luke",
+        "last-name": "Skywalker",
+        "sex": "Male",
+        "group": "Movies",
+        "trivia": "Luke Skywalker is a Force-sensitive human, legendary Jedi Master who fought in the Galactic Civil War during the reign of the Galactic Empire, appearing in the Star Wars franchise."
+    },
+    {
         "first-name": "Marty",
         "last-name": "McFly",
         "sex": "Male",
@@ -847,11 +945,25 @@
         "trivia": "Martin Seamus McFly is the protagonist of the Back to the Future franchise."
     },
     {
+        "first-name": "Maximus",
+        "last-name": "Meridius",
+        "sex": "Male",
+        "group": "Movies",
+        "trivia": "Aelius Maximus Decimus Meridius was a high ranking Roman general in command of multiple Roman legions who served under the Roman Emperor Marcus Aurelius in his Twelve Year Campaign against the barbarians in Germania and is the main protagonist of the 2000 epic historical film Gladiator."
+    },
+    {
         "first-name": "Michael",
         "last-name": "Corleone",
         "sex": "Male",
         "group": "Movies",
         "trivia": "Michael Corleone is the titular main protagonist of Mario Puzo's novel The Godfather, and the deuteragonist of The Sicilian, as well as the titular protagonist of The Godfather film trilogy."
+    },
+    {
+        "first-name": "Obi-Wan",
+        "last-name": "Kenobi",
+        "sex": "Male",
+        "group": "Movies",
+        "trivia": "Obi-Wan Kenobi is a legendary Force-sensitive human Jedi Master who served on the Jedi High Council during the final years of the Republic Era, appearing in the Star Wars franchise."
     },
     {
         "first-name": "Patrick",
@@ -868,6 +980,34 @@
         "trivia": "Dr. Peter Venkman is one of the titular main protagonists of the original Ghostbusters."
     },
     {
+        "first-name": "Rocky",
+        "last-name": "Balboa",
+        "sex": "Male",
+        "group": "Movies",
+        "trivia": "Robert Balboa, Sr. is an American retired heavyweight boxer and former Two-Time Heavyweight Champion, featuring in The Rocky movies series."
+    },
+    {
+        "first-name": "Sarah",
+        "last-name": "Connor",
+        "sex": "Female",
+        "group": "Movies",
+        "trivia": "Sarah Jeanette Connor is a legendary figure and the leader of the Resistance during the Future War, featuring in the Terminator film franchise."
+    },
+    {
+        "first-name": "Thomas",
+        "last-name": "Anderson",
+        "sex": "Male",
+        "group": "Movies",
+        "trivia": "Thomas A. Anderson, also known as Neo and The One, is the main protagonist of The Matrix franchise, prophesied by The Oracle to be The One to free humanity from the Matrix and ultimately end the centuries-long Machine War."
+    },
+    {
+        "first-name": "Tony",
+        "last-name": "Montana",
+        "sex": "Male",
+        "group": "Movies",
+        "trivia": "Antonio Montana is one of the most powerful drug kingpins in Miami and the titular villainous main protagonist of the 1983 epic crime drama film Scarface."
+    },
+    {
         "first-name": "Travis",
         "last-name": "Bickle",
         "sex": "Male",
@@ -880,5 +1020,12 @@
         "sex": "Male",
         "group": "Movies",
         "trivia": "Tyler Durden is the main antagonist in the 1996 novel Fight Club by Chuck Palahniuk and its 1999 film adaptation of the same name."
+    },
+    {
+        "first-name": "Vito",
+        "last-name": "Corleone",
+        "sex": "Male",
+        "group": "Movies",
+        "trivia": "Vito Corleone, also known as Don Corleone and The Godfather, is the founder and first boss of the Corleone Family, the Head of New York criminal world, a wealthy businessman, and the titular deuteragonist of Mario Puzo's bestseller crime novel The Godfather and its 1972 film adaptation by Francis Ford Coppola, as well as its 1974 sequel."
     }
 ]
