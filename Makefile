@@ -12,7 +12,7 @@ server: build
 	./$(BIN) server -port $(PORT)
 
 server/localhost: build
-	./$(BIN) server -port $(PORT)
+	./$(BIN) server -hostname localhost -port $(PORT)
 
 validate: build
 	./$(BIN) validate

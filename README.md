@@ -194,3 +194,17 @@ Run tests in verbose mode:
 ```bash
 make test/verbose
 ```
+
+# Validation
+
+Validate all data:
+
+```bash
+make validate
+```
+
+Validate all data and apply fixes where possible if validation fails:
+
+```bash
+make validate/autofix
+```
