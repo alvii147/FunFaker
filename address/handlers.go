@@ -15,10 +15,12 @@ import (
 // GET address handler
 func HandleAddress(w http.ResponseWriter, r *http.Request) {
 	var statusCode int
-	var err error
 	defer func() {
-		utils.LogHTTPTraffic(r, statusCode, err)
+		utils.LogHTTPTraffic(r, statusCode)
 	}()
+
+	// enable cross-origin resource sharing
+	utils.SetCORSHeader(w, "*")
 
 	switch r.Method {
 	case "GET":
@@ -29,7 +31,7 @@ func HandleAddress(w http.ResponseWriter, r *http.Request) {
 		// decode incoming request URL parameters
 		var addressRequest AddressRequest
 		decoder := schema.NewDecoder()
-		err = decoder.Decode(&addressRequest, r.URL.Query())
+		err := decoder.Decode(&addressRequest, r.URL.Query())
 		if err != nil {
 			statusCode = http.StatusBadRequest
 			utils.HTTPError(statusCode, err, w)
@@ -85,6 +87,6 @@ func HandleAddress(w http.ResponseWriter, r *http.Request) {
 		}
 	default:
 		statusCode = http.StatusMethodNotAllowed
-		w.WriteHeader(statusCode)
+		utils.HTTPError(statusCode, nil, w)
 	}
 }

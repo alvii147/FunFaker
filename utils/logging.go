@@ -33,12 +33,12 @@ func LogDebug(v ...interface{}) {
 }
 
 // log HTTP requests and responses data
-func LogHTTPTraffic(request *http.Request, statusCode int, err error) {
+func LogHTTPTraffic(request *http.Request, statusCode int) {
 	if statusCode < 400 {
 		LogInfo(request.Method, request.URL, request.Proto, statusCode, http.StatusText(statusCode))
 	} else if statusCode < 500 {
-		LogWarn(request.Method, request.URL, request.Proto, statusCode, http.StatusText(statusCode), err)
+		LogWarn(request.Method, request.URL, request.Proto, statusCode, http.StatusText(statusCode))
 	} else {
-		LogError(request.Method, request.URL, request.Proto, statusCode, http.StatusText(statusCode), err)
+		LogError(request.Method, request.URL, request.Proto, statusCode, http.StatusText(statusCode))
 	}
 }

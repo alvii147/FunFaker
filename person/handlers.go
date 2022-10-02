@@ -15,10 +15,12 @@ import (
 // GET name handler
 func HandleName(w http.ResponseWriter, r *http.Request) {
 	var statusCode int
-	var err error
 	defer func() {
-		utils.LogHTTPTraffic(r, statusCode, err)
+		utils.LogHTTPTraffic(r, statusCode)
 	}()
+
+	// enable cross-origin resource sharing
+	utils.SetCORSHeader(w, "*")
 
 	switch r.Method {
 	case "GET":
@@ -29,7 +31,7 @@ func HandleName(w http.ResponseWriter, r *http.Request) {
 		// decode incoming request URL parameters
 		var nameRequest NameRequest
 		decoder := schema.NewDecoder()
-		err = decoder.Decode(&nameRequest, r.URL.Query())
+		err := decoder.Decode(&nameRequest, r.URL.Query())
 		if err != nil {
 			statusCode = http.StatusBadRequest
 			utils.HTTPError(statusCode, err, w)
@@ -78,16 +80,18 @@ func HandleName(w http.ResponseWriter, r *http.Request) {
 		}
 	default:
 		statusCode = http.StatusMethodNotAllowed
-		w.WriteHeader(statusCode)
+		utils.HTTPError(statusCode, nil, w)
 	}
 }
 
 func HandleEmail(w http.ResponseWriter, r *http.Request) {
 	var statusCode int
-	var err error
 	defer func() {
-		utils.LogHTTPTraffic(r, statusCode, err)
+		utils.LogHTTPTraffic(r, statusCode)
 	}()
+
+	// enable cross-origin resource sharing
+	utils.SetCORSHeader(w, "*")
 
 	switch r.Method {
 	case "GET":
@@ -98,7 +102,7 @@ func HandleEmail(w http.ResponseWriter, r *http.Request) {
 		// decode incoming request URL parameters
 		var emailRequest EmailRequest
 		decoder := schema.NewDecoder()
-		err = decoder.Decode(&emailRequest, r.URL.Query())
+		err := decoder.Decode(&emailRequest, r.URL.Query())
 		if err != nil {
 			statusCode = http.StatusBadRequest
 			utils.HTTPError(statusCode, err, w)
@@ -147,6 +151,6 @@ func HandleEmail(w http.ResponseWriter, r *http.Request) {
 		}
 	default:
 		statusCode = http.StatusMethodNotAllowed
-		w.WriteHeader(statusCode)
+		utils.HTTPError(statusCode, nil, w)
 	}
 }

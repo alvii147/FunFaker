@@ -125,8 +125,16 @@ func TestHandleName(t *testing.T) {
 
 			// send request to handler and record response
 			person.HandleName(res, req)
+
+			// check status code
 			if res.Code != testcase.expectedStatusCode {
 				t.Errorf("expected status code %d, got %d", testcase.expectedStatusCode, res.Code)
+			}
+
+			// check for CORS header
+			corsHeader := res.Header().Get("Access-Control-Allow-Origin")
+			if corsHeader != "*" {
+				t.Errorf("expected CORS header to be set to \"*\", got %s", corsHeader)
 			}
 
 			// if body is expected to have contents
@@ -154,7 +162,7 @@ func TestHandleName(t *testing.T) {
 					nameResponse.Trivia,
 				)
 
-				// log error if there isn't exactly a single entry after filtering
+				// throw error if there isn't exactly a single entry after filtering
 				if len(filteredNames) != 1 {
 					t.Errorf("expected 1 name match, got %d", len(filteredNames))
 				}
@@ -229,8 +237,16 @@ func TestHandleEmail(t *testing.T) {
 
 			// send request to handler and record response
 			person.HandleEmail(res, req)
+
+			// check status code
 			if res.Code != testcase.expectedStatusCode {
 				t.Errorf("expected status code %d, got %d", testcase.expectedStatusCode, res.Code)
+			}
+
+			// check for CORS header
+			corsHeader := res.Header().Get("Access-Control-Allow-Origin")
+			if corsHeader != "*" {
+				t.Errorf("expected CORS header to be set to \"*\", got %s", corsHeader)
 			}
 
 			// if body is expected to have contents
