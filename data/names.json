@@ -1022,11 +1022,186 @@
         "trivia": "Vito Corleone, also known as Don Corleone and The Godfather, is the founder and first boss of the Corleone Family, the Head of New York criminal world, a wealthy businessman, and the titular deuteragonist of Mario Puzo's bestseller crime novel The Godfather and its 1972 film adaptation by Francis Ford Coppola, as well as its 1974 sequel."
     },
     {
+        "first-name": "Andy",
+        "last-name": "Bernard",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Andrew Baines Bernard is a sales representative at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
+    },
+    {
+        "first-name": "Angela",
+        "last-name": "Martin",
+        "sex": "Female",
+        "group": "TV-Shows",
+        "trivia": "Angela Noelle Martin is an accountant at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
+    },
+    {
+        "first-name": "Bob",
+        "last-name": "Vance",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Bob Vance is the CEO of Vance Refrigeration, appearing in the sitcom The Office."
+    },
+    {
+        "first-name": "Charles",
+        "last-name": "Miner",
+        "sex": "Female",
+        "group": "TV-Shows",
+        "trivia": "Charles Miner is the vice president of sales at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
+    },
+    {
+        "first-name": "Chuck",
+        "last-name": "McGill",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Charles Lindbergh McGill Jr., also known as Chuck, is Jimmy McGill's older brother and partner at one of Albuquerque's most prestigious law firms, Hamlin, Hamlin \u0026 McGill, appearing in the TV series Better Call Saul."
+    },
+    {
+        "first-name": "Darryl",
+        "last-name": "Philbin",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Darryl Mathias Philbin is a warehouse foreman at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
+    },
+    {
+        "first-name": "David",
+        "last-name": "Wallace",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "David Foster Wallace is the CFO at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
+    },
+    {
+        "first-name": "Deangelo",
+        "last-name": "Vickers",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Deangelo Jeremitrius Vickers is the regional manager of Dunder Mifflin Paper Company Scranton branch, appearing in the sitcom The Office."
+    },
+    {
         "first-name": "Dwight",
         "last-name": "Schrute",
         "sex": "Male",
         "group": "TV-Shows",
         "trivia": "Dwight Kurt Schrute III is one of the highest-ranking salesmen as well as the original assistant to the regional manager, former Assistant Regional Manager at the paper distribution company Dunder Mifflin, and one of the main characters of the sitcom The Office."
+    },
+    {
+        "first-name": "Erin",
+        "last-name": "Hannon",
+        "sex": "Female",
+        "group": "TV-Shows",
+        "trivia": "Kelly Erin Hannon is a receptionist at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
+    },
+    {
+        "first-name": "Gabe",
+        "last-name": "Lewis",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Gabriel Susan Lewis is the coordinating director of emerging regions at Dunder Mifflin/Sabre Paper Company, appearing in the sitcom The Office."
+    },
+    {
+        "first-name": "Gus",
+        "last-name": "Fring",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Gustavo Fring, also known as the Chicken Man and the Chilean, is a Chilean-American restaurant entrepreneur and major narcotics distributor, appearing in the Breaking Bad TV series and later in spinoff Better Call Saul."
+    },
+    {
+        "first-name": "Hank",
+        "last-name": "Schrader",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Henry R. Schrader ASAC is a high-ranking officer at the Albuquerque office of the Drug Enforcement Administration, appearing in the Breaking Bad TV series."
+    },
+    {
+        "first-name": "Hector",
+        "last-name": "Salamanca",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Don Hector Salamanca, also known as Tio, is a ruthless drug kingpin of the Cartel, appearing in the TV series Better Call Saul."
+    },
+    {
+        "first-name": "Holly",
+        "last-name": "Flax",
+        "sex": "Female",
+        "group": "TV-Shows",
+        "trivia": "Hollis Partridge Flax is the human resources representative of Dunder Mifflin Paper Company Nashua branch, appearing in the sitcom The Office."
+    },
+    {
+        "first-name": "Howard",
+        "last-name": "Hamlin",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Howard G. Hamlin is a corporate lawyer and CEO of Hamlin, Hamlin \u0026 McGill, appearing in the TV series Better Call Saul."
+    },
+    {
+        "first-name": "Jan",
+        "last-name": "Levinson",
+        "sex": "Female",
+        "group": "TV-Shows",
+        "trivia": "Janet Levinson is the vice president of sales at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
+    },
+    {
+        "first-name": "Jesse",
+        "last-name": "Pinkman",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Jesse Bruce Pinkman is a crystal meth cook and dealer who works with his former high school chemistry teacher, Walter White, appearing in the Breaking Bad TV series."
+    },
+    {
+        "first-name": "Jim",
+        "last-name": "Halpert",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "James Halpert is a sales representative at the Scranton branch of paper distribution company Dunder Mifflin and one of the main characters of the sitcom The Office."
+    },
+    {
+        "first-name": "Jo",
+        "last-name": "Bennett",
+        "sex": "Female",
+        "group": "TV-Shows",
+        "trivia": "Joleen MaryAnn Bennett is the CEO of Dunder Mifflin/Sabre, appearing in the sitcom The Office."
+    },
+    {
+        "first-name": "Karen",
+        "last-name": "Filippelli",
+        "sex": "Female",
+        "group": "TV-Shows",
+        "trivia": "Karen Filippelli is a saleswoman at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
+    },
+    {
+        "first-name": "Kelly",
+        "last-name": "Kapoor",
+        "sex": "Female",
+        "group": "TV-Shows",
+        "trivia": "Kelly Rajanigandha Kapoor is a customer service representative at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
+    },
+    {
+        "first-name": "Kevin",
+        "last-name": "Malone",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Kevin Malone is an accountant at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
+    },
+    {
+        "first-name": "Kim",
+        "last-name": "Wexler",
+        "sex": "Female",
+        "group": "TV-Shows",
+        "trivia": "Kimberly Wexler is a business lawyer and public defender who is the ex-wife and former confidant of lawyer and convicted criminal Jimmy McGill, appearing in the TV series Better Call Saul."
+    },
+    {
+        "first-name": "Lalo",
+        "last-name": "Salamanca",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Eduardo Salamanca, also known as Lalo, is a Mexican-American distributor and a high-ranking member and don of the Cartel, appearing in the TV series Better Call Saul."
+    },
+    {
+        "first-name": "Meredith",
+        "last-name": "Palmer",
+        "sex": "Female",
+        "group": "TV-Shows",
+        "trivia": "Meredith Elizabeth Palmer is a supplier relations manager at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
     },
     {
         "first-name": "Michael",
@@ -1036,11 +1211,102 @@
         "trivia": "Michael Gary Scott is the regional manager of the Scranton, Pennsylvania branch of paper company, Dunder Mifflin and the central character of the sitcom The Office."
     },
     {
+        "first-name": "Mike",
+        "last-name": "Ehrmantraut",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Michael Ehrmantraut is a career criminal, Marine Corps veteran, and former Philadelphia police officer, appearing in the Breaking Bad TV series and later in spinoff Better Call Saul."
+    },
+    {
+        "first-name": "Nacho",
+        "last-name": "Varga",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Ignacio Varga, also known as Nacho, is a career criminal who becomes a Cartel informant to Gus Fring, appearing in the TV series Better Call Saul."
+    },
+    {
+        "first-name": "Nellie",
+        "last-name": "Bertram",
+        "sex": "Female",
+        "group": "TV-Shows",
+        "trivia": "Eleanour Donna Bertram, also known as Nellie, is a saleswoman at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
+    },
+    {
+        "first-name": "Oscar",
+        "last-name": "Martinez",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Oscar Martinez is an accountant at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
+    },
+    {
+        "first-name": "Pam",
+        "last-name": "Beesly",
+        "sex": "Female",
+        "group": "TV-Shows",
+        "trivia": "Pamela Morgan Beesly is a receptionist and later saleswoman and office administrator at Dunder Mifflin Paper Company, and one of the main characters of the sitcom The Office."
+    },
+    {
+        "first-name": "Phyllis",
+        "last-name": "Lapin",
+        "sex": "Female",
+        "group": "TV-Shows",
+        "trivia": "Phyllis Margaret Lapin is a sales representative at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
+    },
+    {
+        "first-name": "Phyllis",
+        "last-name": "Lapin",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Creed Bratton also known as William Charles Schneider, is a quality assurance manager at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
+    },
+    {
+        "first-name": "Robert",
+        "last-name": "California",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Robert California is the CEO of Dunder Mifflin/Sabre, appearing in the sitcom The Office."
+    },
+    {
+        "first-name": "Roy",
+        "last-name": "Anderson",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Roy Anderson is a warehouse worker at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
+    },
+    {
+        "first-name": "Ryan",
+        "last-name": "Howard",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Ryan Howard is a salesman, former receptionist, and convicted fraudster who works at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
+    },
+    {
         "first-name": "Saul",
         "last-name": "Goodman",
         "sex": "Male",
         "group": "TV-Shows",
-        "trivia": "Saul Goodman, real name James Morgan McGill, is an Irish-American criminal defense lawyer, scam artist, and convicted criminal, appearing in the Breaking Bad series and later in spinoff Better Call Saul."
+        "trivia": "Saul Goodman, real name James Morgan McGill, is an Irish-American criminal defense lawyer, scam artist, and convicted criminal, appearing in the Breaking Bad TV series and later in spinoff Better Call Saul."
+    },
+    {
+        "first-name": "Stanley",
+        "last-name": "Hudson",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Stanley Hudson is a salesman at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
+    },
+    {
+        "first-name": "Toby",
+        "last-name": "Flenderson",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Toby H. Flenderson is a human resources representative at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
+    },
+    {
+        "first-name": "Todd",
+        "last-name": "Packer",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Todd Finch Packer is an employee of Dunder Mifflin/Sabre, appearing in the sitcom The Office."
     },
     {
         "first-name": "Tony",

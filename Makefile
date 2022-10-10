@@ -1,9 +1,12 @@
 GO=go
+DOCKER=docker
 BIN=main
 SRC=main.go
 PORT=8080
 IMAGE=funfaker
 CONTAINER=funfaker
+
+.PHONY: build server server/localhost validate validate/autofix test test/verbose clean docker/build docker/run
 
 build:
 	$(GO) build -o $(BIN) $(SRC)
@@ -30,7 +33,7 @@ clean:
 	rm -f $(BIN)
 
 docker/build:
-	docker build --tag $(IMAGE) .
+	$(DOCKER) build --tag $(IMAGE) .
 
 docker/run:
-	docker run --name $(CONTAINER) --publish $(PORT):$(PORT)
+	$(DOCKER) run --name $(CONTAINER) --publish $(PORT):$(PORT)
