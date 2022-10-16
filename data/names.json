@@ -1036,11 +1036,53 @@
         "trivia": "Angela Noelle Martin is an accountant at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
     },
     {
+        "first-name": "Arya",
+        "last-name": "Stark",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Arya Stark is the third child and second daughter of Lord Eddard Stark and his wife, Lady Catelyn Stark, appearing in TV-show Game of Thrones."
+    },
+    {
+        "first-name": "Beric",
+        "last-name": "Dondarrion",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Beric Dondarrion is the Lord of Blackhaven and head of House Dondarrion, appearing in TV-show Game of Thrones."
+    },
+    {
         "first-name": "Bob",
         "last-name": "Vance",
         "sex": "Male",
         "group": "TV-Shows",
         "trivia": "Bob Vance is the CEO of Vance Refrigeration, appearing in the sitcom The Office."
+    },
+    {
+        "first-name": "Bran",
+        "last-name": "Stark",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Brandon Stark is the second son of Lord Eddard Stark and Lady Catelyn Tully, appearing in TV-show Game of Thrones."
+    },
+    {
+        "first-name": "Brienne",
+        "last-name": "Tarth",
+        "sex": "Female",
+        "group": "TV-Shows",
+        "trivia": "Ser Brienne of Tarth is a knight of House Tarth and the only daughter of Lord Selwyn Tarth, appearing in TV-show Game of Thrones."
+    },
+    {
+        "first-name": "Catelyn",
+        "last-name": "Stark",
+        "sex": "Female",
+        "group": "TV-Shows",
+        "trivia": "Lady Catelyn Stark, also known as Catelyn Tully, is the wife of Eddard Stark and mother to the Stark children, appearing in TV-show Game of Thrones."
+    },
+    {
+        "first-name": "Cersei",
+        "last-name": "Lannister",
+        "sex": "Female",
+        "group": "TV-Shows",
+        "trivia": "Queen Cersei I Lannister is the daughter of Lord Tywin Lannister and the twentieth ruler of the Seven Kingdoms, appearing in TV-show Game of Thrones."
     },
     {
         "first-name": "Charles",
@@ -1057,6 +1099,13 @@
         "trivia": "Charles Lindbergh McGill Jr., also known as Chuck, is Jimmy McGill's older brother and partner at one of Albuquerque's most prestigious law firms, Hamlin, Hamlin \u0026 McGill, appearing in the TV series Better Call Saul."
     },
     {
+        "first-name": "Daenerys",
+        "last-name": "Targaryen",
+        "sex": "Female",
+        "group": "TV-Shows",
+        "trivia": "Daenerys Targaryen, also known as Daenerys Stormborn, is one of the last confirmed members of House Targaryen, appearing in TV-show Game of Thrones."
+    },
+    {
         "first-name": "Darryl",
         "last-name": "Philbin",
         "sex": "Male",
@@ -1069,6 +1118,13 @@
         "sex": "Male",
         "group": "TV-Shows",
         "trivia": "David Foster Wallace is the CFO at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
+    },
+    {
+        "first-name": "Davos",
+        "last-name": "Seaworth",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Davos Seaworth, also known as the Onion Knight, is a landed knight and a former smuggler who was in the service of Stannis Baratheon, appearing in TV-show Game of Thrones."
     },
     {
         "first-name": "Deangelo",
@@ -1092,11 +1148,32 @@
         "trivia": "Kelly Erin Hannon is a receptionist at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
     },
     {
+        "first-name": "Euron",
+        "last-name": "Greyjoy",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Euron Greyjoy is a member of House Greyjoy and is the eldest of Lord Balon Greyjoy's younger brothers, appearing in TV-show Game of Thrones."
+    },
+    {
         "first-name": "Gabe",
         "last-name": "Lewis",
         "sex": "Male",
         "group": "TV-Shows",
         "trivia": "Gabriel Susan Lewis is the coordinating director of emerging regions at Dunder Mifflin/Sabre Paper Company, appearing in the sitcom The Office."
+    },
+    {
+        "first-name": "Gendry",
+        "last-name": "Baratheon",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Lord Gendry Baratheon, formerly known simply as Gendry, is an unacknowledged bastard son of King Robert Baratheon, appearing in TV-show Game of Thrones."
+    },
+    {
+        "first-name": "Gregor",
+        "last-name": "Clegane",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Ser Gregor Clegane is a knight of House Clegane in service to House Lannister and the older brother of Sandor Clegane, appearing in TV-show Game of Thrones."
     },
     {
         "first-name": "Gus",
@@ -1134,6 +1211,13 @@
         "trivia": "Howard G. Hamlin is a corporate lawyer and CEO of Hamlin, Hamlin \u0026 McGill, appearing in the TV series Better Call Saul."
     },
     {
+        "first-name": "Jaime",
+        "last-name": "Lannister",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Ser Jaime Lannister, also known as the Kingslayer, is an anointed knight of House Lannister, appearing in TV-show Game of Thrones."
+    },
+    {
         "first-name": "Jan",
         "last-name": "Levinson",
         "sex": "Female",
@@ -1162,6 +1246,27 @@
         "trivia": "Joleen MaryAnn Bennett is the CEO of Dunder Mifflin/Sabre, appearing in the sitcom The Office."
     },
     {
+        "first-name": "Joffrey",
+        "last-name": "Baratheon",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "King Joffrey I Baratheon is the eighteenth king to rule from the Iron Throne and the second king of the Baratheon dynasty, appearing in TV-show Game of Thrones."
+    },
+    {
+        "first-name": "Jon",
+        "last-name": "Snow",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Jon Snow is the bastard son of Eddard Stark, Lord of Winterfell, appearing in TV-show Game of Thrones."
+    },
+    {
+        "first-name": "Jorah",
+        "last-name": "Mormont",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Ser Jorah Mormont is an exiled Northern lord from Westeros who swore fealty to Daenerys Targaryen, appearing in TV-show Game of Thrones."
+    },
+    {
         "first-name": "Karen",
         "last-name": "Filippelli",
         "sex": "Female",
@@ -1183,6 +1288,13 @@
         "trivia": "Kevin Malone is an accountant at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
     },
     {
+        "first-name": "Khal",
+        "last-name": "Drogo",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Khal Drogo is a chieftain of a Dothraki khalasar, appearing in TV-show Game of Thrones."
+    },
+    {
         "first-name": "Kim",
         "last-name": "Wexler",
         "sex": "Female",
@@ -1195,6 +1307,13 @@
         "sex": "Male",
         "group": "TV-Shows",
         "trivia": "Eduardo Salamanca, also known as Lalo, is a Mexican-American distributor and a high-ranking member and don of the Cartel, appearing in the TV series Better Call Saul."
+    },
+    {
+        "first-name": "Margaery",
+        "last-name": "Tyrell",
+        "sex": "Female",
+        "group": "TV-Shows",
+        "trivia": "Margaery Tyrell is the only daughter of Lord Mace Tyrell and his wife, Lady Alerie Hightower, appearing in TV-show Game of Thrones."
     },
     {
         "first-name": "Meredith",
@@ -1225,11 +1344,32 @@
         "trivia": "Ignacio Varga, also known as Nacho, is a career criminal who becomes a Cartel informant to Gus Fring, appearing in the TV series Better Call Saul."
     },
     {
+        "first-name": "Ned",
+        "last-name": "Stark",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Lord Eddard Stark, also known as Ned Stark, is the Lord of Winterfell, head of House Stark and Warden of the North, appearing in TV-show Game of Thrones."
+    },
+    {
         "first-name": "Nellie",
         "last-name": "Bertram",
         "sex": "Female",
         "group": "TV-Shows",
         "trivia": "Eleanour Donna Bertram, also known as Nellie, is a saleswoman at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
+    },
+    {
+        "first-name": "Oberyn",
+        "last-name": "Martell",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Prince Oberyn Nymeros Martell, also known as the Red Viper, is a member of House Martell and is the younger brother of Doran Martell, Prince of Dorne, appearing in TV-show Game of Thrones."
+    },
+    {
+        "first-name": "Olenna",
+        "last-name": "Tyrell",
+        "sex": "Female",
+        "group": "TV-Shows",
+        "trivia": "Olenna Tyrell was the widow of Lord Luthor Tyrell and the mother of Mace Tyrell, appearing in TV-show Game of Thrones."
     },
     {
         "first-name": "Oscar",
@@ -1246,6 +1386,13 @@
         "trivia": "Pamela Morgan Beesly is a receptionist and later saleswoman and office administrator at Dunder Mifflin Paper Company, and one of the main characters of the sitcom The Office."
     },
     {
+        "first-name": "Petyr",
+        "last-name": "Baelish",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Petyr Baelish, also known as Littlefinger, is the Lord and head of House Baelish of the Fingers, appearing in TV-show Game of Thrones."
+    },
+    {
         "first-name": "Phyllis",
         "last-name": "Lapin",
         "sex": "Female",
@@ -1258,6 +1405,27 @@
         "sex": "Male",
         "group": "TV-Shows",
         "trivia": "Creed Bratton also known as William Charles Schneider, is a quality assurance manager at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
+    },
+    {
+        "first-name": "Ramsay",
+        "last-name": "Bolton",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Lord Ramsay Bolton, born Ramsay Snow, was the legitimized bastard son of Roose Bolton, Lord of the Dreadfort, appearing in TV-show Game of Thrones."
+    },
+    {
+        "first-name": "Robb",
+        "last-name": "Stark",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "King Robb Stark is the eldest son of Lord Eddard Stark of Winterfell and his wife, Lady Catelyn, appearing in TV-show Game of Thrones."
+    },
+    {
+        "first-name": "Robert",
+        "last-name": "Baratheon",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "King Robert I Baratheon was the seventeenth ruler of the Seven Kingdoms and the first king of the Baratheon dynasty, appearing in TV-show Game of Thrones."
     },
     {
         "first-name": "Robert",
@@ -1281,6 +1449,27 @@
         "trivia": "Ryan Howard is a salesman, former receptionist, and convicted fraudster who works at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
     },
     {
+        "first-name": "Samwell",
+        "last-name": "Tarly",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Samwell Tarly is the oldest son of Lord Randyll Tarly, the head of House Tarly and Lord of Horn Hill, appearing in TV-show Game of Thrones."
+    },
+    {
+        "first-name": "Sandor",
+        "last-name": "Clegane",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Sandor Clegane, also known as The Hound, is a member of House Clegane and is the younger brother of Ser Gregor Clegane, appearing in TV-show Game of Thrones."
+    },
+    {
+        "first-name": "Sansa",
+        "last-name": "Stark",
+        "sex": "Female",
+        "group": "TV-Shows",
+        "trivia": "Sansa Stark is the eldest daughter of Lord Eddard Stark and his wife, Lady Catelyn, appearing in TV-show Game of Thrones."
+    },
+    {
         "first-name": "Saul",
         "last-name": "Goodman",
         "sex": "Male",
@@ -1293,6 +1482,20 @@
         "sex": "Male",
         "group": "TV-Shows",
         "trivia": "Stanley Hudson is a salesman at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
+    },
+    {
+        "first-name": "Stannis",
+        "last-name": "Baratheon",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Stannis Baratheon is the Lord of Dragonstone, the younger brother of King Robert Baratheon, and older brother of Renly Baratheon, appearing in TV-show Game of Thrones."
+    },
+    {
+        "first-name": "Theon",
+        "last-name": "Greyjoy",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Theon Greyjoy is the fourth and youngest child of Lord Balon Greyjoy, ruler of the Iron Islands, and his wife Lady Alannys, appearing in TV-show Game of Thrones."
     },
     {
         "first-name": "Toby",
@@ -1309,6 +1512,13 @@
         "trivia": "Todd Finch Packer is an employee of Dunder Mifflin/Sabre, appearing in the sitcom The Office."
     },
     {
+        "first-name": "Tommen",
+        "last-name": "Baratheon",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "King Tommen I Baratheon was the nineteenth ruler of the Seven Kingdoms, the third king of the Baratheon dynasty, appearing in TV-show Game of Thrones."
+    },
+    {
         "first-name": "Tony",
         "last-name": "Soprano",
         "sex": "Male",
@@ -1316,11 +1526,25 @@
         "trivia": "Anthony John Soprano is the De facto Boss of the DiMeo crime family and the antihero protagonist in the television drama series The Sopranos."
     },
     {
+        "first-name": "Tormund",
+        "last-name": "Giantsbane",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Tormund Giantsbane is a renowned warrior and raider among the Free Folk and one of the key leaders behind Mance Rayder, appearing in TV-show Game of Thrones."
+    },
+    {
         "first-name": "Tyrion",
         "last-name": "Lannister",
         "sex": "Male",
         "group": "TV-Shows",
-        "trivia": "Lord Tyrion Lannister is a member of House Lannister, the third and youngest child of Lord Tywin Lannister and the late Lady Joanna Lannister, a dwarf, he uses his wit and intellect to overcome the prejudice he faces, and one of the main characters in the A Song of Ice and Fire series of epic fantasy novels by American author George R. R. Martin, and its television adaptation Game of Thrones."
+        "trivia": "Lord Tyrion Lannister is a member of House Lannister, the third and youngest child of Lord Tywin Lannister and the late Lady Joanna Lannister, appearing in TV-show Game of Thrones."
+    },
+    {
+        "first-name": "Tywin",
+        "last-name": "Lannister",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "trivia": "Tywin Lannister is the head of House Lannister, Lord of Casterly Rock, Shield of Lannisport, and Warden of the West, appearing in TV-show Game of Thrones."
     },
     {
         "first-name": "Walter",
@@ -1328,5 +1552,12 @@
         "sex": "Male",
         "group": "TV-Shows",
         "trivia": "Walter Hartwell White Sr., also known as Heisenberg, is a high school teacher turned major narcotics distributor from Albuquerque, New Mexico, whose drug empire became the largest meth operation in American history, appearing in the Breaking Bad TV series."
+    },
+    {
+        "first-name": "Yara",
+        "last-name": "Greyjoy",
+        "sex": "Female",
+        "group": "TV-Shows",
+        "trivia": "Lady Yara Greyjoy is the Lady of the Iron Islands and Lady Reaper of Pyke, and the daughter and last surviving child of Balon Greyjoy, appearing in TV-show Game of Thrones."
     }
 ]
