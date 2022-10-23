@@ -20,10 +20,10 @@ type EmailResponse struct {
 	Trivia string `json:"trivia"`
 }
 
-// update email response using name and email request
-func (emailResponse *EmailResponse) FromNameAndEmailRequest(name data.Name, emailRequest EmailRequest) {
-	// if domain name not specified, use name domain
-	domainName := name.Domain
+// update email response using person and email request
+func (emailResponse *EmailResponse) FromPersonAndEmailRequest(person data.Person, emailRequest EmailRequest) {
+	// if domain name not specified, use person domain
+	domainName := person.Domain
 	if emailRequest.DomainName != "" {
 		domainName = emailRequest.DomainName
 	}
@@ -34,12 +34,12 @@ func (emailResponse *EmailResponse) FromNameAndEmailRequest(name data.Name, emai
 		domainSuffix = emailRequest.DomainSuffix
 	}
 
-	emailResponse.Email = strings.ToLower(name.FirstName) +
+	emailResponse.Email = strings.ToLower(person.FirstName) +
 		"." +
-		strings.ToLower(name.LastName) +
+		strings.ToLower(person.LastName) +
 		"@" +
 		domainName +
 		"." +
 		domainSuffix
-	emailResponse.Trivia = name.Trivia
+	emailResponse.Trivia = person.Trivia
 }

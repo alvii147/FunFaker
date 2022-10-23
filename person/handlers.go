@@ -39,8 +39,8 @@ func HandleName(w http.ResponseWriter, r *http.Request) {
 			return
 		}
 
-		// get list of names
-		names, err := data.GetNames()
+		// get list of persons
+		persons, err := data.GetPersons()
 		if err != nil {
 			statusCode = http.StatusInternalServerError
 			utils.HTTPError(statusCode, err, w)
@@ -48,9 +48,9 @@ func HandleName(w http.ResponseWriter, r *http.Request) {
 			return
 		}
 
-		// filter list of names by decoded name request
-		filteredNames := FilterNames(
-			names,
+		// filter list of persons by decoded name request
+		filteredPersons := data.FilterPersons(
+			persons,
 			"",
 			"",
 			nameRequest.Sex,
@@ -59,17 +59,17 @@ func HandleName(w http.ResponseWriter, r *http.Request) {
 			"",
 		)
 		// if filtering returned no results, respond with "no content"
-		if len(filteredNames) < 1 {
+		if len(filteredPersons) < 1 {
 			statusCode = http.StatusNoContent
 			w.WriteHeader(statusCode)
 			return
 		}
 
-		// choose random name
-		randomName := filteredNames[rand.Intn(len(filteredNames))]
-		// update name response using random name
+		// choose random person
+		randomPerson := filteredPersons[rand.Intn(len(filteredPersons))]
+		// update name response using random person
 		var nameResponse NameResponse
-		nameResponse.FromName(randomName)
+		nameResponse.FromPerson(randomPerson)
 
 		// encode response
 		err = json.NewEncoder(w).Encode(nameResponse)
@@ -112,7 +112,7 @@ func HandleEmail(w http.ResponseWriter, r *http.Request) {
 		}
 
 		// get list of names
-		names, err := data.GetNames()
+		persons, err := data.GetPersons()
 		if err != nil {
 			statusCode = http.StatusInternalServerError
 			utils.HTTPError(statusCode, err, w)
@@ -120,9 +120,9 @@ func HandleEmail(w http.ResponseWriter, r *http.Request) {
 			return
 		}
 
-		// filter list of names by decoded email request
-		filteredNames := FilterNames(
-			names,
+		// filter list of persons by decoded email request
+		filteredPersons := data.FilterPersons(
+			persons,
 			"",
 			"",
 			emailRequest.Sex,
@@ -131,17 +131,17 @@ func HandleEmail(w http.ResponseWriter, r *http.Request) {
 			"",
 		)
 		// if filtering returned no results, respond with "no content"
-		if len(filteredNames) < 1 {
+		if len(filteredPersons) < 1 {
 			statusCode = http.StatusNoContent
 			w.WriteHeader(statusCode)
 			return
 		}
 
-		// choose random name
-		randomName := filteredNames[rand.Intn(len(filteredNames))]
+		// choose random person
+		randomPerson := filteredPersons[rand.Intn(len(filteredPersons))]
 		var email EmailResponse
-		// update email response using random name and email request
-		email.FromNameAndEmailRequest(randomName, emailRequest)
+		// update email response using random person and email request
+		email.FromPersonAndEmailRequest(randomPerson, emailRequest)
 
 		// encode response
 		err = json.NewEncoder(w).Encode(email)

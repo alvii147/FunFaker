@@ -8,47 +8,47 @@ import (
 	"github.com/alvii147/FunFaker/utils"
 )
 
-// check if name1 is alphabetically lower than name2
-func IsNameLess(name1 Name, name2 Name) bool {
-	if name1.Group != name2.Group {
+// check if person1 is alphabetically lower than person2
+func IsPersonLess(person1 Person, person2 Person) bool {
+	if person1.Group != person2.Group {
 		return utils.IsStringAlphabeticallyLess(
-			string(name1.Group),
-			string(name2.Group),
+			string(person1.Group),
+			string(person2.Group),
 		)
 	}
 
-	if name1.FirstName != name2.FirstName {
+	if person1.FirstName != person2.FirstName {
 		return utils.IsStringAlphabeticallyLess(
-			name1.FirstName,
-			name2.FirstName,
+			person1.FirstName,
+			person2.FirstName,
 		)
 	}
 
-	if name1.LastName != name2.LastName {
+	if person1.LastName != person2.LastName {
 		return utils.IsStringAlphabeticallyLess(
-			name1.LastName,
-			name2.LastName,
+			person1.LastName,
+			person2.LastName,
 		)
 	}
 
-	if name1.Sex != name2.Sex {
+	if person1.Sex != person2.Sex {
 		return utils.IsStringAlphabeticallyLess(
-			string(name1.Sex),
-			string(name2.Sex),
+			string(person1.Sex),
+			string(person2.Sex),
 		)
 	}
 
-	if name1.Domain != name2.Domain {
+	if person1.Domain != person2.Domain {
 		return utils.IsStringAlphabeticallyLess(
-			name1.Domain,
-			name2.Domain,
+			person1.Domain,
+			person2.Domain,
 		)
 	}
 
-	if name1.Trivia != name2.Trivia {
+	if person1.Trivia != person2.Trivia {
 		return utils.IsStringAlphabeticallyLess(
-			name1.Trivia,
-			name2.Trivia,
+			person1.Trivia,
+			person2.Trivia,
 		)
 	}
 
@@ -113,22 +113,22 @@ func IsAddressLess(address1 Address, address2 Address) bool {
 	return true
 }
 
-// check if names are sorted alphabetically
-func CheckNamesSorted(unsortedNames []Name, autoFix bool) bool {
-	sortedNames := make([]Name, len(unsortedNames))
-	copy(sortedNames, unsortedNames)
+// check if persons are sorted alphabetically
+func CheckPersonsSorted(unsortedPersons []Person, autoFix bool) bool {
+	sortedPersons := make([]Person, len(unsortedPersons))
+	copy(sortedPersons, unsortedPersons)
 
-	// sort names
-	sort.Slice(sortedNames, func(i int, j int) bool {
-		return IsNameLess(sortedNames[i], sortedNames[j])
+	// sort persons
+	sort.Slice(sortedPersons, func(i int, j int) bool {
+		return IsPersonLess(sortedPersons[i], sortedPersons[j])
 	})
 
 	// check if sorted and unsorted slices are equal
-	sorted := reflect.DeepEqual(sortedNames, unsortedNames)
+	sorted := reflect.DeepEqual(sortedPersons, unsortedPersons)
 
 	if !sorted && autoFix {
 		// if not sorted, apply fix
-		WriteNames(sortedNames)
+		WritePersons(sortedPersons)
 
 		return true
 	}
@@ -159,41 +159,41 @@ func CheckAddressesSorted(unsortedAddresses []Address, autoFix bool) bool {
 	return sorted
 }
 
-// validate data in names.json
-func ValidateNamesData(autofix bool) error {
-	names, err := GetNames()
+// validate data in persons.json
+func ValidatePersonsData(autofix bool) error {
+	persons, err := GetPersons()
 	if err != nil {
 		return err
 	}
 
-	for _, name := range names {
+	for _, person := range persons {
 		// check if person sex enum is valid
-		if !name.Sex.IsValid() {
+		if !person.Sex.IsValid() {
 			return errors.New(
 				"invalid sex " +
-					string(name.Sex) +
+					string(person.Sex) +
 					" for name " +
-					name.FirstName +
+					person.FirstName +
 					" " +
-					name.LastName,
+					person.LastName,
 			)
 		}
 
 		// check if person group enum is valid
-		if !name.Group.IsValid() {
+		if !person.Group.IsValid() {
 			return errors.New(
 				"invalid person group " +
-					string(name.Group) +
+					string(person.Group) +
 					" for name " +
-					name.FirstName +
+					person.FirstName +
 					" " +
-					name.LastName,
+					person.LastName,
 			)
 		}
 	}
 
-	if !CheckNamesSorted(names, autofix) {
-		return errors.New("names not sorted properly")
+	if !CheckPersonsSorted(persons, autofix) {
+		return errors.New("persons not sorted properly")
 	}
 
 	return nil
@@ -235,7 +235,7 @@ func ValidateAddressesData(autofix bool) error {
 
 // validate all data files
 func Validate(autofix bool) error {
-	err := ValidateNamesData(autofix)
+	err := ValidatePersonsData(autofix)
 	if err != nil {
 		return err
 	}

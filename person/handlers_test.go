@@ -146,15 +146,15 @@ func TestHandleName(t *testing.T) {
 					t.Error("error parsing response body:", err)
 				}
 
-				// get list of names
-				names, err := data.GetNames()
+				// get list of persons
+				persons, err := data.GetPersons()
 				if err != nil {
 					t.Error("error getting names:", err)
 				}
 
-				// filter list of names to get the returned entry
-				filteredNames := person.FilterNames(
-					names,
+				// filter list of persons to get the returned entry
+				filteredPersons := data.FilterPersons(
+					persons,
 					nameResponse.FirstName,
 					nameResponse.LastName,
 					testcase.expectedSex,
@@ -164,8 +164,8 @@ func TestHandleName(t *testing.T) {
 				)
 
 				// throw error if there isn't exactly a single entry after filtering
-				if len(filteredNames) != 1 {
-					t.Errorf("expected 1 name match, got %d", len(filteredNames))
+				if len(filteredPersons) != 1 {
+					t.Errorf("expected 1 name match, got %d", len(filteredPersons))
 				}
 			}
 		})

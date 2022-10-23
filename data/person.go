@@ -11,8 +11,8 @@ import (
 	"github.com/alvii147/FunFaker/utils"
 )
 
-// path to names.json file
-const NAMES_FILE_NAME = "names.json"
+// path to persons.json file
+const PERSONS_FILE_NAME = "persons.json"
 
 // enum representing person sex
 type Sex string
@@ -46,8 +46,8 @@ func (group *PersonGroup) IsValid() bool {
 		utils.StringSoftEqual(string(*group), string(PersonGroupTVShows))
 }
 
-// struct representing name from names.json
-type Name struct {
+// struct representing person from persons.json
+type Person struct {
 	FirstName string      `json:"first-name"`
 	LastName  string      `json:"last-name"`
 	Sex       Sex         `json:"sex"`
@@ -56,54 +56,97 @@ type Name struct {
 	Trivia    string      `json:"trivia"`
 }
 
-// read names from names.json
-func GetNames() ([]Name, error) {
+// read persons from persons.json
+func GetPersons() ([]Person, error) {
 	// get current directory
 	_, filename, _, ok := runtime.Caller(0)
 	if !ok {
 		return nil, errors.New("unable to get current directory")
 	}
 
-	// open names.json
-	namesFilePath := filepath.Join(path.Dir(filename), NAMES_FILE_NAME)
+	// open persons.json
+	personsFilePath := filepath.Join(path.Dir(filename), PERSONS_FILE_NAME)
 
-	// read names.json
-	namesBytes, err := os.ReadFile(namesFilePath)
+	// read persons.json
+	personsBytes, err := os.ReadFile(personsFilePath)
 	if err != nil {
 		return nil, err
 	}
 
-	// get names from bytes read
-	var names []Name
-	err = json.Unmarshal(namesBytes, &names)
+	// get persons from bytes read
+	var person []Person
+	err = json.Unmarshal(personsBytes, &person)
 	if err != nil {
 		return nil, err
 	}
 
-	return names, nil
+	return person, nil
 }
 
-// write list of names to names.json
-func WriteNames(names []Name) error {
+// write list of persons to persons.json
+func WritePersons(persons []Person) error {
 	// get current directory
 	_, filename, _, ok := runtime.Caller(0)
 	if !ok {
 		return errors.New("unable to get current directory")
 	}
 
-	namesFilePath := filepath.Join(path.Dir(filename), NAMES_FILE_NAME)
+	// open persons.json
+	personsFilePath := filepath.Join(path.Dir(filename), PERSONS_FILE_NAME)
 
 	// convert to bytes with indentation
-	namesBytes, err := json.MarshalIndent(names, "", "    ")
+	personsBytes, err := json.MarshalIndent(persons, "", "    ")
 	if err != nil {
 		return err
 	}
 
-	// write to names.json
-	err = os.WriteFile(namesFilePath, namesBytes, 0644)
+	// write to persons.json
+	err = os.WriteFile(personsFilePath, personsBytes, 0644)
 	if err != nil {
 		return err
 	}
 
 	return nil
+}
+
+// filter persons by properties
+func FilterPersons(
+	persons []Person,
+	firstName string,
+	lastName string,
+	sex Sex,
+	group PersonGroup,
+	domain string,
+	trivia string,
+) []Person {
+	filteredPersons := []Person{}
+	for _, person := range persons {
+		if !utils.StringSoftEqual(firstName, person.FirstName) {
+			continue
+		}
+
+		if !utils.StringSoftEqual(lastName, person.LastName) {
+			continue
+		}
+
+		if !utils.StringSoftEqual(string(sex), string(person.Sex)) {
+			continue
+		}
+
+		if !utils.StringSoftEqual(string(group), string(person.Group)) {
+			continue
+		}
+
+		if !utils.StringSoftEqual(domain, person.Domain) {
+			continue
+		}
+
+		if !utils.StringSoftEqual(trivia, person.Trivia) {
+			continue
+		}
+
+		filteredPersons = append(filteredPersons, person)
+	}
+
+	return filteredPersons
 }
