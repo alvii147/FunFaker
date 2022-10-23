@@ -22,8 +22,8 @@ type EmailResponse struct {
 
 // update email response using name and email request
 func (emailResponse *EmailResponse) FromNameAndEmailRequest(name data.Name, emailRequest EmailRequest) {
-	// if domain name not specified, use name group
-	domainName := strings.ToLower(string(name.Group))
+	// if domain name not specified, use name domain
+	domainName := name.Domain
 	if emailRequest.DomainName != "" {
 		domainName = emailRequest.DomainName
 	}

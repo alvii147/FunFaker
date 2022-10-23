@@ -38,6 +38,13 @@ func IsNameLess(name1 Name, name2 Name) bool {
 		)
 	}
 
+	if name1.Domain != name2.Domain {
+		return utils.IsStringAlphabeticallyLess(
+			name1.Domain,
+			name2.Domain,
+		)
+	}
+
 	if name1.Trivia != name2.Trivia {
 		return utils.IsStringAlphabeticallyLess(
 			name1.Trivia,

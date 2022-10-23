@@ -4,6 +4,7 @@
         "last-name": "Toomes",
         "sex": "Male",
         "group": "Comics",
+        "domain": "sinister-six",
         "trivia": "Adrian Toomes, also known as Vulture, is a supervillain, the superhero Spider-Man's recurring enemy and the Sinister Six's founding member, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -11,6 +12,7 @@
         "last-name": "Sytsevich",
         "sex": "Male",
         "group": "Comics",
+        "domain": "sinister-six",
         "trivia": "Aleksei Sytsevich, also known as Rhino, is a supervillain and one of Spider-Man's most prominent adversaries, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -18,6 +20,7 @@
         "last-name": "Summers",
         "sex": "Male",
         "group": "Comics",
+        "domain": "x-men",
         "trivia": "Alexander Summers, also known as Havok, is mutant with an ability to generate plasma blasts, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -25,6 +28,7 @@
         "last-name": "Pennyworth",
         "sex": "Male",
         "group": "Comics",
+        "domain": "wayne-enterprises",
         "trivia": "Alfred Thaddeus Crane Pennyworth is Bruce Wayne's loyal and tireless butler appearing in American comic books published by DC Comics."
     },
     {
@@ -32,6 +36,7 @@
         "last-name": "Marie",
         "sex": "Female",
         "group": "Comics",
+        "domain": "x-men",
         "trivia": "Anna Marie, also known as Rogue, is a mutant with the ability to absorb superpowers of anyone she touches, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -39,6 +44,7 @@
         "last-name": "Curry",
         "sex": "Male",
         "group": "Comics",
+        "domain": "atlantis",
         "trivia": "Arthur Curry, also known by his superhero moniker Aquaman, is an adventurer who is half-human and half-Atlantean in American comic books published by DC Comics."
     },
     {
@@ -46,6 +52,7 @@
         "last-name": "Gordon",
         "sex": "Female",
         "group": "Comics",
+        "domain": "wayne-enterprises",
         "trivia": "Barbara Gordon is a superheroine, the daughter of Commissioner James Gordon, and an ally of Batman and Dick Grayson, appearing in American comic books published by DC Comics."
     },
     {
@@ -53,6 +60,7 @@
         "last-name": "Allen",
         "sex": "Male",
         "group": "Comics",
+        "domain": "justice-league",
         "trivia": "Bartholomew Henry Allen, also known as The Flash, is a superhero and a reinvention of the original Flash in American comic books published by DC Comics."
     },
     {
@@ -60,6 +68,7 @@
         "last-name": "Grimm",
         "sex": "Male",
         "group": "Comics",
+        "domain": "fantastic-four",
         "trivia": "Benjamin Grimm, also known as The Thing, is a superhero and a founding member of the Fantastic Four, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -67,6 +76,7 @@
         "last-name": "Brant",
         "sex": "Female",
         "group": "Comics",
+        "domain": "daily-bugle",
         "trivia": "Elizabeth Brant is the personal secretary of J. Jonah Jameson at the Daily Bugle, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -74,6 +84,7 @@
         "last-name": "Batson",
         "sex": "Male",
         "group": "Comics",
+        "domain": "justice-league",
         "trivia": "Billy Batson, also known as Captain Marvel and Shazam, is a superhero appearing in American comic books published by DC Comics."
     },
     {
@@ -81,6 +92,7 @@
         "last-name": "Drake",
         "sex": "Male",
         "group": "Comics",
+        "domain": "x-men",
         "trivia": "Robert Louis Drake, also known as Iceman, is a mutant with the ability to manipulate ice, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -88,6 +100,7 @@
         "last-name": "Banner",
         "sex": "Male",
         "group": "Comics",
+        "domain": "avengers",
         "trivia": "Dr. Robert Bruce Banner is a physically weak, socially withdrawn, and emotionally reserved physicist with dissociative identity disorder (DID), primarily represented by his alter ego The Hulk, a green-skinned, hulking and muscular humanoid possessing a limitless degree of physical strength, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -95,6 +108,7 @@
         "last-name": "Wayne",
         "sex": "Male",
         "group": "Comics",
+        "domain": "wayne-enterprises",
         "trivia": "Bruce Wayne is a wealthy American playboy, philanthropist, and industrialist from Gotham City whose alter ego, Batman, is a superhero appearing in American comic books published by DC Comics."
     },
     {
@@ -102,6 +116,7 @@
         "last-name": "Barnes",
         "sex": "Male",
         "group": "Comics",
+        "domain": "hydra",
         "trivia": "James Buchanan Barnes, also known as Winter Soldier, is an American Soldier turned Soviet spy and assassin, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -109,6 +124,7 @@
         "last-name": "Falcone",
         "sex": "Male",
         "group": "Comics",
+        "domain": "gotham",
         "trivia": "Carmine Falcone is a powerful mob boss, an enemy of Batman, and a friend of the Wayne family, appearing in American comic books published by DC Comics."
     },
     {
@@ -116,6 +132,7 @@
         "last-name": "Danvers",
         "sex": "Female",
         "group": "Comics",
+        "domain": "kree",
         "trivia": "Carol Susan Jane Danvers, also known as Captain Marvel, is a Human/Kree hybrid and a military warrior, appearing in American comic books published by Marvel Comics. "
     },
     {
@@ -123,6 +140,7 @@
         "last-name": "Xavier",
         "sex": "Male",
         "group": "Comics",
+        "domain": "x-men",
         "trivia": "Charles Francis Xavier, also known as Professor X, is the founder and leader of the X-Men and a mutant with powerful telepathic abilities, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -130,6 +148,7 @@
         "last-name": "Kent",
         "sex": "Male",
         "group": "Comics",
+        "domain": "daily-planet",
         "trivia": "Clark Joseph Kent, also known as Kal-El and best known by his superhero persona Superman, is a superhero born on the fictional planet Krypton in the DC Extended Universe series of films, based on the DC Comics character of the same name created by Jerry Siegel and Joe Shuster."
     },
     {
@@ -137,6 +156,7 @@
         "last-name": "Kasady",
         "sex": "Male",
         "group": "Comics",
+        "domain": "symbiote",
         "trivia": "Cletus Cortland Kasady is a supervillain and the first and most infamous host of the Carnage symbiote, an offspring of Venom, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -144,6 +164,7 @@
         "last-name": "Barton",
         "sex": "Male",
         "group": "Comics",
+        "domain": "avengers",
         "trivia": "Clinton Francis Barton, also known as Hawkeye, is a fictional character and a member of the Avengers, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -151,6 +172,7 @@
         "last-name": "Connors",
         "sex": "Male",
         "group": "Comics",
+        "domain": "sinister-six",
         "trivia": "Dr. Curtis Connors, also known as The Lizard, is an enemy of the superhero Spider-Man, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -158,6 +180,7 @@
         "last-name": "Wayne",
         "sex": "Male",
         "group": "Comics",
+        "domain": "wayne-enterprises",
         "trivia": "Damian Wayne, also known as Damian al Ghul is a superhero and the son of Batman and Talia al Ghul, appearing in comic books published by DC Comics."
     },
     {
@@ -165,6 +188,7 @@
         "last-name": "Prince",
         "sex": "Female",
         "group": "Comics",
+        "domain": "themyscira",
         "trivia": "Diana Prince, also known as Diana of Themyscira and her superhero title Wonder Woman, is a superheroine and a founding member of the Justice League, appearing in American comic books published by DC Comics."
     },
     {
@@ -172,6 +196,7 @@
         "last-name": "Grayson",
         "sex": "Male",
         "group": "Comics",
+        "domain": "wayne-enterprises",
         "trivia": "Richard John Grayson is a superhero appearing as the original and most popular incarnation of Robin, Batman's crime-fighting partner, in American comic books published by DC Comics, commonly in association with Batman and Teen Titans."
     },
     {
@@ -179,6 +204,7 @@
         "last-name": "Brock",
         "sex": "Male",
         "group": "Comics",
+        "domain": "symbiote",
         "trivia": "Edward Charles Allan Brock, also known as Venom, is the most well-known host of the Venom symbiote, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -186,6 +212,7 @@
         "last-name": "Nigma",
         "sex": "Male",
         "group": "Comics",
+        "domain": "arkham",
         "trivia": "Edward Nigma, also known as The Riddler, is a supervillain and one of the most enduring enemies of the superhero Batman, appearing in American comic books published by DC Comics."
     },
     {
@@ -193,6 +220,7 @@
         "last-name": "Frost",
         "sex": "Female",
         "group": "Comics",
+        "domain": "x-men",
         "trivia": "Emma Grace Frost, also known as the White Queen, is a supervillain and foe of the X-Men, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -200,6 +228,7 @@
         "last-name": "Brooks",
         "sex": "Male",
         "group": "Comics",
+        "domain": "marvel",
         "trivia": "Eric Cross Brooks, also known as Blade, is a half-vampire, or Dhampir, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -207,6 +236,7 @@
         "last-name": "Lehnsherr",
         "sex": "Male",
         "group": "Comics",
+        "domain": "x-men",
         "trivia": "Erik Lehnsherr, also known as Magneto, is a powerful mutant with the ability to generate and control magnetic fields and a common adversary of the X-Men, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -214,6 +244,7 @@
         "last-name": "Hardy",
         "sex": "Female",
         "group": "Comics",
+        "domain": "marvel",
         "trivia": "Felicia Hardy, also known as Black Cat, is an enemy, love interest, and ally of the superhero Spider-Man, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -221,6 +252,7 @@
         "last-name": "Marko",
         "sex": "Male",
         "group": "Comics",
+        "domain": "sinister-six",
         "trivia": "Flint Marko, also known as Sandman, is a shapeshifter with the ability to turn himself into sand and a recurring adversary to the superhero Spider-Man, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -228,6 +260,7 @@
         "last-name": "Lawton",
         "sex": "Male",
         "group": "Comics",
+        "domain": "arkham",
         "trivia": "Floyd Lawton, also known as Deadshot, is a supervillain appearing in American comic books published by DC Comics."
     },
     {
@@ -235,6 +268,7 @@
         "last-name": "Castle",
         "sex": "Male",
         "group": "Comics",
+        "domain": "marvel",
         "trivia": "Francis Castle, also known as The Punisher, is an antihero appearing in American comic books published by Marvel Comics."
     },
     {
@@ -242,6 +276,7 @@
         "last-name": "Richards",
         "sex": "Male",
         "group": "Comics",
+        "domain": "marvel",
         "trivia": "Franklin Benjamin Richards is one of the most powerful beings in the Marvel universe and the son of Reed and Sue Richards, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -249,6 +284,7 @@
         "last-name": "Summers",
         "sex": "Male",
         "group": "Comics",
+        "domain": "x-men",
         "trivia": "Gabriel Summers, also known as Vulcan, is a powerful mutant, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -256,6 +292,7 @@
         "last-name": "Stacy",
         "sex": "Female",
         "group": "Comics",
+        "domain": "marvel",
         "trivia": "Gwendolyne Maxine Stacy is the first romantic interest for Peter Parker, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -263,6 +300,7 @@
         "last-name": "Jordan",
         "sex": "Male",
         "group": "Comics",
+        "domain": "justice-league",
         "trivia": "Harold Jordan, one of the characters known as Green Lantern, is a superhero appearing in American comic books published by DC Comics."
     },
     {
@@ -270,6 +308,7 @@
         "last-name": "Pym",
         "sex": "Male",
         "group": "Comics",
+        "domain": "avengers",
         "trivia": "Dr. Henry Jonathan Pym is a scientific genius, a founding member of the Avengers, the creator of Pym Particles and of Ultron, and a superhero acting under identities such as Ant-Man, Giant Man, Goliath, Yellowjacket, and the Wasp, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -277,6 +316,7 @@
         "last-name": "Quinn",
         "sex": "Female",
         "group": "Comics",
+        "domain": "arkham",
         "trivia": "Harley Quinn, also known as Dr. Harleen Quinzel, is the Joker's sidekick and love interest, appearing in American comic books published by DC Comics."
     },
     {
@@ -284,6 +324,7 @@
         "last-name": "Osborn",
         "sex": "Male",
         "group": "Comics",
+        "domain": "oscorp",
         "trivia": "Harold Theopolis Osborn the son of Norman Osborn and the best friend of Peter Parker, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -291,6 +332,7 @@
         "last-name": "Dent",
         "sex": "Male",
         "group": "Comics",
+        "domain": "arkham",
         "trivia": "Harvey Dent, also known as Two-Face, is a supervillain known commonly as an adversary of the superhero Batman, appearing in comic books published by DC Comics."
     },
     {
@@ -298,6 +340,7 @@
         "last-name": "McCoy",
         "sex": "Male",
         "group": "Comics",
+        "domain": "x-men",
         "trivia": "Dr. Henry Philip McCoy, also known as Beast, is a mutant possessing ape-like superhuman physical strength and agility, and a founding member of the X-Men, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -305,6 +348,7 @@
         "last-name": "Gordon",
         "sex": "Male",
         "group": "Comics",
+        "domain": "gotham",
         "trivia": "James W. Gordon, Sr. is the police commissioner of Gotham City and an ally of Batman, appearing in American comic books published by DC Comics."
     },
     {
@@ -312,6 +356,7 @@
         "last-name": "Howlett",
         "sex": "Male",
         "group": "Comics",
+        "domain": "x-men",
         "trivia": "James Howlett, also known as Wolverine and Logan, is a mutant possessing animal-keen senses, enhanced physical capabilities, a powerful regenerative ability known as a healing factor, and three retractable claws in each hand, appearing in American comic books published by Marvel Comics"
     },
     {
@@ -319,6 +364,7 @@
         "last-name": "Rhodes",
         "sex": "Male",
         "group": "Comics",
+        "domain": "avengers",
         "trivia": "James Rupert Rhodes, also known as War Machine, is a skilled military pilot and a superhero that takes on the War Machine mantle, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -326,6 +372,7 @@
         "last-name": "Todd",
         "sex": "Male",
         "group": "Comics",
+        "domain": "wayne-enterprises",
         "trivia": "Jason Peter Todd is a superhero, appearing as Batman's vigilante partner and sidekick in American comic books published by DC Comics."
     },
     {
@@ -333,6 +380,7 @@
         "last-name": "Grey",
         "sex": "Female",
         "group": "Comics",
+        "domain": "x-men",
         "trivia": "Jean Elaine Grey, also known as Phoenix, is a mutant with telekinetic and telepathic powers, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -340,6 +388,7 @@
         "last-name": "Walters",
         "sex": "Female",
         "group": "Comics",
+        "domain": "marvel",
         "trivia": "Jennifer Walters, also known as She-Hulk, is a lawyer who, after an injury, received an emergency blood transfusion from her cousin, Bruce Banner, and acquired a milder version of his Hulk condition, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -347,6 +396,7 @@
         "last-name": "Jones",
         "sex": "Female",
         "group": "Comics",
+        "domain": "marvel",
         "trivia": "Jessica Campbell Jones Cage is a superheroine with super human strength and durability appearing in American comic books published by Marvel Comics."
     },
     {
@@ -354,6 +404,7 @@
         "last-name": "Jameson",
         "sex": "Male",
         "group": "Comics",
+        "domain": "daily-bugle",
         "trivia": "John Jonah Jameson Jr. is the publisher or editor-in-chief of the Daily Bugle, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -361,6 +412,7 @@
         "last-name": "Stewart",
         "sex": "Male",
         "group": "Comics",
+        "domain": "justice-league",
         "trivia": "John Stewart, one of the characters known as Green Lantern, is a superhero appearing in American comic books published by DC Comics and was the second African-American superhero to appear in DC Comics."
     },
     {
@@ -368,6 +420,7 @@
         "last-name": "Crane",
         "sex": "Male",
         "group": "Comics",
+        "domain": "arkham",
         "trivia": "Jonathan Crane, also known as The Scarecrow, is a brilliant professor of psychology turned criminal mastermind appearing as an adversary of Batman in American comic books published by DC Comics."
     },
     {
@@ -375,6 +428,7 @@
         "last-name": "Storm",
         "sex": "Male",
         "group": "Comics",
+        "domain": "fantastic-four",
         "trivia": "Jonathan Storm, also known as the Human Torch, is a superhero and a founding member of the Fantastic Four, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -382,6 +436,7 @@
         "last-name": "Khan",
         "sex": "Female",
         "group": "Comics",
+        "domain": "marvel",
         "trivia": "Kamala Khan is Marvel's first Muslim character and South Asian American personality and a superheroine with an ability to stretch her body in almost any way imaginable, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -389,6 +444,7 @@
         "last-name": "Danvers",
         "sex": "Female",
         "group": "Comics",
+        "domain": "justice-league",
         "trivia": "Kara Danvers, also known as Kara Zor-El and Supergirl, is a superheroine and the cousin of superhero Superman, appearing in American comic books published by DC Comics."
     },
     {
@@ -396,6 +452,7 @@
         "last-name": "Bishop",
         "sex": "Female",
         "group": "Comics",
+        "domain": "marvel",
         "trivia": "Kate Bishop, also known as Hawkeye, is the third character and first female to take the Hawkeye name, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -403,6 +460,7 @@
         "last-name": "TChalla",
         "sex": "Male",
         "group": "Comics",
+        "domain": "avengers",
         "trivia": "T'Challa, also known as Black Panther, is the king and protector of the fictional African nation of Wakanda, appeariung in American comic books published by Marvel Comics."
     },
     {
@@ -410,6 +468,7 @@
         "last-name": "Pryde",
         "sex": "Female",
         "group": "Comics",
+        "domain": "x-men",
         "trivia": "Katherine Anne Pryde is a mutant possessing a \"phasing\" ability that allows her to become intangible, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -417,6 +476,7 @@
         "last-name": "Wagner",
         "sex": "Male",
         "group": "Comics",
+        "domain": "x-men",
         "trivia": "Kurt Wagner, also known as Nightcrawler, is a mutant with the ability to teleport, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -424,6 +484,7 @@
         "last-name": "Rayner",
         "sex": "Male",
         "group": "Comics",
+        "domain": "justice-league",
         "trivia": "Kyle Rayner, one of the characters known as Green Lantern, is a superhero appearing in American comic books published by DC Comics."
     },
     {
@@ -431,6 +492,7 @@
         "last-name": "Kinney",
         "sex": "Female",
         "group": "Comics",
+        "domain": "x-men",
         "trivia": "Laura Kinney, also known as X-23, is a superheroine mutant and the daughter of Wolverine, appearing in media published by Marvel Entertainment"
     },
     {
@@ -438,6 +500,7 @@
         "last-name": "Luthor",
         "sex": "Male",
         "group": "Comics",
+        "domain": "lexcorp",
         "trivia": "Alexander Joseph Luthor, Jr. is the genius, ego-centered Metropolis businessman who, with his company LexCorp, and scientifically advanced Warsuit, has acted as both an antagonist and ally to Superman and the Justice League in American comic books published by DC Comics."
     },
     {
@@ -445,6 +508,7 @@
         "last-name": "Fox",
         "sex": "Male",
         "group": "Comics",
+        "domain": "wayne-enterprises",
         "trivia": "Lucius Fox is Bruce Wayne's business manager who supplies Batman's equipment needs as well as financing his operations, appearing in American comic books published by DC Comics, commonly in association with the superhero Batman."
     },
     {
@@ -452,6 +516,7 @@
         "last-name": "Cage",
         "sex": "Male",
         "group": "Comics",
+        "domain": "marvel",
         "trivia": "Lucas Cage, is a superhero with superhuman strength and unbreakable skin, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -459,6 +524,7 @@
         "last-name": "Gargan",
         "sex": "Male",
         "group": "Comics",
+        "domain": "sinister-six",
         "trivia": "MacDonald Gargan, also known as Scorpion, is a supervillain and an adversary of the superhero Spider-Man, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -466,6 +532,7 @@
         "last-name": "Murdock",
         "sex": "Male",
         "group": "Comics",
+        "domain": "nelson-and-murdock",
         "trivia": "Matt Murdock, also known as Daredevil, is a blind lawyer by day and a crime-fighting vigilante by night, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -473,6 +540,7 @@
         "last-name": "Dillon",
         "sex": "Male",
         "group": "Comics",
+        "domain": "sinister-six",
         "trivia": "Maxwell Dillon is a supervillain, an adversary to the superhero Spider-Man, and a founding member of the Sinister Six, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -480,6 +548,7 @@
         "last-name": "Morales",
         "sex": "Male",
         "group": "Comics",
+        "domain": "marvel",
         "trivia": "Miles Gonzalo Morales a superhero and one of the characters known as Spider-Man, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -487,6 +556,7 @@
         "last-name": "Watson",
         "sex": "Female",
         "group": "Comics",
+        "domain": "marvel",
         "trivia": "Mary Jane Watson is Spider-Man's main love interest and later his wife, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -494,6 +564,7 @@
         "last-name": "Rambeau",
         "sex": "Female",
         "group": "Comics",
+        "domain": "marvel",
         "trivia": "Monica Rambeau, also known as Photon, is a superheroine with the ability to convert her body mass into any form of energy, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -501,6 +572,7 @@
         "last-name": "Romanoff",
         "sex": "Female",
         "group": "Comics",
+        "domain": "avengers",
         "trivia": "Natalia Alianovna Romanova, also known as Black Widow, is a former Russian KGB agent and a member of the superhero team the Avengers, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -508,6 +580,7 @@
         "last-name": "Summers",
         "sex": "Male",
         "group": "Comics",
+        "domain": "marvel",
         "trivia": "Nathan Christopher Charles Summers, also known as Cable, is a time-travelling warrior and the son of Cyclops and Madelyne Pryor, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -515,6 +588,7 @@
         "last-name": "Fury",
         "sex": "Male",
         "group": "Comics",
+        "domain": "avengers",
         "trivia": "Colonel Nicholas Joseph Fury Sr. is a spy, former Director of S.H.I.E.L.D., and founder of the Avengers, appearing in American comic books published by Marvel Comics.."
     },
     {
@@ -522,6 +596,7 @@
         "last-name": "Osborn",
         "sex": "Male",
         "group": "Comics",
+        "domain": "oscorp",
         "trivia": "Norman Osborn, also known as Green Goblin, is Spider-Man's archenemy, and the first and best-known incarnation of the Green Goblin, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -529,6 +604,7 @@
         "last-name": "Queen",
         "sex": "Male",
         "group": "Comics",
+        "domain": "justice-league",
         "trivia": "Oliver Queen, also known as Green Arrow, is a superhero who appears in American comic books published by DC Comics."
     },
     {
@@ -536,6 +612,7 @@
         "last-name": "Munroe",
         "sex": "Female",
         "group": "Comics",
+        "domain": "x-men",
         "trivia": "Ororo Munroe, also known as Storm, is a mutant with the ability to control the weather and atmosphere, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -543,6 +620,7 @@
         "last-name": "Cobblepot",
         "sex": "Male",
         "group": "Comics",
+        "domain": "arkham",
         "trivia": "Oswald Cobblepot, also known as The Penguin, is a supervillain appearing in American comic books published by DC Comics, commonly as an adversary of the superhero Batman."
     },
     {
@@ -550,6 +628,7 @@
         "last-name": "Octavius",
         "sex": "Male",
         "group": "Comics",
+        "domain": "sinister-six",
         "trivia": "Dr. Otto Gunther Octavius, also known as Doctor Octopus or Dock Ock, is one of Spider-Man's most prominent villains, and the founder and leader of the Sinister Six, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -557,6 +636,7 @@
         "last-name": "Isley",
         "sex": "Female",
         "group": "Comics",
+        "domain": "arkham",
         "trivia": "Dr. Pamela Lillian Isley, also known is Poison Ivy, is a misanthropic botanist and biochemist who possesses a supernatural control over plant life, appearing as an adversary of Batman in American comic books published by DC Comics."
     },
     {
@@ -564,6 +644,7 @@
         "last-name": "Mulligan",
         "sex": "Male",
         "group": "Comics",
+        "domain": "symbiote",
         "trivia": "Patrick Mulligan, also known as Toxin, is former NYPD police officer that became the first host of the Toxin symbiote, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -571,6 +652,7 @@
         "last-name": "Parker",
         "sex": "Male",
         "group": "Comics",
+        "domain": "daily-bugle",
         "trivia": "Peter Parker, also known as Spider-Man, is a superhero with superhuman strength, agility, and a sense of danger developed from a bite of a radioactive spider, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -578,6 +660,7 @@
         "last-name": "Quill",
         "sex": "Male",
         "group": "Comics",
+        "domain": "guardians",
         "trivia": "Peter Jason Quill, also known as Star-Lord, is a superhero and the leader of the space-based superhero team Guardians of the Galaxy, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -585,6 +668,7 @@
         "last-name": "Maximoff",
         "sex": "Male",
         "group": "Comics",
+        "domain": "x-men",
         "trivia": "Pietro Maximoff, also known as Quicksilver, is a superhero with the superhuman ability to move at great speeds, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -592,6 +676,7 @@
         "last-name": "Rasputin",
         "sex": "Male",
         "group": "Comics",
+        "domain": "x-men",
         "trivia": "Piotr Nikolayevich Rasputin, also known as Colossus, is a mutant with the ability to transform himself into metallic form, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -599,6 +684,7 @@
         "last-name": "Beck",
         "sex": "Male",
         "group": "Comics",
+        "domain": "marvel",
         "trivia": "Quentin Beck, also known as Mysterio, is a supervillain, the enemy of superheroes Spider-Man and Daredevil, and a founding member of Sinister Six, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -606,6 +692,7 @@
         "last-name": "Darkholme",
         "sex": "Female",
         "group": "Comics",
+        "domain": "x-men",
         "trivia": "Raven Darkhölme, also known as Mystique, is a mutant shapeshifter, appearing in American comic books published by Marvel Comics, commonly in association with the X-Men."
     },
     {
@@ -613,6 +700,7 @@
         "last-name": "Richards",
         "sex": "Male",
         "group": "Comics",
+        "domain": "fantastic-four",
         "trivia": "Dr. Reed Richards, also known as Mister Fantastic, is a scientist, inventor, and a founding member of the Fantastic Four, considered the smartest man on Earth, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -620,6 +708,7 @@
         "last-name": "LeBeau",
         "sex": "Male",
         "group": "Comics",
+        "domain": "x-men",
         "trivia": "Remy Etienne LeBeau, also known as Gambit, is amutant with the ability to mentally create, control, and manipulate pure kinetic energy to his desire, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -627,6 +716,7 @@
         "last-name": "Sionis",
         "sex": "Male",
         "group": "Comics",
+        "domain": "arkham",
         "trivia": "Roman Sionis, also known as Black Mask, is a supervillain appearing in comic books published by DC Comics, commonly as an adversary of the superhero Batman."
     },
     {
@@ -634,6 +724,7 @@
         "last-name": "Wilson",
         "sex": "Male",
         "group": "Comics",
+        "domain": "marvel",
         "trivia": "Samuel Thomas Wilson, also known as Falcon, is a superhero with mechanical wings to fly, defend, and attack, appearing in American comic books published by Marvel Comics"
     },
     {
@@ -641,6 +732,7 @@
         "last-name": "Lang",
         "sex": "Male",
         "group": "Comics",
+        "domain": "avengers",
         "trivia": "Scott Lang, also known as Ant-Man, is a superhero and a member of the Avengers, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -648,6 +740,7 @@
         "last-name": "Summers",
         "sex": "Male",
         "group": "Comics",
+        "domain": "x-men",
         "trivia": "Scott Summers, also known as Cyclops, is a mutant with the ability to emit powerful beams of energy from his eyes and a founding member of the X-Men, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -655,6 +748,7 @@
         "last-name": "Kyle",
         "sex": "Female",
         "group": "Comics",
+        "domain": "arkham",
         "trivia": "Selina Kyle, also known as Catwoman, is an antiheroine and Batman's best known love interest, appearing in American comic books published by DC Comics."
     },
     {
@@ -662,6 +756,7 @@
         "last-name": "Kravenoff",
         "sex": "Male",
         "group": "Comics",
+        "domain": "sinister-six",
         "trivia": "Sergei Kravenoff, also known as Kraven the Hunter, is one of Spider-Man's most formidable enemies, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -669,6 +764,7 @@
         "last-name": "Wilson",
         "sex": "Male",
         "group": "Comics",
+        "domain": "arkham",
         "trivia": "Slade Joseph Wilson, also known as Deathstroke, is a supervillain appearing in American comic books published by DC Comics."
     },
     {
@@ -676,6 +772,7 @@
         "last-name": "Strange",
         "sex": "Male",
         "group": "Comics",
+        "domain": "marvel",
         "trivia": "Dr. Stephen Strange is a superhero that serves as the Sorcerer Supreme, the primary protector of Earth against magical and mystical threats, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -683,6 +780,7 @@
         "last-name": "Rogers",
         "sex": "Male",
         "group": "Comics",
+        "domain": "avengers",
         "trivia": "Steve Rogers, also known as Captain America, is a superhero, a patriotic supersoldier, and the leader of the Avengers, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -690,6 +788,7 @@
         "last-name": "Storm",
         "sex": "Female",
         "group": "Comics",
+        "domain": "fantastic-four",
         "trivia": "Dr. Susan Storm, later Susan Richards and also known as the Invisible Girl, is a superheroine with power including invisibility and force fields, and a founding member of the Fantastic Four, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -697,6 +796,7 @@
         "last-name": "McGinnis",
         "sex": "Male",
         "group": "Comics",
+        "domain": "wayne-enterprises",
         "trivia": "Terrence McGinnis is a superhero who adopts the identity of Batman in the future, appearing in media published by DC Entertainment."
     },
     {
@@ -704,6 +804,7 @@
         "last-name": "Drake",
         "sex": "Male",
         "group": "Comics",
+        "domain": "wayne-enterprises",
         "trivia": "Timothy Jackson Drake is a superhero and the third character to assume the role of Batman's crime-fighting partner Robin, appearing in American comic books published by DC Comics, commonly in association with the superhero Batman."
     },
     {
@@ -711,6 +812,7 @@
         "last-name": "Stark",
         "sex": "Male",
         "group": "Comics",
+        "domain": "stark-industries",
         "trivia": "Tony Stark, also known as Iron Man, is a superhero, wealthy American business magnate, playboy, philanthropist, inventor, ingenious scientist, and a founder of the Avengers, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -718,6 +820,7 @@
         "last-name": "Creed",
         "sex": "Male",
         "group": "Comics",
+        "domain": "x-men",
         "trivia": "Victor Creed, also known as Sabretooth, is a mutant with a rapid healing factor, razor-sharp fangs and claws, and superhuman senses, and an enemy of X-Men and Wolverine, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -725,6 +828,7 @@
         "last-name": "Fries",
         "sex": "Male",
         "group": "Comics",
+        "domain": "arkham",
         "trivia": "Victor Fries, commonly known as Mr. Freeze, is a supervillain appearing in American comic books published by DC Comics, commonly as an adversary of the superhero Batman.."
     },
     {
@@ -732,6 +836,7 @@
         "last-name": "Wilson",
         "sex": "Male",
         "group": "Comics",
+        "domain": "x-force",
         "trivia": "Wade Wilson, also known as, Deadpool, is an antihero and a disfigured mercenary with the superhuman ability of regeneration and physical prowess, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -739,6 +844,7 @@
         "last-name": "West",
         "sex": "Male",
         "group": "Comics",
+        "domain": "justice-league",
         "trivia": "Wallace Rudolph West is a superhero appearing in American comic books published by DC Comics as the original Kid Flash and the third Flash."
     },
     {
@@ -746,6 +852,7 @@
         "last-name": "Maximoff",
         "sex": "Female",
         "group": "Comics",
+        "domain": "marvel",
         "trivia": "Wanda Maximoff, also known as Scarlet Witch, is a powerful sorceress with the ability to alter probability, appearing in American comic books published by Marvel Comics"
     },
     {
@@ -753,6 +860,7 @@
         "last-name": "Fisk",
         "sex": "Male",
         "group": "Comics",
+        "domain": "marvel",
         "trivia": "Wilson Grant Fisk, also known as Kingpin, is a supervillain of Spider-Man and Daredevil, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -760,6 +868,7 @@
         "last-name": "Belova",
         "sex": "Female",
         "group": "Comics",
+        "domain": "marvel",
         "trivia": "Yelena Belova is a spy and the second modern-era character to use the Black Widow name, appearing in American comic books published by Marvel Comics."
     },
     {
@@ -767,6 +876,7 @@
         "last-name": "Shang-Chi",
         "sex": "Male",
         "group": "Comics",
+        "domain": "marvel",
         "trivia": "Zheng Shang-Chi, also known as the Master of Kung Fu and Brother Hand, is a superhero appearing in American comic books published by Marvel Comics."
     },
     {
@@ -774,6 +884,7 @@
         "last-name": "Ventura",
         "sex": "Male",
         "group": "Movies",
+        "domain": "pet-detective",
         "trivia": "Ace Ventura is a Miami-based private detective specializing in the retrieval of missing animals and the main character in films Ace Ventura: Pet Detective (1994) and Ace Ventura: When Nature Calls (1995)."
     },
     {
@@ -781,6 +892,7 @@
         "last-name": "Skywalker",
         "sex": "Male",
         "group": "Movies",
+        "domain": "star-wars",
         "trivia": "Anakin Skywalker, also known as Darth Vader, was a Force-sensitive Human male who served the Galactic Republic as a Jedi Knight and later served the Galactic Empire as the Sith Lord Darth Vader."
     },
     {
@@ -788,6 +900,7 @@
         "last-name": "Chigurh",
         "sex": "Male",
         "group": "Movies",
+        "domain": "movies",
         "trivia": "Anton Chigurh is a professional and ruthless hitman and the main antagonist of the 2005 novel No Country for Old Men and its 2007 film adaptation of the same name."
     },
     {
@@ -795,6 +908,7 @@
         "last-name": "Foley",
         "sex": "Male",
         "group": "Movies",
+        "domain": "dpd",
         "trivia": "Detective Axel Foley is the main protagonist of the Beverly Hills Cop film franchise."
     },
     {
@@ -802,6 +916,7 @@
         "last-name": "Kiddo",
         "sex": "Female",
         "group": "Movies",
+        "domain": "black-mamba",
         "trivia": "Beatrix Michelle Kiddo, also known as The Bride and Black Mamba, is the anti-heroic protagonist and mascot in the Kill Bill series."
     },
     {
@@ -809,6 +924,7 @@
         "last-name": "Baggins",
         "sex": "Male",
         "group": "Movies",
+        "domain": "shire",
         "trivia": "Bilbo Baggins was a hobbit of the Shire, the main protagonist of The Hobbit and a secondary character in The Lord of the Rings, featuring in J.R.R. Tolkien's novels and their film adaptations."
     },
     {
@@ -816,6 +932,7 @@
         "last-name": "Mode",
         "sex": "Female",
         "group": "Movies",
+        "domain": "incredibles",
         "trivia": "Edna Marie Mode is a fashion designer for Supers and a close friend of the Parr family, appearing in Disney/Pixar's 2004 animated film, The Incredibles and its 2018 sequel."
     },
     {
@@ -823,6 +940,7 @@
         "last-name": "Brown",
         "sex": "Male",
         "group": "Movies",
+        "domain": "movies",
         "trivia": "Dr. Emmett Lathrop Brown, commonly known as Doc Brown, is the deuteragonist of the Back to the Future franchise."
     },
     {
@@ -830,6 +948,7 @@
         "last-name": "Hunt",
         "sex": "Male",
         "group": "Movies",
+        "domain": "impossible",
         "trivia": "Ethan Matthew Hunt is a senior field agent for the Impossible Mission Force and the main protagonist of the action spy film series Mission: Impossible."
     },
     {
@@ -837,6 +956,7 @@
         "last-name": "Gump",
         "sex": "Male",
         "group": "Movies",
+        "domain": "movies",
         "trivia": "Forrest Alexander Gump is the title protagonist of the 1986 novel by Winston Groom and Robert Zemeckis' 1994 film of the same name."
     },
     {
@@ -844,6 +964,7 @@
         "last-name": "Drebin",
         "sex": "Male",
         "group": "Movies",
+        "domain": "naked-gun",
         "trivia": "Franklin Drebin is a Detective Sergeant Lieutenant of Police Squad and the main protagonist in the Police Squad! series and the Naked Gun movies."
     },
     {
@@ -851,6 +972,7 @@
         "last-name": "Solo",
         "sex": "Male",
         "group": "Movies",
+        "domain": "star-wars",
         "trivia": "Han Solo is a smuggler from the planet Corellia who achieved galactic fame as a member of the Rebel Alliance and later the New Republic in the Star Wars franchise."
     },
     {
@@ -858,6 +980,7 @@
         "last-name": "Lecter",
         "sex": "Male",
         "group": "Movies",
+        "domain": "movies",
         "trivia": "Hannibal Lecter is a brilliant, cannibalistic serial killer whose assistance is routinely sought out by law enforcement personnel to aid in the capture of other criminals, appearing in the Hannibal Lecter franchise."
     },
     {
@@ -865,6 +988,7 @@
         "last-name": "Potter",
         "sex": "Male",
         "group": "Movies",
+        "domain": "hogwarts",
         "trivia": "Harry James Potter was an English half-blood wizard, and one of the most famous wizards of modern times, forshadowed by a prophecy to be the one with the power to vanquish Lord Voldemort, appearing in J.K. Rowlings series of novels and their film adaptations."
     },
     {
@@ -872,6 +996,7 @@
         "last-name": "Jones",
         "sex": "Male",
         "group": "Movies",
+        "domain": "movies",
         "trivia": "Dr. Henry Walton \"Indiana\" Jones, Jr. is a fictional professor of archaeology that began in 1981 with the film Raiders of the Lost Ark. In 1984, a prequel, The Temple of Doom, was released, and in 1989, a sequel, The Last Crusade."
     },
     {
@@ -879,6 +1004,7 @@
         "last-name": "Sparrow",
         "sex": "Male",
         "group": "Movies",
+        "domain": "caribbean",
         "trivia": "Captain Jack Sparrow is a legendary pirate of the Seven Seas, the irreverent trickster of the Caribbean, and the protagonist of the Pirates of the Caribbean film series."
     },
     {
@@ -886,6 +1012,7 @@
         "last-name": "Clouseau",
         "sex": "Male",
         "group": "Movies",
+        "domain": "pink-panther",
         "trivia": "Chief Inspector Jacques Clouseau (formerly Inspector) is a bumbling and incompetent detective of the French Sûreté in Blake Edwards's Pink Panther series."
     },
     {
@@ -893,6 +1020,7 @@
         "last-name": "Bond",
         "sex": "Male",
         "group": "Movies",
+        "domain": "secret-intelligence-service",
         "trivia": "James Bond is a fictional British Secret Service agent who featured him in twelve novels and two short-story collections."
     },
     {
@@ -900,6 +1028,7 @@
         "last-name": "McClane",
         "sex": "Male",
         "group": "Movies",
+        "domain": "nypd",
         "trivia": "John McClane Sr. is an Irish-American detective lieutenant with the New York City Police Department and the main protagonist of the Die Hard film series."
     },
     {
@@ -907,6 +1036,7 @@
         "last-name": "Winnfield",
         "sex": "Male",
         "group": "Movies",
+        "domain": "movies",
         "trivia": "Jules Winnfield is the deuteragonist in Quentin Tarantino's 1994 movie, Pulp Fiction."
     },
     {
@@ -914,6 +1044,7 @@
         "last-name": "Everdeen",
         "sex": "Female",
         "group": "Movies",
+        "domain": "hunger-games",
         "trivia": "Katniss Everdeen is the main protagonist of the Hunger Games trilogy and film series."
     },
     {
@@ -921,6 +1052,7 @@
         "last-name": "Salander",
         "sex": "Female",
         "group": "Movies",
+        "domain": "milton-security",
         "trivia": "Lisbeth Salander is a freelancing hacker at Milton Security and the main character of the Millenium Trilogy."
     },
     {
@@ -928,6 +1060,7 @@
         "last-name": "Skywalker",
         "sex": "Male",
         "group": "Movies",
+        "domain": "star-wars",
         "trivia": "Luke Skywalker is a Force-sensitive human, legendary Jedi Master who fought in the Galactic Civil War during the reign of the Galactic Empire, appearing in the Star Wars franchise."
     },
     {
@@ -935,6 +1068,7 @@
         "last-name": "McFly",
         "sex": "Male",
         "group": "Movies",
+        "domain": "movies",
         "trivia": "Martin Seamus McFly is the protagonist of the Back to the Future franchise."
     },
     {
@@ -942,6 +1076,7 @@
         "last-name": "Meridius",
         "sex": "Male",
         "group": "Movies",
+        "domain": "gladiator",
         "trivia": "Aelius Maximus Decimus Meridius was a high ranking Roman general in command of multiple Roman legions who served under the Roman Emperor Marcus Aurelius in his Twelve Year Campaign against the barbarians in Germania and is the main protagonist of the 2000 epic historical film Gladiator."
     },
     {
@@ -949,6 +1084,7 @@
         "last-name": "Corleone",
         "sex": "Male",
         "group": "Movies",
+        "domain": "godfather",
         "trivia": "Michael Corleone is the titular main protagonist of Mario Puzo's novel The Godfather, and the deuteragonist of The Sicilian, as well as the titular protagonist of The Godfather film trilogy."
     },
     {
@@ -956,6 +1092,7 @@
         "last-name": "Kenobi",
         "sex": "Male",
         "group": "Movies",
+        "domain": "star-wars",
         "trivia": "Obi-Wan Kenobi is a legendary Force-sensitive human Jedi Master who served on the Jedi High Council during the final years of the Republic Era, appearing in the Star Wars franchise."
     },
     {
@@ -963,6 +1100,7 @@
         "last-name": "Bateman",
         "sex": "Male",
         "group": "Movies",
+        "domain": "pierce-and-pierce",
         "trivia": "Patrick Bateman is a wealthy and materialistic yuppie and Wall Street investment banker who leads a secret life as a serial killer, featuring in Ellis' 1991 novel and 2000 movie American Psycho."
     },
     {
@@ -970,6 +1108,7 @@
         "last-name": "Venkman",
         "sex": "Male",
         "group": "Movies",
+        "domain": "ghostbusters",
         "trivia": "Dr. Peter Venkman is one of the titular main protagonists of the original Ghostbusters."
     },
     {
@@ -977,6 +1116,7 @@
         "last-name": "Balboa",
         "sex": "Male",
         "group": "Movies",
+        "domain": "movies",
         "trivia": "Robert Balboa, Sr. is an American retired heavyweight boxer and former Two-Time Heavyweight Champion, featuring in The Rocky movies series."
     },
     {
@@ -984,6 +1124,7 @@
         "last-name": "Connor",
         "sex": "Female",
         "group": "Movies",
+        "domain": "resistance",
         "trivia": "Sarah Jeanette Connor is a legendary figure and the leader of the Resistance during the Future War, featuring in the Terminator film franchise."
     },
     {
@@ -991,6 +1132,7 @@
         "last-name": "Anderson",
         "sex": "Male",
         "group": "Movies",
+        "domain": "matrix",
         "trivia": "Thomas A. Anderson, also known as Neo and The One, is the main protagonist of The Matrix franchise, prophesied by The Oracle to be The One to free humanity from the Matrix and ultimately end the centuries-long Machine War."
     },
     {
@@ -998,6 +1140,7 @@
         "last-name": "Montana",
         "sex": "Male",
         "group": "Movies",
+        "domain": "movies",
         "trivia": "Antonio Montana is one of the most powerful drug kingpins in Miami and the titular villainous main protagonist of the 1983 epic crime drama film Scarface."
     },
     {
@@ -1005,6 +1148,7 @@
         "last-name": "Bickle",
         "sex": "Male",
         "group": "Movies",
+        "domain": "movies",
         "trivia": "Travis Bickle is the titular villainous main protagonist of the 1976 psychological crime film Taxi Driver."
     },
     {
@@ -1012,6 +1156,7 @@
         "last-name": "Durden",
         "sex": "Male",
         "group": "Movies",
+        "domain": "fight-club",
         "trivia": "Tyler Durden is the main antagonist in the 1996 novel Fight Club by Chuck Palahniuk and its 1999 film adaptation of the same name."
     },
     {
@@ -1019,6 +1164,7 @@
         "last-name": "Corleone",
         "sex": "Male",
         "group": "Movies",
+        "domain": "godfather",
         "trivia": "Vito Corleone, also known as Don Corleone and The Godfather, is the founder and first boss of the Corleone Family, the Head of New York criminal world, a wealthy businessman, and the titular deuteragonist of Mario Puzo's bestseller crime novel The Godfather and its 1972 film adaptation by Francis Ford Coppola, as well as its 1974 sequel."
     },
     {
@@ -1026,6 +1172,7 @@
         "last-name": "Bernard",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "dunder-mifflin",
         "trivia": "Andrew Baines Bernard is a sales representative at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
     },
     {
@@ -1033,6 +1180,7 @@
         "last-name": "Martin",
         "sex": "Female",
         "group": "TV-Shows",
+        "domain": "dunder-mifflin",
         "trivia": "Angela Noelle Martin is an accountant at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
     },
     {
@@ -1040,6 +1188,7 @@
         "last-name": "Stark",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "winterfell",
         "trivia": "Arya Stark is the third child and second daughter of Lord Eddard Stark and his wife, Lady Catelyn Stark, appearing in TV-show Game of Thrones."
     },
     {
@@ -1047,6 +1196,7 @@
         "last-name": "Dondarrion",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "brotherhood-without-banners",
         "trivia": "Beric Dondarrion is the Lord of Blackhaven and head of House Dondarrion, appearing in TV-show Game of Thrones."
     },
     {
@@ -1054,6 +1204,7 @@
         "last-name": "Vance",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "vance-refrigeration",
         "trivia": "Bob Vance is the CEO of Vance Refrigeration, appearing in the sitcom The Office."
     },
     {
@@ -1061,6 +1212,7 @@
         "last-name": "Stark",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "winterfell",
         "trivia": "Brandon Stark is the second son of Lord Eddard Stark and Lady Catelyn Tully, appearing in TV-show Game of Thrones."
     },
     {
@@ -1068,6 +1220,7 @@
         "last-name": "Tarth",
         "sex": "Female",
         "group": "TV-Shows",
+        "domain": "westeros",
         "trivia": "Ser Brienne of Tarth is a knight of House Tarth and the only daughter of Lord Selwyn Tarth, appearing in TV-show Game of Thrones."
     },
     {
@@ -1075,6 +1228,7 @@
         "last-name": "Stark",
         "sex": "Female",
         "group": "TV-Shows",
+        "domain": "winterfell",
         "trivia": "Lady Catelyn Stark, also known as Catelyn Tully, is the wife of Eddard Stark and mother to the Stark children, appearing in TV-show Game of Thrones."
     },
     {
@@ -1082,6 +1236,7 @@
         "last-name": "Lannister",
         "sex": "Female",
         "group": "TV-Shows",
+        "domain": "westeros",
         "trivia": "Queen Cersei I Lannister is the daughter of Lord Tywin Lannister and the twentieth ruler of the Seven Kingdoms, appearing in TV-show Game of Thrones."
     },
     {
@@ -1089,6 +1244,7 @@
         "last-name": "Miner",
         "sex": "Female",
         "group": "TV-Shows",
+        "domain": "dunder-mifflin",
         "trivia": "Charles Miner is the vice president of sales at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
     },
     {
@@ -1096,13 +1252,23 @@
         "last-name": "McGill",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "hhm",
         "trivia": "Charles Lindbergh McGill Jr., also known as Chuck, is Jimmy McGill's older brother and partner at one of Albuquerque's most prestigious law firms, Hamlin, Hamlin \u0026 McGill, appearing in the TV series Better Call Saul."
+    },
+    {
+        "first-name": "Creed",
+        "last-name": "Bratton",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "domain": "dunder-mifflin",
+        "trivia": "Creed Bratton also known as William Charles Schneider, is a quality assurance manager at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
     },
     {
         "first-name": "Daenerys",
         "last-name": "Targaryen",
         "sex": "Female",
         "group": "TV-Shows",
+        "domain": "westeros",
         "trivia": "Daenerys Targaryen, also known as Daenerys Stormborn, is one of the last confirmed members of House Targaryen, appearing in TV-show Game of Thrones."
     },
     {
@@ -1110,6 +1276,7 @@
         "last-name": "Philbin",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "dunder-mifflin",
         "trivia": "Darryl Mathias Philbin is a warehouse foreman at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
     },
     {
@@ -1117,6 +1284,7 @@
         "last-name": "Wallace",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "dunder-mifflin",
         "trivia": "David Foster Wallace is the CFO at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
     },
     {
@@ -1124,6 +1292,7 @@
         "last-name": "Seaworth",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "westeros",
         "trivia": "Davos Seaworth, also known as the Onion Knight, is a landed knight and a former smuggler who was in the service of Stannis Baratheon, appearing in TV-show Game of Thrones."
     },
     {
@@ -1131,6 +1300,7 @@
         "last-name": "Vickers",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "dunder-mifflin",
         "trivia": "Deangelo Jeremitrius Vickers is the regional manager of Dunder Mifflin Paper Company Scranton branch, appearing in the sitcom The Office."
     },
     {
@@ -1138,6 +1308,7 @@
         "last-name": "Schrute",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "dunder-mifflin",
         "trivia": "Dwight Kurt Schrute III is one of the highest-ranking salesmen as well as the original assistant to the regional manager, former Assistant Regional Manager at the paper distribution company Dunder Mifflin, and one of the main characters of the sitcom The Office."
     },
     {
@@ -1145,6 +1316,7 @@
         "last-name": "Hannon",
         "sex": "Female",
         "group": "TV-Shows",
+        "domain": "dunder-mifflin",
         "trivia": "Kelly Erin Hannon is a receptionist at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
     },
     {
@@ -1152,6 +1324,7 @@
         "last-name": "Greyjoy",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "iron-islands",
         "trivia": "Euron Greyjoy is a member of House Greyjoy and is the eldest of Lord Balon Greyjoy's younger brothers, appearing in TV-show Game of Thrones."
     },
     {
@@ -1159,6 +1332,7 @@
         "last-name": "Lewis",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "dunder-mifflin",
         "trivia": "Gabriel Susan Lewis is the coordinating director of emerging regions at Dunder Mifflin/Sabre Paper Company, appearing in the sitcom The Office."
     },
     {
@@ -1166,6 +1340,7 @@
         "last-name": "Baratheon",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "westeros",
         "trivia": "Lord Gendry Baratheon, formerly known simply as Gendry, is an unacknowledged bastard son of King Robert Baratheon, appearing in TV-show Game of Thrones."
     },
     {
@@ -1173,6 +1348,7 @@
         "last-name": "Clegane",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "westeros",
         "trivia": "Ser Gregor Clegane is a knight of House Clegane in service to House Lannister and the older brother of Sandor Clegane, appearing in TV-show Game of Thrones."
     },
     {
@@ -1180,6 +1356,7 @@
         "last-name": "Fring",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "los-polos-hermanos",
         "trivia": "Gustavo Fring, also known as the Chicken Man and the Chilean, is a Chilean-American restaurant entrepreneur and major narcotics distributor, appearing in the Breaking Bad TV series and later in spinoff Better Call Saul."
     },
     {
@@ -1187,6 +1364,7 @@
         "last-name": "Schrader",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "dea",
         "trivia": "Henry R. Schrader ASAC is a high-ranking officer at the Albuquerque office of the Drug Enforcement Administration, appearing in the Breaking Bad TV series."
     },
     {
@@ -1194,6 +1372,7 @@
         "last-name": "Salamanca",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "cartel",
         "trivia": "Don Hector Salamanca, also known as Tio, is a ruthless drug kingpin of the Cartel, appearing in the TV series Better Call Saul."
     },
     {
@@ -1201,6 +1380,7 @@
         "last-name": "Flax",
         "sex": "Female",
         "group": "TV-Shows",
+        "domain": "dunder-mifflin",
         "trivia": "Hollis Partridge Flax is the human resources representative of Dunder Mifflin Paper Company Nashua branch, appearing in the sitcom The Office."
     },
     {
@@ -1208,6 +1388,7 @@
         "last-name": "Hamlin",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "hhm",
         "trivia": "Howard G. Hamlin is a corporate lawyer and CEO of Hamlin, Hamlin \u0026 McGill, appearing in the TV series Better Call Saul."
     },
     {
@@ -1215,6 +1396,7 @@
         "last-name": "Lannister",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "kingslayer",
         "trivia": "Ser Jaime Lannister, also known as the Kingslayer, is an anointed knight of House Lannister, appearing in TV-show Game of Thrones."
     },
     {
@@ -1222,6 +1404,7 @@
         "last-name": "Levinson",
         "sex": "Female",
         "group": "TV-Shows",
+        "domain": "dunder-mifflin",
         "trivia": "Janet Levinson is the vice president of sales at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
     },
     {
@@ -1229,6 +1412,7 @@
         "last-name": "Pinkman",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "jp-wynne-high-school",
         "trivia": "Jesse Bruce Pinkman is a crystal meth cook and dealer who works with his former high school chemistry teacher, Walter White, appearing in the Breaking Bad TV series."
     },
     {
@@ -1236,13 +1420,23 @@
         "last-name": "Halpert",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "dunder-mifflin",
         "trivia": "James Halpert is a sales representative at the Scranton branch of paper distribution company Dunder Mifflin and one of the main characters of the sitcom The Office."
+    },
+    {
+        "first-name": "Jimmy",
+        "last-name": "McGill",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "domain": "saul-goodman",
+        "trivia": "James Morgan McGill, also known as Saul Goodman, is an Irish-American criminal defense lawyer, scam artist, and convicted criminal, appearing in the Breaking Bad TV series and later in spinoff Better Call Saul."
     },
     {
         "first-name": "Jo",
         "last-name": "Bennett",
         "sex": "Female",
         "group": "TV-Shows",
+        "domain": "dunder-mifflin",
         "trivia": "Joleen MaryAnn Bennett is the CEO of Dunder Mifflin/Sabre, appearing in the sitcom The Office."
     },
     {
@@ -1250,6 +1444,7 @@
         "last-name": "Baratheon",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "westeros",
         "trivia": "King Joffrey I Baratheon is the eighteenth king to rule from the Iron Throne and the second king of the Baratheon dynasty, appearing in TV-show Game of Thrones."
     },
     {
@@ -1257,6 +1452,7 @@
         "last-name": "Snow",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "castle-black",
         "trivia": "Jon Snow is the bastard son of Eddard Stark, Lord of Winterfell, appearing in TV-show Game of Thrones."
     },
     {
@@ -1264,6 +1460,7 @@
         "last-name": "Mormont",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "westeros",
         "trivia": "Ser Jorah Mormont is an exiled Northern lord from Westeros who swore fealty to Daenerys Targaryen, appearing in TV-show Game of Thrones."
     },
     {
@@ -1271,6 +1468,7 @@
         "last-name": "Filippelli",
         "sex": "Female",
         "group": "TV-Shows",
+        "domain": "dunder-mifflin",
         "trivia": "Karen Filippelli is a saleswoman at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
     },
     {
@@ -1278,6 +1476,7 @@
         "last-name": "Kapoor",
         "sex": "Female",
         "group": "TV-Shows",
+        "domain": "dunder-mifflin",
         "trivia": "Kelly Rajanigandha Kapoor is a customer service representative at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
     },
     {
@@ -1285,6 +1484,7 @@
         "last-name": "Malone",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "dunder-mifflin",
         "trivia": "Kevin Malone is an accountant at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
     },
     {
@@ -1292,6 +1492,7 @@
         "last-name": "Drogo",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "westeros",
         "trivia": "Khal Drogo is a chieftain of a Dothraki khalasar, appearing in TV-show Game of Thrones."
     },
     {
@@ -1299,6 +1500,7 @@
         "last-name": "Wexler",
         "sex": "Female",
         "group": "TV-Shows",
+        "domain": "hhm",
         "trivia": "Kimberly Wexler is a business lawyer and public defender who is the ex-wife and former confidant of lawyer and convicted criminal Jimmy McGill, appearing in the TV series Better Call Saul."
     },
     {
@@ -1306,6 +1508,7 @@
         "last-name": "Salamanca",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "cartel",
         "trivia": "Eduardo Salamanca, also known as Lalo, is a Mexican-American distributor and a high-ranking member and don of the Cartel, appearing in the TV series Better Call Saul."
     },
     {
@@ -1313,6 +1516,7 @@
         "last-name": "Tyrell",
         "sex": "Female",
         "group": "TV-Shows",
+        "domain": "westeros",
         "trivia": "Margaery Tyrell is the only daughter of Lord Mace Tyrell and his wife, Lady Alerie Hightower, appearing in TV-show Game of Thrones."
     },
     {
@@ -1320,6 +1524,7 @@
         "last-name": "Palmer",
         "sex": "Female",
         "group": "TV-Shows",
+        "domain": "dunder-mifflin",
         "trivia": "Meredith Elizabeth Palmer is a supplier relations manager at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
     },
     {
@@ -1327,6 +1532,7 @@
         "last-name": "Scott",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "dunder-mifflin",
         "trivia": "Michael Gary Scott is the regional manager of the Scranton, Pennsylvania branch of paper company, Dunder Mifflin and the central character of the sitcom The Office."
     },
     {
@@ -1334,6 +1540,7 @@
         "last-name": "Ehrmantraut",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "philadelphia-pd",
         "trivia": "Michael Ehrmantraut is a career criminal, Marine Corps veteran, and former Philadelphia police officer, appearing in the Breaking Bad TV series and later in spinoff Better Call Saul."
     },
     {
@@ -1341,6 +1548,7 @@
         "last-name": "Varga",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "a-z-fine-upholstery",
         "trivia": "Ignacio Varga, also known as Nacho, is a career criminal who becomes a Cartel informant to Gus Fring, appearing in the TV series Better Call Saul."
     },
     {
@@ -1348,6 +1556,7 @@
         "last-name": "Stark",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "winterfell",
         "trivia": "Lord Eddard Stark, also known as Ned Stark, is the Lord of Winterfell, head of House Stark and Warden of the North, appearing in TV-show Game of Thrones."
     },
     {
@@ -1355,6 +1564,7 @@
         "last-name": "Bertram",
         "sex": "Female",
         "group": "TV-Shows",
+        "domain": "dunder-mifflin",
         "trivia": "Eleanour Donna Bertram, also known as Nellie, is a saleswoman at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
     },
     {
@@ -1362,6 +1572,7 @@
         "last-name": "Martell",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "westeros",
         "trivia": "Prince Oberyn Nymeros Martell, also known as the Red Viper, is a member of House Martell and is the younger brother of Doran Martell, Prince of Dorne, appearing in TV-show Game of Thrones."
     },
     {
@@ -1369,6 +1580,7 @@
         "last-name": "Tyrell",
         "sex": "Female",
         "group": "TV-Shows",
+        "domain": "westeros",
         "trivia": "Olenna Tyrell was the widow of Lord Luthor Tyrell and the mother of Mace Tyrell, appearing in TV-show Game of Thrones."
     },
     {
@@ -1376,6 +1588,7 @@
         "last-name": "Martinez",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "dunder-mifflin",
         "trivia": "Oscar Martinez is an accountant at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
     },
     {
@@ -1383,6 +1596,7 @@
         "last-name": "Beesly",
         "sex": "Female",
         "group": "TV-Shows",
+        "domain": "dunder-mifflin",
         "trivia": "Pamela Morgan Beesly is a receptionist and later saleswoman and office administrator at Dunder Mifflin Paper Company, and one of the main characters of the sitcom The Office."
     },
     {
@@ -1390,6 +1604,7 @@
         "last-name": "Baelish",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "westeros",
         "trivia": "Petyr Baelish, also known as Littlefinger, is the Lord and head of House Baelish of the Fingers, appearing in TV-show Game of Thrones."
     },
     {
@@ -1397,20 +1612,15 @@
         "last-name": "Lapin",
         "sex": "Female",
         "group": "TV-Shows",
+        "domain": "dunder-mifflin",
         "trivia": "Phyllis Margaret Lapin is a sales representative at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
-    },
-    {
-        "first-name": "Phyllis",
-        "last-name": "Lapin",
-        "sex": "Male",
-        "group": "TV-Shows",
-        "trivia": "Creed Bratton also known as William Charles Schneider, is a quality assurance manager at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
     },
     {
         "first-name": "Ramsay",
         "last-name": "Bolton",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "westeros",
         "trivia": "Lord Ramsay Bolton, born Ramsay Snow, was the legitimized bastard son of Roose Bolton, Lord of the Dreadfort, appearing in TV-show Game of Thrones."
     },
     {
@@ -1418,6 +1628,7 @@
         "last-name": "Stark",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "winterfell",
         "trivia": "King Robb Stark is the eldest son of Lord Eddard Stark of Winterfell and his wife, Lady Catelyn, appearing in TV-show Game of Thrones."
     },
     {
@@ -1425,6 +1636,7 @@
         "last-name": "Baratheon",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "westeros",
         "trivia": "King Robert I Baratheon was the seventeenth ruler of the Seven Kingdoms and the first king of the Baratheon dynasty, appearing in TV-show Game of Thrones."
     },
     {
@@ -1432,6 +1644,7 @@
         "last-name": "California",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "dunder-mifflin",
         "trivia": "Robert California is the CEO of Dunder Mifflin/Sabre, appearing in the sitcom The Office."
     },
     {
@@ -1439,6 +1652,7 @@
         "last-name": "Anderson",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "dunder-mifflin",
         "trivia": "Roy Anderson is a warehouse worker at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
     },
     {
@@ -1446,6 +1660,7 @@
         "last-name": "Howard",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "dunder-mifflin",
         "trivia": "Ryan Howard is a salesman, former receptionist, and convicted fraudster who works at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
     },
     {
@@ -1453,6 +1668,7 @@
         "last-name": "Tarly",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "castle-black",
         "trivia": "Samwell Tarly is the oldest son of Lord Randyll Tarly, the head of House Tarly and Lord of Horn Hill, appearing in TV-show Game of Thrones."
     },
     {
@@ -1460,6 +1676,7 @@
         "last-name": "Clegane",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "westeros",
         "trivia": "Sandor Clegane, also known as The Hound, is a member of House Clegane and is the younger brother of Ser Gregor Clegane, appearing in TV-show Game of Thrones."
     },
     {
@@ -1467,20 +1684,15 @@
         "last-name": "Stark",
         "sex": "Female",
         "group": "TV-Shows",
+        "domain": "winterfell",
         "trivia": "Sansa Stark is the eldest daughter of Lord Eddard Stark and his wife, Lady Catelyn, appearing in TV-show Game of Thrones."
-    },
-    {
-        "first-name": "Saul",
-        "last-name": "Goodman",
-        "sex": "Male",
-        "group": "TV-Shows",
-        "trivia": "Saul Goodman, real name James Morgan McGill, is an Irish-American criminal defense lawyer, scam artist, and convicted criminal, appearing in the Breaking Bad TV series and later in spinoff Better Call Saul."
     },
     {
         "first-name": "Stanley",
         "last-name": "Hudson",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "dunder-mifflin",
         "trivia": "Stanley Hudson is a salesman at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
     },
     {
@@ -1488,6 +1700,7 @@
         "last-name": "Baratheon",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "westeros",
         "trivia": "Stannis Baratheon is the Lord of Dragonstone, the younger brother of King Robert Baratheon, and older brother of Renly Baratheon, appearing in TV-show Game of Thrones."
     },
     {
@@ -1495,6 +1708,7 @@
         "last-name": "Greyjoy",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "iron-islands",
         "trivia": "Theon Greyjoy is the fourth and youngest child of Lord Balon Greyjoy, ruler of the Iron Islands, and his wife Lady Alannys, appearing in TV-show Game of Thrones."
     },
     {
@@ -1502,6 +1716,7 @@
         "last-name": "Flenderson",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "dunder-mifflin",
         "trivia": "Toby H. Flenderson is a human resources representative at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
     },
     {
@@ -1509,6 +1724,7 @@
         "last-name": "Packer",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "dunder-mifflin",
         "trivia": "Todd Finch Packer is an employee of Dunder Mifflin/Sabre, appearing in the sitcom The Office."
     },
     {
@@ -1516,6 +1732,7 @@
         "last-name": "Baratheon",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "westeros",
         "trivia": "King Tommen I Baratheon was the nineteenth ruler of the Seven Kingdoms, the third king of the Baratheon dynasty, appearing in TV-show Game of Thrones."
     },
     {
@@ -1523,6 +1740,7 @@
         "last-name": "Soprano",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "dimeo",
         "trivia": "Anthony John Soprano is the De facto Boss of the DiMeo crime family and the antihero protagonist in the television drama series The Sopranos."
     },
     {
@@ -1530,6 +1748,7 @@
         "last-name": "Giantsbane",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "freefolk",
         "trivia": "Tormund Giantsbane is a renowned warrior and raider among the Free Folk and one of the key leaders behind Mance Rayder, appearing in TV-show Game of Thrones."
     },
     {
@@ -1537,6 +1756,7 @@
         "last-name": "Lannister",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "westeros",
         "trivia": "Lord Tyrion Lannister is a member of House Lannister, the third and youngest child of Lord Tywin Lannister and the late Lady Joanna Lannister, appearing in TV-show Game of Thrones."
     },
     {
@@ -1544,6 +1764,7 @@
         "last-name": "Lannister",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "casterly-rock",
         "trivia": "Tywin Lannister is the head of House Lannister, Lord of Casterly Rock, Shield of Lannisport, and Warden of the West, appearing in TV-show Game of Thrones."
     },
     {
@@ -1551,6 +1772,7 @@
         "last-name": "White",
         "sex": "Male",
         "group": "TV-Shows",
+        "domain": "gray-matter-technologies",
         "trivia": "Walter Hartwell White Sr., also known as Heisenberg, is a high school teacher turned major narcotics distributor from Albuquerque, New Mexico, whose drug empire became the largest meth operation in American history, appearing in the Breaking Bad TV series."
     },
     {
@@ -1558,6 +1780,7 @@
         "last-name": "Greyjoy",
         "sex": "Female",
         "group": "TV-Shows",
+        "domain": "iron-islands",
         "trivia": "Lady Yara Greyjoy is the Lady of the Iron Islands and Lady Reaper of Pyke, and the daughter and last surviving child of Balon Greyjoy, appearing in TV-show Game of Thrones."
     }
 ]

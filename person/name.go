@@ -25,6 +25,7 @@ func FilterNames(
 	lastName string,
 	sex data.Sex,
 	group data.PersonGroup,
+	domain string,
 	trivia string,
 ) []data.Name {
 	filteredNames := []data.Name{}
@@ -42,6 +43,10 @@ func FilterNames(
 		}
 
 		if !utils.StringSoftEqual(string(group), string(name.Group)) {
+			continue
+		}
+
+		if !utils.StringSoftEqual(domain, name.Domain) {
 			continue
 		}
 

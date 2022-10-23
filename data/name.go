@@ -52,6 +52,7 @@ type Name struct {
 	LastName  string      `json:"last-name"`
 	Sex       Sex         `json:"sex"`
 	Group     PersonGroup `json:"group"`
+	Domain    string      `json:"domain"`
 	Trivia    string      `json:"trivia"`
 }
 

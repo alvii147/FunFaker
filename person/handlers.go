@@ -56,6 +56,7 @@ func HandleName(w http.ResponseWriter, r *http.Request) {
 			nameRequest.Sex,
 			nameRequest.Group,
 			"",
+			"",
 		)
 		// if filtering returned no results, respond with "no content"
 		if len(filteredNames) < 1 {
@@ -126,6 +127,7 @@ func HandleEmail(w http.ResponseWriter, r *http.Request) {
 			"",
 			emailRequest.Sex,
 			emailRequest.Group,
+			"",
 			"",
 		)
 		// if filtering returned no results, respond with "no content"

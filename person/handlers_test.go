@@ -159,6 +159,7 @@ func TestHandleName(t *testing.T) {
 					nameResponse.LastName,
 					testcase.expectedSex,
 					testcase.expectedGroup,
+					"",
 					nameResponse.Trivia,
 				)
 
@@ -206,7 +207,7 @@ func TestHandleEmail(t *testing.T) {
 			method:                  http.MethodGet,
 			expectedStatusCode:      http.StatusOK,
 			expectBody:              true,
-			expectEmailDomainName:   "comics",
+			expectEmailDomainName:   "",
 			expectEmailDomainSuffix: "",
 		},
 		{
