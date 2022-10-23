@@ -1,0 +1,77 @@
+[
+    {
+        "name": "Krusty Krab",
+        "group": "Cartoons",
+        "trivia": "The Krusty Krab is a fast food restaurant located in Bikini Bottom, founded and owned by Eugene H. Krabs in Spongebob Squarepants."
+    },
+    {
+        "name": "Daily Bugle",
+        "group": "Comics",
+        "trivia": "The Daily Bugle is an American tabloid newspaper based in New York City in the Marvel universe."
+    },
+    {
+        "name": "Daily Planet",
+        "group": "Comics",
+        "trivia": "The Daily Planet is a daily newspaper of Metropolis in the DC universe."
+    },
+    {
+        "name": "LexCorp",
+        "group": "Comics",
+        "trivia": "LexCorp is a conglomerate owned and run by Lex Luthor in the DC universe."
+    },
+    {
+        "name": "Oscorp",
+        "group": "Comics",
+        "trivia": "Oscorp is an American multinational corporation in the Marvel universe, led by President and CEO Norman Osborn."
+    },
+    {
+        "name": "Stark Industries",
+        "group": "Comics",
+        "trivia": "Stark Industries is an American global aerospace, defense, security and advanced technologies corporation with worldwide interests, led by Tony Stark as CEO in the Marvel universe."
+    },
+    {
+        "name": "Wayne Enterprises",
+        "group": "Comics",
+        "trivia": "Wayne Enterprises is a company in the DC universe, owned by billionaire Bruce Wayne."
+    },
+    {
+        "name": "Cyberdyne Systems",
+        "group": "Movies",
+        "trivia": "Cyberdyne Systems is the tech corporation responsible for the development of Skynet in the Terminator movies."
+    },
+    {
+        "name": "Gringotts Wizarding Bank",
+        "group": "Movies",
+        "trivia": "Gringotts Wizarding Bank is the wizarding bank in Great Britain, owned and operated by goblins in J.K. Rowling's series of novels and their film adaptations."
+    },
+    {
+        "name": "Nakatomi Corporation",
+        "group": "Movies",
+        "trivia": "Nakatomi Corporation is a multinational Japanese corporation which has a US branch headquarters located in Nakatomi Plaza in Century City, Los Angeles, attacked by German terrorists in the movie Die Hard."
+    },
+    {
+        "name": "Bluth Company",
+        "group": "TV-Shows",
+        "trivia": "The Bluth Company is a real estate development firm founded by George Bluth in TV-show Arrested Development."
+    },
+    {
+        "name": "Central Perk",
+        "group": "TV-Shows",
+        "trivia": "Central Perk is a coffeehouse in New York in sitcom Friends."
+    },
+    {
+        "name": "Dunder Mifflin Paper Company",
+        "group": "TV-Shows",
+        "trivia": "Dunder Mifflin Paper Company, Inc. is a paper company in Scranton, Pennsylvania in the TV-show The Office."
+    },
+    {
+        "name": "Los Pollos Hermanos",
+        "group": "TV-Shows",
+        "trivia": "Los Pollos Hermanos is a fast-food restaurant chain owned by Gustavo Fring that specializes in fried chicken and provides money-laundering and logistics for illegal activities in TV-show Breaking Bad and its spin-off Better Call Saul."
+    },
+    {
+        "name": "Michael Scott Paper Company",
+        "group": "TV-Shows",
+        "trivia": "The Michael Scott Paper Company, Inc. is a paper company started by Michael Scott after he quits the Dunder Mifflin Paper Company in the TV-show The Office."
+    }
+]

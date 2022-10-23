@@ -23,7 +23,7 @@ func TestHandleAddress(t *testing.T) {
 	}{
 		{
 			name:               "HandleAddress returns random address",
-			url:                "/name",
+			url:                "/address",
 			method:             http.MethodGet,
 			expectedStatusCode: http.StatusOK,
 			expectBody:         true,
@@ -32,7 +32,7 @@ func TestHandleAddress(t *testing.T) {
 		},
 		{
 			name:               "HandleAddress returns 405 on POST request",
-			url:                "/name",
+			url:                "/address",
 			method:             http.MethodPost,
 			expectedStatusCode: http.StatusMethodNotAllowed,
 			expectBody:         false,
@@ -40,8 +40,8 @@ func TestHandleAddress(t *testing.T) {
 			expectedValidOnly:  false,
 		},
 		{
-			name:               "HandleAddress returns random address of Breaking Bad group",
-			url:                "/name?group=tv-shows",
+			name:               "HandleAddress returns random address of Tv-Shows group",
+			url:                "/address?group=tv-shows",
 			method:             http.MethodGet,
 			expectedStatusCode: http.StatusOK,
 			expectBody:         true,
@@ -50,7 +50,7 @@ func TestHandleAddress(t *testing.T) {
 		},
 		{
 			name:               "HandleAddress returns random valid address",
-			url:                "/name?valid-only=true",
+			url:                "/address?valid-only=true",
 			method:             http.MethodGet,
 			expectedStatusCode: http.StatusOK,
 			expectBody:         true,
@@ -59,7 +59,7 @@ func TestHandleAddress(t *testing.T) {
 		},
 		{
 			name:               "HandleAddress returns 400 on invalid URL parameters",
-			url:                "/name?invalid=parameter",
+			url:                "/address?invalid=parameter",
 			method:             http.MethodGet,
 			expectedStatusCode: http.StatusBadRequest,
 			expectBody:         false,
@@ -104,7 +104,7 @@ func TestHandleAddress(t *testing.T) {
 				}
 
 				// filter list of addresses by group
-				filteredAddresses := address.FilterAddresses(
+				filteredAddresses := data.FilterAddresses(
 					addresses,
 					addressResponse.StreetName,
 					addressResponse.City,
@@ -116,7 +116,7 @@ func TestHandleAddress(t *testing.T) {
 				)
 				// filter by validity if expected
 				if testcase.expectedValidOnly {
-					filteredAddresses = address.FilterValidAddresses(filteredAddresses)
+					filteredAddresses = data.FilterValidAddresses(filteredAddresses)
 				}
 
 				// throw error if there isn't exactly a single entry after filtering

@@ -187,6 +187,40 @@ curl --request GET --url "https://funfaker--api--cgvttg4279tq.code.run/address?g
 }
 ```
 
+## Company
+
+Generate a pop-culture associated company name.
+
+**URL:** `/company`
+
+**URL Parameters:**
+
+Parameter | Description | Optional | Valid Values
+--- | --- | --- | ---
+`group` | Group that the company should belong to | Yes | `cartoons`, `comics`, `movies`, `tv-shows`
+
+**Response:**
+
+```json
+{
+    "name": "name of company",
+    "trivia": "brief description of company"
+}
+```
+
+**Example:**
+
+```bash
+curl --request GET --url "https://funfaker--api--cgvttg4279tq.code.run/company?group=movies"
+```
+
+```json
+{
+    "name":"Cyberdyne Systems",
+    "trivia":"Cyberdyne Systems is the tech corporation responsible for the development of Skynet in the Terminator movies."
+}
+```
+
 # Testing
 
 Run all tests:

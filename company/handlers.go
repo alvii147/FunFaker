@@ -1,4 +1,4 @@
-package address
+package company
 
 import (
 	"encoding/json"
@@ -8,12 +8,11 @@ import (
 
 	"github.com/alvii147/FunFaker/data"
 	"github.com/alvii147/FunFaker/utils"
-
 	"github.com/gorilla/schema"
 )
 
-// GET address handler
-func HandleAddress(w http.ResponseWriter, r *http.Request) {
+// GET company handler
+func HandleCompany(w http.ResponseWriter, r *http.Request) {
 	var statusCode int
 	defer func() {
 		utils.LogHTTPTraffic(r, statusCode)
@@ -29,9 +28,9 @@ func HandleAddress(w http.ResponseWriter, r *http.Request) {
 		rand.Seed(time.Now().Unix())
 
 		// decode incoming request URL parameters
-		var addressRequest AddressRequest
+		var companyRequest CompanyRequest
 		decoder := schema.NewDecoder()
-		err := decoder.Decode(&addressRequest, r.URL.Query())
+		err := decoder.Decode(&companyRequest, r.URL.Query())
 		if err != nil {
 			statusCode = http.StatusBadRequest
 			utils.HTTPError(statusCode, err, w)
@@ -39,8 +38,8 @@ func HandleAddress(w http.ResponseWriter, r *http.Request) {
 			return
 		}
 
-		// get list of addresses
-		addresses, err := data.GetAddresses()
+		// get list of companies
+		companies, err := data.GetCompanies()
 		if err != nil {
 			statusCode = http.StatusInternalServerError
 			utils.HTTPError(statusCode, err, w)
@@ -48,36 +47,29 @@ func HandleAddress(w http.ResponseWriter, r *http.Request) {
 			return
 		}
 
-		// filter list of addresses by decoded name request
-		filteredAddresses := data.FilterAddresses(
-			addresses,
+		// filter list of companies by decoded name request
+		filteredCompanies := data.FilterCompanies(
+			companies,
 			"",
-			"",
-			"",
-			"",
-			"",
-			addressRequest.Group,
+			companyRequest.Group,
 			"",
 		)
-		// filter list of addresses by validity if true in request
-		if addressRequest.ValidOnly {
-			filteredAddresses = data.FilterValidAddresses(filteredAddresses)
-		}
+
 		// if filtering returned no results, respond with "no content"
-		if len(filteredAddresses) < 1 {
+		if len(filteredCompanies) < 1 {
 			statusCode = http.StatusNoContent
 			w.WriteHeader(statusCode)
 			return
 		}
 
-		// choose random address
-		randomAddress := filteredAddresses[rand.Intn(len(filteredAddresses))]
-		// update address response using random address
-		var addressResponse AddressResponse
-		addressResponse.FromAddress(randomAddress)
+		// choose random company
+		randomCompany := filteredCompanies[rand.Intn(len(filteredCompanies))]
+		// update company response using random company
+		var companyResponse CompanyResponse
+		companyResponse.FromCompany(randomCompany)
 
 		// encode response
-		err = json.NewEncoder(w).Encode(addressResponse)
+		err = json.NewEncoder(w).Encode(companyResponse)
 		if err != nil {
 			statusCode = http.StatusInternalServerError
 			utils.HTTPError(statusCode, err, w)

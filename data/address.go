@@ -77,6 +77,7 @@ func WriteAddresses(addresses []Address) error {
 		return errors.New("unable to get current directory")
 	}
 
+	// open addresses.json
 	addressesFilePath := filepath.Join(path.Dir(filename), ADDRESSES_FILE_NAME)
 
 	// convert to bytes with indentation
@@ -92,4 +93,65 @@ func WriteAddresses(addresses []Address) error {
 	}
 
 	return nil
+}
+
+// filter addresses by properties
+func FilterAddresses(
+	addresses []Address,
+	streetName string,
+	city string,
+	state string,
+	country string,
+	postalCode string,
+	group AddressGroup,
+	trivia string,
+) []Address {
+	filteredAddresses := []Address{}
+	for _, address := range addresses {
+		if !utils.StringSoftEqual(streetName, address.StreetName) {
+			continue
+		}
+
+		if !utils.StringSoftEqual(city, address.City) {
+			continue
+		}
+
+		if !utils.StringSoftEqual(state, address.State) {
+			continue
+		}
+
+		if !utils.StringSoftEqual(country, address.Country) {
+			continue
+		}
+
+		if !utils.StringSoftEqual(postalCode, address.PostalCode) {
+			continue
+		}
+
+		if !utils.StringSoftEqual(string(group), string(address.Group)) {
+			continue
+		}
+
+		if !utils.StringSoftEqual(trivia, address.Trivia) {
+			continue
+		}
+
+		filteredAddresses = append(filteredAddresses, address)
+	}
+
+	return filteredAddresses
+}
+
+// filter addresses by validity
+func FilterValidAddresses(addresses []Address) []Address {
+	validAddresses := []Address{}
+	for _, address := range addresses {
+		if !address.Valid {
+			continue
+		}
+
+		validAddresses = append(validAddresses, address)
+	}
+
+	return validAddresses
 }
