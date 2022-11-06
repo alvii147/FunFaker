@@ -1,4 +1,4 @@
-package company_test
+package website_test
 
 import (
 	"encoding/json"
@@ -6,11 +6,11 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/alvii147/FunFaker/company"
 	"github.com/alvii147/FunFaker/data"
+	"github.com/alvii147/FunFaker/website"
 )
 
-func TestHandleCompany(t *testing.T) {
+func TestHandleWebsite(t *testing.T) {
 	// set up test table
 	testcases := []struct {
 		name               string
@@ -18,35 +18,35 @@ func TestHandleCompany(t *testing.T) {
 		method             string
 		expectedStatusCode int
 		expectBody         bool
-		expectedGroup      data.CompanyGroup
+		expectedGroup      data.WebsiteGroup
 	}{
 		{
-			name:               "HandleCompany returns random company",
-			url:                "/company",
+			name:               "HandleWebsite returns random website",
+			url:                "/website",
 			method:             http.MethodGet,
 			expectedStatusCode: http.StatusOK,
 			expectBody:         true,
 			expectedGroup:      "",
 		},
 		{
-			name:               "HandleCompany returns 405 on POST request",
-			url:                "/company",
+			name:               "HandleWebsite returns 405 on POST request",
+			url:                "/website",
 			method:             http.MethodPost,
 			expectedStatusCode: http.StatusMethodNotAllowed,
 			expectBody:         false,
 			expectedGroup:      "",
 		},
 		{
-			name:               "HandleCompany returns random company of Comics group",
-			url:                "/company?group=comics",
+			name:               "HandleWebsite returns random website of TV-shows group",
+			url:                "/website?group=tv-shows",
 			method:             http.MethodGet,
 			expectedStatusCode: http.StatusOK,
 			expectBody:         true,
-			expectedGroup:      data.CompanyGroupComics,
+			expectedGroup:      data.WebsiteGroupTVShows,
 		},
 		{
-			name:               "HandleCompany returns 400 on invalid URL parameters",
-			url:                "/company?invalid=parameter",
+			name:               "HandleWebsite returns 400 on invalid URL parameters",
+			url:                "/website?invalid=parameter",
 			method:             http.MethodGet,
 			expectedStatusCode: http.StatusBadRequest,
 			expectBody:         false,
@@ -61,7 +61,7 @@ func TestHandleCompany(t *testing.T) {
 			res := httptest.NewRecorder()
 
 			// send request to handler and record response
-			company.HandleCompany(res, req)
+			website.HandleWebsite(res, req)
 
 			// check status code
 			if res.Code != testcase.expectedStatusCode {
@@ -77,29 +77,29 @@ func TestHandleCompany(t *testing.T) {
 			// if body is expected to have contents
 			if testcase.expectBody {
 				// parse response body
-				var companyResponse company.CompanyResponse
-				err := json.Unmarshal(res.Body.Bytes(), &companyResponse)
+				var websiteResponse website.WebsiteResponse
+				err := json.Unmarshal(res.Body.Bytes(), &websiteResponse)
 				if err != nil {
 					t.Error("error parsing response body:", err)
 				}
 
-				// get list of companies
-				companies, err := data.GetCompanies()
+				// get list of websites
+				websites, err := data.GetWebsites()
 				if err != nil {
-					t.Error("error getting companies:", err)
+					t.Error("error getting websites:", err)
 				}
 
-				// filter list of companies by group
-				filteredCompanies := data.FilterCompanies(
-					companies,
-					companyResponse.Name,
+				// filter list of websites by group
+				filteredWebsites := data.FilterWebsites(
+					websites,
+					websiteResponse.URL,
 					testcase.expectedGroup,
-					companyResponse.Trivia,
+					websiteResponse.Trivia,
 				)
 
 				// throw error if there isn't exactly a single entry after filtering
-				if len(filteredCompanies) != 1 {
-					t.Errorf("expected 1 name match, got %d", len(filteredCompanies))
+				if len(filteredWebsites) != 1 {
+					t.Errorf("expected 1 name match, got %d", len(filteredWebsites))
 				}
 			}
 		})

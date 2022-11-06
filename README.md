@@ -68,80 +68,6 @@ This should launch the FunFaker API server on `http://localhost:8080/`.
 
 # API Reference
 
-## Name
-
-Generate first and last names of a pop-culture associated person.
-
-**URL:** `/name`
-
-**URL Parameters:**
-
-Parameter | Description | Optional | Valid Values
---- | --- | --- | ---
-`sex` | Sex of person | Yes | `male`, `female`, `other`
-`group` | Group that the person should belong to | Yes | `comics`, `movies`
-
-**Response:**
-
-```json
-{
-    "first-name": "first name of person",
-    "last-name": "last name of person",
-    "trivia": "brief description of person"
-}
-```
-
-**Example:**
-
-```bash
-curl --request GET --url "https://funfaker--api--cgvttg4279tq.code.run/name?sex=female&group=comics"
-```
-
-```json
-{
-    "first-name": "Kate",
-    "last-name": "Bishop",
-    "trivia": "Kate Bishop, also known as Hawkeye, is the third character and first female to take the Hawkeye name, appearing in American comic books published by Marvel Comics."
-}
-```
-
-## Email
-
-Generate email of a pop-culture associated person.
-
-**URL:** `/email`
-
-**URL Parameters:**
-
-Parameter | Description | Optional | Valid Values
---- | --- | --- | ---
-`sex` | Sex of person | Yes | `male`, `female`, `other`
-`group` | Group that the person should belong to | Yes | `comics`, `movies`
-`domain-name` | Domain name of email (e.g. `gmail`) | Yes | Any
-`domain-suffix` | Domain name of email (e.g. `com`) | Yes | Any
-
-**Response:**
-
-```json
-{
-    "email": "email of person",
-    "trivia": "brief description of person"
-}
-```
-
-**Example:**
-
-```bash
-curl --request GET --url "https://funfaker--api--cgvttg4279tq.code.run/email?sex=male&group=comics&domain-name=outlook&domain-suffix=org"
-```
-
-```json
-{
-    "email": "damian.wayne@outlook.org",
-    "trivia": "Damian Wayne, also known as Damian al Ghul is a superhero and the son of Batman and Talia al Ghul, appearing in comic books published by DC Comics."
-}
-```
-
 ## Address
 
 Generate a pop-culture associated address.
@@ -218,6 +144,114 @@ curl --request GET --url "https://funfaker--api--cgvttg4279tq.code.run/company?g
 {
     "name":"Cyberdyne Systems",
     "trivia":"Cyberdyne Systems is the tech corporation responsible for the development of Skynet in the Terminator movies."
+}
+```
+
+## Email
+
+Generate email of a pop-culture associated person.
+
+**URL:** `/email`
+
+**URL Parameters:**
+
+Parameter | Description | Optional | Valid Values
+--- | --- | --- | ---
+`sex` | Sex of person | Yes | `male`, `female`, `other`
+`group` | Group that the person should belong to | Yes | `comics`, `movies`
+`domain-name` | Domain name of email (e.g. `gmail`) | Yes | Any
+`domain-suffix` | Domain name of email (e.g. `com`) | Yes | Any
+
+**Response:**
+
+```json
+{
+    "email": "email of person",
+    "trivia": "brief description of person"
+}
+```
+
+**Example:**
+
+```bash
+curl --request GET --url "https://funfaker--api--cgvttg4279tq.code.run/email?sex=male&group=comics&domain-name=outlook&domain-suffix=org"
+```
+
+```json
+{
+    "email": "damian.wayne@outlook.org",
+    "trivia": "Damian Wayne, also known as Damian al Ghul is a superhero and the son of Batman and Talia al Ghul, appearing in comic books published by DC Comics."
+}
+```
+
+## Name
+
+Generate first and last names of a pop-culture associated person.
+
+**URL:** `/name`
+
+**URL Parameters:**
+
+Parameter | Description | Optional | Valid Values
+--- | --- | --- | ---
+`sex` | Sex of person | Yes | `male`, `female`, `other`
+`group` | Group that the person should belong to | Yes | `comics`, `movies`
+
+**Response:**
+
+```json
+{
+    "first-name": "first name of person",
+    "last-name": "last name of person",
+    "trivia": "brief description of person"
+}
+```
+
+**Example:**
+
+```bash
+curl --request GET --url "https://funfaker--api--cgvttg4279tq.code.run/name?sex=female&group=comics"
+```
+
+```json
+{
+    "first-name": "Kate",
+    "last-name": "Bishop",
+    "trivia": "Kate Bishop, also known as Hawkeye, is the third character and first female to take the Hawkeye name, appearing in American comic books published by Marvel Comics."
+}
+```
+
+## Website
+
+Generate a pop-culture associated website URL.
+
+**URL:** `/website`
+
+**URL Parameters:**
+
+Parameter | Description | Optional | Valid Values
+--- | --- | --- | ---
+`group` | Group that the website should belong to | Yes | `tv-shows`
+
+**Response:**
+
+```json
+{
+    "url": "url address of website",
+    "trivia": "brief description of website"
+}
+```
+
+**Example:**
+
+```bash
+curl --request GET --url "https://funfaker--api--cgvttg4279tq.code.run/website?group=tv-shows"
+```
+
+```json
+{
+    "url": "http://www.wuphf.com",
+    "trivia": "Wuphf.com is a fictional website and social tool developed by Ryan Howard, but allegedly stolen from his then girlfriend Kelly Kapoor, in TV-show The Office."
 }
 ```
 

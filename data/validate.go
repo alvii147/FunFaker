@@ -8,53 +8,6 @@ import (
 	"github.com/alvii147/FunFaker/utils"
 )
 
-// check if person1 is alphabetically lower than person2
-func IsPersonLess(person1 Person, person2 Person) bool {
-	if person1.Group != person2.Group {
-		return utils.IsStringAlphabeticallyLess(
-			string(person1.Group),
-			string(person2.Group),
-		)
-	}
-
-	if person1.FirstName != person2.FirstName {
-		return utils.IsStringAlphabeticallyLess(
-			person1.FirstName,
-			person2.FirstName,
-		)
-	}
-
-	if person1.LastName != person2.LastName {
-		return utils.IsStringAlphabeticallyLess(
-			person1.LastName,
-			person2.LastName,
-		)
-	}
-
-	if person1.Sex != person2.Sex {
-		return utils.IsStringAlphabeticallyLess(
-			string(person1.Sex),
-			string(person2.Sex),
-		)
-	}
-
-	if person1.Domain != person2.Domain {
-		return utils.IsStringAlphabeticallyLess(
-			person1.Domain,
-			person2.Domain,
-		)
-	}
-
-	if person1.Trivia != person2.Trivia {
-		return utils.IsStringAlphabeticallyLess(
-			person1.Trivia,
-			person2.Trivia,
-		)
-	}
-
-	return true
-}
-
 // check if address1 is alphabetically lower than address2
 func IsAddressLess(address1 Address, address2 Address) bool {
 	if address1.Group != address2.Group {
@@ -139,27 +92,77 @@ func IsCompanyLess(company1 Company, company2 Company) bool {
 	return true
 }
 
-// check if persons are sorted alphabetically
-func CheckPersonsSorted(unsortedPersons []Person, autoFix bool) bool {
-	sortedPersons := make([]Person, len(unsortedPersons))
-	copy(sortedPersons, unsortedPersons)
-
-	// sort persons
-	sort.Slice(sortedPersons, func(i int, j int) bool {
-		return IsPersonLess(sortedPersons[i], sortedPersons[j])
-	})
-
-	// check if sorted and unsorted slices are equal
-	sorted := reflect.DeepEqual(sortedPersons, unsortedPersons)
-
-	if !sorted && autoFix {
-		// if not sorted, apply fix
-		WritePersons(sortedPersons)
-
-		return true
+// check if person1 is alphabetically lower than person2
+func IsPersonLess(person1 Person, person2 Person) bool {
+	if person1.Group != person2.Group {
+		return utils.IsStringAlphabeticallyLess(
+			string(person1.Group),
+			string(person2.Group),
+		)
 	}
 
-	return sorted
+	if person1.FirstName != person2.FirstName {
+		return utils.IsStringAlphabeticallyLess(
+			person1.FirstName,
+			person2.FirstName,
+		)
+	}
+
+	if person1.LastName != person2.LastName {
+		return utils.IsStringAlphabeticallyLess(
+			person1.LastName,
+			person2.LastName,
+		)
+	}
+
+	if person1.Sex != person2.Sex {
+		return utils.IsStringAlphabeticallyLess(
+			string(person1.Sex),
+			string(person2.Sex),
+		)
+	}
+
+	if person1.Domain != person2.Domain {
+		return utils.IsStringAlphabeticallyLess(
+			person1.Domain,
+			person2.Domain,
+		)
+	}
+
+	if person1.Trivia != person2.Trivia {
+		return utils.IsStringAlphabeticallyLess(
+			person1.Trivia,
+			person2.Trivia,
+		)
+	}
+
+	return true
+}
+
+// check if website1 is alphabetically lower than website2
+func IsWebsiteLess(website1 Website, website2 Website) bool {
+	if website1.Group != website2.Group {
+		return utils.IsStringAlphabeticallyLess(
+			string(website1.Group),
+			string(website2.Group),
+		)
+	}
+
+	if website1.URL != website2.URL {
+		return utils.IsStringAlphabeticallyLess(
+			website1.URL,
+			website2.URL,
+		)
+	}
+
+	if website1.Trivia != website2.Trivia {
+		return utils.IsStringAlphabeticallyLess(
+			website1.Trivia,
+			website2.Trivia,
+		)
+	}
+
+	return true
 }
 
 // check if addresses are sorted alphabetically
@@ -208,44 +211,50 @@ func CheckCompaniesSorted(unsortedCompanies []Company, autoFix bool) bool {
 	return sorted
 }
 
-// validate data in persons.json
-func ValidatePersonsData(autofix bool) error {
-	persons, err := GetPersons()
-	if err != nil {
-		return err
+// check if persons are sorted alphabetically
+func CheckPersonsSorted(unsortedPersons []Person, autoFix bool) bool {
+	sortedPersons := make([]Person, len(unsortedPersons))
+	copy(sortedPersons, unsortedPersons)
+
+	// sort persons
+	sort.Slice(sortedPersons, func(i int, j int) bool {
+		return IsPersonLess(sortedPersons[i], sortedPersons[j])
+	})
+
+	// check if sorted and unsorted slices are equal
+	sorted := reflect.DeepEqual(sortedPersons, unsortedPersons)
+
+	if !sorted && autoFix {
+		// if not sorted, apply fix
+		WritePersons(sortedPersons)
+
+		return true
 	}
 
-	for _, person := range persons {
-		// check if person sex enum is valid
-		if !person.Sex.IsValid() {
-			return errors.New(
-				"invalid sex " +
-					string(person.Sex) +
-					" for person " +
-					person.FirstName +
-					" " +
-					person.LastName,
-			)
-		}
+	return sorted
+}
 
-		// check if person group enum is valid
-		if !person.Group.IsValid() {
-			return errors.New(
-				"invalid person group " +
-					string(person.Group) +
-					" for person " +
-					person.FirstName +
-					" " +
-					person.LastName,
-			)
-		}
+// check if websites are sorted alphabetically
+func CheckWebsitesSorted(unsortedWebsites []Website, autoFix bool) bool {
+	sortedWebsites := make([]Website, len(unsortedWebsites))
+	copy(sortedWebsites, unsortedWebsites)
+
+	// sort websites
+	sort.Slice(sortedWebsites, func(i int, j int) bool {
+		return IsWebsiteLess(sortedWebsites[i], sortedWebsites[j])
+	})
+
+	// check if sorted and unsorted slices are equal
+	sorted := reflect.DeepEqual(sortedWebsites, unsortedWebsites)
+
+	if !sorted && autoFix {
+		// if not sorted, apply fix
+		WriteWebsites(sortedWebsites)
+
+		return true
 	}
 
-	if !CheckPersonsSorted(persons, autofix) {
-		return errors.New("persons not sorted properly")
-	}
-
-	return nil
+	return sorted
 }
 
 // validate data in addresses.json
@@ -259,7 +268,7 @@ func ValidateAddressesData(autofix bool) error {
 		// check if address group enum is valid
 		if !address.Group.IsValid() {
 			return errors.New(
-				"invalid person group " +
+				"invalid group " +
 					string(address.Group) +
 					" for address " +
 					address.StreetName +
@@ -293,7 +302,7 @@ func ValidateCompaniesData(autofix bool) error {
 		// check if company group enum is valid
 		if !company.Group.IsValid() {
 			return errors.New(
-				"invalid person group " +
+				"invalid group " +
 					string(company.Group) +
 					" for name " +
 					company.Name,
@@ -308,19 +317,90 @@ func ValidateCompaniesData(autofix bool) error {
 	return nil
 }
 
-// validate all data files
-func Validate(autofix bool) error {
-	err := ValidatePersonsData(autofix)
+// validate data in persons.json
+func ValidatePersonsData(autofix bool) error {
+	persons, err := GetPersons()
 	if err != nil {
 		return err
 	}
 
-	err = ValidateAddressesData(autofix)
+	for _, person := range persons {
+		// check if person sex enum is valid
+		if !person.Sex.IsValid() {
+			return errors.New(
+				"invalid sex " +
+					string(person.Sex) +
+					" for person " +
+					person.FirstName +
+					" " +
+					person.LastName,
+			)
+		}
+
+		// check if person group enum is valid
+		if !person.Group.IsValid() {
+			return errors.New(
+				"invalid group " +
+					string(person.Group) +
+					" for person " +
+					person.FirstName +
+					" " +
+					person.LastName,
+			)
+		}
+	}
+
+	if !CheckPersonsSorted(persons, autofix) {
+		return errors.New("persons not sorted properly")
+	}
+
+	return nil
+}
+
+// validate data in websites.json
+func ValidateWebsitesData(autofix bool) error {
+	websites, err := GetWebsites()
+	if err != nil {
+		return err
+	}
+
+	for _, website := range websites {
+		// check if website group enum is valid
+		if !website.Group.IsValid() {
+			return errors.New(
+				"invalid group " +
+					string(website.Group) +
+					" for url " +
+					website.URL,
+			)
+		}
+	}
+
+	if !CheckWebsitesSorted(websites, autofix) {
+		return errors.New("websites not sorted properly")
+	}
+
+	return nil
+}
+
+// validate all data files
+func Validate(autofix bool) error {
+	err := ValidateAddressesData(autofix)
 	if err != nil {
 		return err
 	}
 
 	err = ValidateCompaniesData(autofix)
+	if err != nil {
+		return err
+	}
+
+	err = ValidatePersonsData(autofix)
+	if err != nil {
+		return err
+	}
+
+	err = ValidateWebsitesData(autofix)
 	if err != nil {
 		return err
 	}

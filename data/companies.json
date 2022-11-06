@@ -70,9 +70,24 @@
         "trivia": "Dunder Mifflin Paper Company, Inc. is a paper company in Scranton, Pennsylvania in the TV-show The Office."
     },
     {
+        "name": "Goliath National Bank",
+        "group": "TV-Shows",
+        "trivia": "Goliath National Bank, the world leader in credit and banking, is the bank where Barney Stinson works in TV-show How I Met Your Mother."
+    },
+    {
+        "name": "Gray Matter Technologies",
+        "group": "TV-Shows",
+        "trivia": "Gray Matter Technologies is a multi-billion dollar company co-founded by Walter White with his friend and fellow Caltech alumnus Elliott Schwartz in the TV-show Breaking Bad"
+    },
+    {
         "name": "Los Pollos Hermanos",
         "group": "TV-Shows",
         "trivia": "Los Pollos Hermanos is a fast-food restaurant chain owned by Gustavo Fring that specializes in fried chicken and provides money-laundering and logistics for illegal activities in TV-show Breaking Bad and its spin-off Better Call Saul."
+    },
+    {
+        "name": "Madrigal Electromotive",
+        "group": "TV-Shows",
+        "trivia": "Madrigal Electromotive is an enormous, multifaceted conglomerate headquartered in Hanover, Germany, in the TV-shows Breaking Bad and Better Call Saul."
     },
     {
         "name": "Michael Scott Paper Company",
