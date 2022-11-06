@@ -15,6 +15,11 @@
         "trivia": "The Daily Planet is a daily newspaper of Metropolis in the DC universe."
     },
     {
+        "name": "Gotham Gazette",
+        "group": "Comics",
+        "trivia": "The Gotham Gazette is a metropolitan newspaper based out of Gotham City in the DC universe."
+    },
+    {
         "name": "LexCorp",
         "group": "Comics",
         "trivia": "LexCorp is a conglomerate owned and run by Lex Luthor in the DC universe."
