@@ -2,8 +2,11 @@ package data
 
 import (
 	"errors"
+	"net/url"
 	"reflect"
 	"sort"
+	"strconv"
+	"time"
 
 	"github.com/alvii147/FunFaker/utils"
 )
@@ -86,6 +89,37 @@ func IsCompanyLess(company1 Company, company2 Company) bool {
 		return utils.IsStringAlphabeticallyLess(
 			company1.Trivia,
 			company2.Trivia,
+		)
+	}
+
+	return true
+}
+
+// check if date1 is alphabetically lower than date2
+func IsDateLess(date1 Date, date2 Date) bool {
+	if date1.Group != date2.Group {
+		return utils.IsStringAlphabeticallyLess(
+			string(date1.Group),
+			string(date2.Group),
+		)
+	}
+
+	if date1.Year != date2.Year {
+		return date1.Year < date2.Year
+	}
+
+	if date1.Month != date2.Month {
+		return date1.Month < date2.Month
+	}
+
+	if date1.Day != date2.Day {
+		return date1.Day < date2.Day
+	}
+
+	if date1.Trivia != date2.Trivia {
+		return utils.IsStringAlphabeticallyLess(
+			date1.Trivia,
+			date2.Trivia,
 		)
 	}
 
@@ -211,6 +245,29 @@ func CheckCompaniesSorted(unsortedCompanies []Company, autoFix bool) bool {
 	return sorted
 }
 
+// check if dates are sorted alphabetically
+func CheckDatesSorted(unsortedDates []Date, autoFix bool) bool {
+	sortedDates := make([]Date, len(unsortedDates))
+	copy(sortedDates, unsortedDates)
+
+	// sort dates
+	sort.Slice(sortedDates, func(i int, j int) bool {
+		return IsDateLess(sortedDates[i], sortedDates[j])
+	})
+
+	// check if sorted and unsorted slices are equal
+	sorted := reflect.DeepEqual(sortedDates, unsortedDates)
+
+	if !sorted && autoFix {
+		// if not sorted, apply fix
+		WriteDates(sortedDates)
+
+		return true
+	}
+
+	return sorted
+}
+
 // check if persons are sorted alphabetically
 func CheckPersonsSorted(unsortedPersons []Person, autoFix bool) bool {
 	sortedPersons := make([]Person, len(unsortedPersons))
@@ -304,7 +361,7 @@ func ValidateCompaniesData(autofix bool) error {
 			return errors.New(
 				"invalid group " +
 					string(company.Group) +
-					" for name " +
+					" for company " +
 					company.Name,
 			)
 		}
@@ -312,6 +369,56 @@ func ValidateCompaniesData(autofix bool) error {
 
 	if !CheckCompaniesSorted(companies, autofix) {
 		return errors.New("companies not sorted properly")
+	}
+
+	return nil
+}
+
+// validate data in dates.json
+func ValidateDatesData(autofix bool) error {
+	dates, err := GetDates()
+	if err != nil {
+		return err
+	}
+
+	for _, date := range dates {
+		dateString := strconv.Itoa(date.Year) +
+			"-" +
+			strconv.Itoa(date.Month) +
+			"-" +
+			strconv.Itoa(date.Day)
+
+		// check if year is not older than 1970
+		if date.Year < 1970 {
+			return errors.New(
+				"invalid year " +
+					strconv.Itoa(date.Year) +
+					" for date " +
+					dateString +
+					", " +
+					"year must not be older than 1970",
+			)
+		}
+
+		// check if date is valid
+		_, err := time.Parse("2006-1-2", dateString)
+		if err != nil {
+			return err
+		}
+
+		// check if date group enum is valid
+		if !date.Group.IsValid() {
+			return errors.New(
+				"invalid group " +
+					string(date.Group) +
+					" for date " +
+					dateString,
+			)
+		}
+	}
+
+	if !CheckDatesSorted(dates, autofix) {
+		return errors.New("dates not sorted properly")
 	}
 
 	return nil
@@ -365,12 +472,18 @@ func ValidateWebsitesData(autofix bool) error {
 	}
 
 	for _, website := range websites {
+		// check if url is valid
+		_, err := url.ParseRequestURI(website.URL)
+		if err != nil {
+			return err
+		}
+
 		// check if website group enum is valid
 		if !website.Group.IsValid() {
 			return errors.New(
 				"invalid group " +
 					string(website.Group) +
-					" for url " +
+					" for website " +
 					website.URL,
 			)
 		}
@@ -391,6 +504,11 @@ func Validate(autofix bool) error {
 	}
 
 	err = ValidateCompaniesData(autofix)
+	if err != nil {
+		return err
+	}
+
+	err = ValidateDatesData(autofix)
 	if err != nil {
 		return err
 	}

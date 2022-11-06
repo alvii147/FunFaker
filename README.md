@@ -147,6 +147,46 @@ curl --request GET --url "https://funfaker--api--cgvttg4279tq.code.run/company?g
 }
 ```
 
+## Date
+
+Generate a pop-culture associated date.
+
+**URL:** `/date`
+
+**URL Parameters:**
+
+Parameter | Description | Optional | Valid Values
+--- | --- | --- | ---
+`after` | Only generate dates after this date | Yes | Any date in `YYYY-MM-DD` format
+`before` | Only generate dates before this date | Yes | Any date in `YYYY-MM-DD` format
+`group` | Group that the company should belong to | Yes | `cartoons`, `comics`, `movies`, `tv-shows`
+
+**Response:**
+
+```json
+{
+    "day": "day of date",
+    "month": "month of date",
+    "year": "year of date",
+    "trivia": "brief description of the event that occured on the date"
+}
+```
+
+**Example:**
+
+```bash
+curl --request GET --url "https://funfaker--api--cgvttg4279tq.code.run/date?after=1995-09-23&group=movies"
+```
+
+```json
+{
+    "day": 29,
+    "month": 29,
+    "year": 1997,
+    "trivia": "Skynet becomes self-aware in movie Terminator 2 - Judgement Day."
+}
+```
+
 ## Email
 
 Generate email of a pop-culture associated person.

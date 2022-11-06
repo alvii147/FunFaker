@@ -21,6 +21,7 @@ type AddressResponse struct {
 	Trivia     string `json:"trivia"`
 }
 
+// update address response using address
 func (addressResponse *AddressResponse) FromAddress(address data.Address) {
 	addressResponse.StreetName = address.StreetName
 	addressResponse.City = address.City

@@ -1,16 +1,17 @@
-package website_test
+package date_test
 
 import (
 	"encoding/json"
 	"net/http"
 	"net/http/httptest"
 	"testing"
+	"time"
 
 	"github.com/alvii147/FunFaker/data"
-	"github.com/alvii147/FunFaker/website"
+	"github.com/alvii147/FunFaker/date"
 )
 
-func TestHandleWebsite(t *testing.T) {
+func TestHandleDate(t *testing.T) {
 	// set up test table
 	testcases := []struct {
 		name               string
@@ -18,38 +19,50 @@ func TestHandleWebsite(t *testing.T) {
 		method             string
 		expectedStatusCode int
 		expectBody         bool
-		expectedGroup      data.WebsiteGroup
+		expectedDateAfter  time.Time
+		expectedDateBefore time.Time
+		expectedGroup      data.DateGroup
 	}{
 		{
-			name:               "HandleWebsite returns random website",
-			url:                "/website",
+			name:               "HandleDate returns random date",
+			url:                "/date",
 			method:             http.MethodGet,
 			expectedStatusCode: http.StatusOK,
 			expectBody:         true,
 			expectedGroup:      "",
 		},
 		{
-			name:               "HandleWebsite returns 405 on POST request",
-			url:                "/website",
+			name:               "HandleDate returns 405 on POST request",
+			url:                "/date",
 			method:             http.MethodPost,
 			expectedStatusCode: http.StatusMethodNotAllowed,
 			expectBody:         false,
 			expectedGroup:      "",
 		},
 		{
-			name:               "HandleWebsite returns random website of TV-shows group",
-			url:                "/website?group=tv-shows",
+			name:               "HandleDate returns random date of Movies group",
+			url:                "/date?group=movies",
 			method:             http.MethodGet,
 			expectedStatusCode: http.StatusOK,
 			expectBody:         true,
-			expectedGroup:      data.WebsiteGroupTVShows,
+			expectedGroup:      data.DateGroupMovies,
 		},
 		{
-			name:               "HandleWebsite returns 400 on invalid URL parameters",
-			url:                "/website?invalid=parameter",
+			name:               "HandleDate returns random date after 1985-01-01",
+			url:                "/date?after=1985-01-01",
 			method:             http.MethodGet,
-			expectedStatusCode: http.StatusBadRequest,
-			expectBody:         false,
+			expectedStatusCode: http.StatusOK,
+			expectBody:         true,
+			expectedDateAfter:  time.Date(1985, 1, 1, 0, 0, 0, 0, time.UTC),
+			expectedGroup:      "",
+		},
+		{
+			name:               "HandleDate returns random date after 1995-01-01",
+			url:                "/date?before=1995-01-01",
+			method:             http.MethodGet,
+			expectedStatusCode: http.StatusOK,
+			expectBody:         true,
+			expectedDateBefore: time.Date(1995, 1, 1, 0, 0, 0, 0, time.UTC),
 			expectedGroup:      "",
 		},
 	}
@@ -61,7 +74,7 @@ func TestHandleWebsite(t *testing.T) {
 			res := httptest.NewRecorder()
 
 			// send request to handler and record response
-			website.HandleWebsite(res, req)
+			date.HandleDate(res, req)
 
 			// check status code
 			if res.Code != testcase.expectedStatusCode {
@@ -77,29 +90,30 @@ func TestHandleWebsite(t *testing.T) {
 			// if body is expected to have contents
 			if testcase.expectBody {
 				// parse response body
-				var websiteResponse website.WebsiteResponse
-				err := json.Unmarshal(res.Body.Bytes(), &websiteResponse)
+				var dateResponse date.DateResponse
+				err := json.Unmarshal(res.Body.Bytes(), &dateResponse)
 				if err != nil {
 					t.Error("error parsing response body:", err)
 				}
 
-				// get list of websites
-				websites, err := data.GetWebsites()
+				// get list of dates
+				dates, err := data.GetDates()
 				if err != nil {
-					t.Error("error getting websites:", err)
+					t.Error("error getting dates:", err)
 				}
 
-				// filter list of websites by group
-				filteredWebsites := data.FilterWebsites(
-					websites,
-					websiteResponse.URL,
+				// filter list of dates by group
+				filteredDates := data.FilterDates(
+					dates,
+					testcase.expectedDateAfter,
+					testcase.expectedDateBefore,
 					testcase.expectedGroup,
-					websiteResponse.Trivia,
+					dateResponse.Trivia,
 				)
 
 				// throw error if there isn't exactly a single entry after filtering
-				if len(filteredWebsites) != 1 {
-					t.Errorf("expected 1 website match, got %d", len(filteredWebsites))
+				if len(filteredDates) != 1 {
+					t.Errorf("expected 1 date match, got %d", len(filteredDates))
 				}
 			}
 		})

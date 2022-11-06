@@ -15,6 +15,7 @@ type WebsiteResponse struct {
 	Trivia string `json:"trivia"`
 }
 
+// update website response using website
 func (websiteResponse *WebsiteResponse) FromWebsite(website data.Website) {
 	websiteResponse.URL = website.URL
 	websiteResponse.Trivia = website.Trivia

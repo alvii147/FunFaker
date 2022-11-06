@@ -15,6 +15,7 @@ type CompanyResponse struct {
 	Trivia string `json:"trivia"`
 }
 
+// update company response using company
 func (companyResponse *CompanyResponse) FromCompany(company data.Company) {
 	companyResponse.Name = company.Name
 	companyResponse.Trivia = company.Trivia

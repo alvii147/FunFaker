@@ -121,7 +121,7 @@ func TestHandleAddress(t *testing.T) {
 
 				// throw error if there isn't exactly a single entry after filtering
 				if len(filteredAddresses) != 1 {
-					t.Errorf("expected 1 name match, got %d", len(filteredAddresses))
+					t.Errorf("expected 1 address match, got %d", len(filteredAddresses))
 				}
 			}
 		})

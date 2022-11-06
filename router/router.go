@@ -5,6 +5,7 @@ import (
 
 	"github.com/alvii147/FunFaker/address"
 	"github.com/alvii147/FunFaker/company"
+	"github.com/alvii147/FunFaker/date"
 	"github.com/alvii147/FunFaker/person"
 	"github.com/alvii147/FunFaker/utils"
 	"github.com/alvii147/FunFaker/website"
@@ -13,6 +14,7 @@ import (
 const (
 	ADDRESS_URL   = "/address"
 	COMPANY_URL   = "/company"
+	DATE_URL      = "/date"
 	EMAIL_URL     = "/email"
 	NAME_URL      = "/name"
 	WEBSITE_URL   = "/website"
@@ -25,6 +27,8 @@ func Routing() {
 	http.HandleFunc(ADDRESS_URL, address.HandleAddress)
 	// GET /company
 	http.HandleFunc(COMPANY_URL, company.HandleCompany)
+	// GET /date
+	http.HandleFunc(DATE_URL, date.HandleDate)
 	// GET /email
 	http.HandleFunc(EMAIL_URL, person.HandleEmail)
 	// GET /name

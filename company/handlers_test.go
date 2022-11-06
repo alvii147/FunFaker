@@ -99,7 +99,7 @@ func TestHandleCompany(t *testing.T) {
 
 				// throw error if there isn't exactly a single entry after filtering
 				if len(filteredCompanies) != 1 {
-					t.Errorf("expected 1 name match, got %d", len(filteredCompanies))
+					t.Errorf("expected 1 company match, got %d", len(filteredCompanies))
 				}
 			}
 		})
