@@ -41,79 +41,106 @@ func ParseEmail(email string) (string, string, string, error) {
 	return username, domainName, domainSuffix, nil
 }
 
-func TestHandleName(t *testing.T) {
+func TestHandlePerson(t *testing.T) {
 	// set up test table
 	testcases := []struct {
-		name               string
-		url                string
-		method             string
-		expectedStatusCode int
-		expectBody         bool
-		expectedSex        data.Sex
-		expectedGroup      data.PersonGroup
+		name                      string
+		url                       string
+		method                    string
+		expectedStatusCode        int
+		expectBody                bool
+		expectedSex               data.Sex
+		expectedGroup             data.PersonGroup
+		expectedEmailDomainName   string
+		expectedEmailDomainSuffix string
 	}{
 		{
-			name:               "HandleName returns random name",
-			url:                "/name",
-			method:             http.MethodGet,
-			expectedStatusCode: http.StatusOK,
-			expectBody:         true,
-			expectedSex:        "",
-			expectedGroup:      "",
+			name:                      "HandlePerson returns random person",
+			url:                       "/person",
+			method:                    http.MethodGet,
+			expectedStatusCode:        http.StatusOK,
+			expectBody:                true,
+			expectedSex:               "",
+			expectedGroup:             "",
+			expectedEmailDomainName:   "",
+			expectedEmailDomainSuffix: "",
 		},
 		{
-			name:               "HandleName returns 405 on POST request",
-			url:                "/name",
-			method:             http.MethodPost,
-			expectedStatusCode: http.StatusMethodNotAllowed,
-			expectBody:         false,
-			expectedSex:        "",
-			expectedGroup:      "",
+			name:                      "HandlePerson returns 405 on POST request",
+			url:                       "/person",
+			method:                    http.MethodPost,
+			expectedStatusCode:        http.StatusMethodNotAllowed,
+			expectBody:                false,
+			expectedSex:               "",
+			expectedGroup:             "",
+			expectedEmailDomainName:   "",
+			expectedEmailDomainSuffix: "",
 		},
 		{
-			name:               "HandleName returns random Male name",
-			url:                "/name?sex=male",
-			method:             http.MethodGet,
-			expectedStatusCode: http.StatusOK,
-			expectBody:         true,
-			expectedSex:        data.SexMale,
-			expectedGroup:      "",
+			name:                      "HandlePerson returns random Male person",
+			url:                       "/person?sex=male",
+			method:                    http.MethodGet,
+			expectedStatusCode:        http.StatusOK,
+			expectBody:                true,
+			expectedSex:               data.SexMale,
+			expectedGroup:             "",
+			expectedEmailDomainName:   "",
+			expectedEmailDomainSuffix: "",
 		},
 		{
-			name:               "HandleName returns random Female name",
-			url:                "/name?sex=female",
-			method:             http.MethodGet,
-			expectedStatusCode: http.StatusOK,
-			expectBody:         true,
-			expectedSex:        data.SexFemale,
-			expectedGroup:      "",
+			name:                      "HandlePerson returns random Female person",
+			url:                       "/person?sex=female",
+			method:                    http.MethodGet,
+			expectedStatusCode:        http.StatusOK,
+			expectBody:                true,
+			expectedSex:               data.SexFemale,
+			expectedGroup:             "",
+			expectedEmailDomainName:   "",
+			expectedEmailDomainSuffix: "",
 		},
 		{
-			name:               "HandleName returns random name of Comics group",
-			url:                "/name?group=comics",
-			method:             http.MethodGet,
-			expectedStatusCode: http.StatusOK,
-			expectBody:         true,
-			expectedSex:        "",
-			expectedGroup:      data.PersonGroupComics,
+			name:                      "HandlePerson returns random person of Comics group",
+			url:                       "/person?group=comics",
+			method:                    http.MethodGet,
+			expectedStatusCode:        http.StatusOK,
+			expectBody:                true,
+			expectedSex:               "",
+			expectedGroup:             data.PersonGroupComics,
+			expectedEmailDomainName:   "",
+			expectedEmailDomainSuffix: "",
 		},
 		{
-			name:               "HandleName returns random Male name of Comics group",
-			url:                "/name?sex=male&group=comics",
-			method:             http.MethodGet,
-			expectedStatusCode: http.StatusOK,
-			expectBody:         true,
-			expectedSex:        data.SexMale,
-			expectedGroup:      data.PersonGroupComics,
+			name:                      "HandlePerson returns random Male person of Comics group",
+			url:                       "/person?sex=male&group=comics",
+			method:                    http.MethodGet,
+			expectedStatusCode:        http.StatusOK,
+			expectBody:                true,
+			expectedSex:               data.SexMale,
+			expectedGroup:             data.PersonGroupComics,
+			expectedEmailDomainName:   "",
+			expectedEmailDomainSuffix: "",
 		},
 		{
-			name:               "HandleName returns 400 on invalid URL parameters",
-			url:                "/name?invalid=parameter",
-			method:             http.MethodGet,
-			expectedStatusCode: http.StatusBadRequest,
-			expectBody:         false,
-			expectedSex:        "",
-			expectedGroup:      "",
+			name:                      "HandlePerson returns random email of gmail domain name and org domain suffix",
+			url:                       "/person?domain-name=gmail&domain-suffix=org",
+			method:                    http.MethodGet,
+			expectedStatusCode:        http.StatusOK,
+			expectBody:                true,
+			expectedSex:               "",
+			expectedGroup:             "",
+			expectedEmailDomainName:   "gmail",
+			expectedEmailDomainSuffix: "org",
+		},
+		{
+			name:                      "HandlePerson returns 400 on invalid URL parameters",
+			url:                       "/person?invalid=parameter",
+			method:                    http.MethodGet,
+			expectedStatusCode:        http.StatusBadRequest,
+			expectBody:                false,
+			expectedSex:               "",
+			expectedGroup:             "",
+			expectedEmailDomainName:   "",
+			expectedEmailDomainSuffix: "",
 		},
 	}
 
@@ -124,7 +151,7 @@ func TestHandleName(t *testing.T) {
 			res := httptest.NewRecorder()
 
 			// send request to handler and record response
-			person.HandleName(res, req)
+			person.HandlePerson(res, req)
 
 			// check status code
 			if res.Code != testcase.expectedStatusCode {
@@ -140,8 +167,8 @@ func TestHandleName(t *testing.T) {
 			// if body is expected to have contents
 			if testcase.expectBody {
 				// parse response body
-				var nameResponse person.NameResponse
-				err := json.Unmarshal(res.Body.Bytes(), &nameResponse)
+				var personResponse person.PersonResponse
+				err := json.Unmarshal(res.Body.Bytes(), &personResponse)
 				if err != nil {
 					t.Error("error parsing response body:", err)
 				}
@@ -155,123 +182,32 @@ func TestHandleName(t *testing.T) {
 				// filter list of persons to get the returned entry
 				filteredPersons := data.FilterPersons(
 					persons,
-					nameResponse.FirstName,
-					nameResponse.LastName,
+					personResponse.FirstName,
+					personResponse.LastName,
 					testcase.expectedSex,
 					testcase.expectedGroup,
 					"",
-					nameResponse.Trivia,
+					personResponse.Trivia,
 				)
 
 				// throw error if there isn't exactly a single entry after filtering
 				if len(filteredPersons) != 1 {
 					t.Errorf("expected 1 name match, got %d", len(filteredPersons))
 				}
-			}
-		})
-	}
-}
-
-func TestHandleEmail(t *testing.T) {
-	// set up test table
-	testcases := []struct {
-		name                    string
-		url                     string
-		method                  string
-		expectedStatusCode      int
-		expectBody              bool
-		expectEmailDomainName   string
-		expectEmailDomainSuffix string
-	}{
-		{
-			name:                    "HandleEmail returns random email",
-			url:                     "/email",
-			method:                  http.MethodGet,
-			expectedStatusCode:      http.StatusOK,
-			expectBody:              true,
-			expectEmailDomainName:   "",
-			expectEmailDomainSuffix: "",
-		},
-		{
-			name:                    "HandleEmail returns 405 on POST request",
-			url:                     "/email",
-			method:                  http.MethodPost,
-			expectedStatusCode:      http.StatusMethodNotAllowed,
-			expectBody:              false,
-			expectEmailDomainName:   "",
-			expectEmailDomainSuffix: "",
-		},
-		{
-			name:                    "HandleEmail returns random Female email of Comics group",
-			url:                     "/email?sex=female&group=comics",
-			method:                  http.MethodGet,
-			expectedStatusCode:      http.StatusOK,
-			expectBody:              true,
-			expectEmailDomainName:   "",
-			expectEmailDomainSuffix: "",
-		},
-		{
-			name:                    "HandleEmail returns random email of Gmail domain name and org domain suffix",
-			url:                     "/email?domain-name=gmail&domain-suffix=org",
-			method:                  http.MethodGet,
-			expectedStatusCode:      http.StatusOK,
-			expectBody:              true,
-			expectEmailDomainName:   "gmail",
-			expectEmailDomainSuffix: "org",
-		},
-		{
-			name:                    "HandleEmail returns 400 on GET request with invalid URL parameters",
-			url:                     "/email?invalid=parameter",
-			method:                  http.MethodGet,
-			expectedStatusCode:      http.StatusBadRequest,
-			expectBody:              false,
-			expectEmailDomainName:   "",
-			expectEmailDomainSuffix: "",
-		},
-	}
-
-	for _, testcase := range testcases {
-		t.Run(testcase.name, func(t *testing.T) {
-			// create request and response objects
-			req := httptest.NewRequest(testcase.method, testcase.url, nil)
-			res := httptest.NewRecorder()
-
-			// send request to handler and record response
-			person.HandleEmail(res, req)
-
-			// check status code
-			if res.Code != testcase.expectedStatusCode {
-				t.Errorf("expected status code %d, got %d", testcase.expectedStatusCode, res.Code)
-			}
-
-			// check for CORS header
-			corsHeader := res.Header().Get("Access-Control-Allow-Origin")
-			if corsHeader != "*" {
-				t.Errorf("expected CORS header to be set to \"*\", got %s", corsHeader)
-			}
-
-			// if body is expected to have contents
-			if testcase.expectBody {
-				// parse response body
-				var emailResponse person.EmailResponse
-				err := json.Unmarshal(res.Body.Bytes(), &emailResponse)
-				if err != nil {
-					t.Error("error parsing request body:", err)
-				}
 
 				// parse email into username, domain name, and domain suffix
-				_, domainName, domainSuffix, err := ParseEmail(emailResponse.Email)
+				_, domainName, domainSuffix, err := ParseEmail(personResponse.Email)
 				if err != nil {
 					t.Error("error parsing email:", err)
 				}
 
 				// check if domain name is correct
-				if !utils.StringSoftEqual(testcase.expectEmailDomainName, domainName) {
-					t.Errorf("expected domain name %s, got %s", testcase.expectEmailDomainName, domainName)
+				if !utils.StringSoftEqual(testcase.expectedEmailDomainName, domainName) {
+					t.Errorf("expected domain name %s, got %s", testcase.expectedEmailDomainName, domainName)
 				}
 				// check if domain suffix is correct
-				if !utils.StringSoftEqual(testcase.expectEmailDomainSuffix, domainSuffix) {
-					t.Errorf("expected domain suffix %s, got %s", testcase.expectEmailDomainSuffix, domainSuffix)
+				if !utils.StringSoftEqual(testcase.expectedEmailDomainSuffix, domainSuffix) {
+					t.Errorf("expected domain suffix %s, got %s", testcase.expectedEmailDomainSuffix, domainSuffix)
 				}
 			}
 		})

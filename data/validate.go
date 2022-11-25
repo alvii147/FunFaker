@@ -2,6 +2,7 @@ package data
 
 import (
 	"errors"
+	"net/mail"
 	"net/url"
 	"reflect"
 	"sort"
@@ -453,6 +454,21 @@ func ValidatePersonsData(autofix bool) error {
 					person.FirstName +
 					" " +
 					person.LastName,
+			)
+		}
+
+		email := GenerateEmail(person.FirstName, person.LastName, person.Domain, EMAIL_DEFAULT_DOMAIN_SUFFIX)
+		_, err := mail.ParseAddress(email)
+		if err != nil {
+			return errors.New(
+				"invalid email " +
+					email +
+					" generated for person " +
+					person.FirstName +
+					" " +
+					person.LastName +
+					", " +
+					err.Error(),
 			)
 		}
 	}

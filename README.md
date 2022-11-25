@@ -17,16 +17,17 @@
 Try out the demo API at `https://funfaker--api--cgvttg4279tq.code.run`:
 
 ```bash
-curl --request GET --url "https://funfaker--api--cgvttg4279tq.code.run/name"
+curl --request GET --url "https://funfaker--api--cgvttg4279tq.code.run/person"
 ```
 
 Response:
 
 ```json
 {
-    "first-name": "Frank",
-    "last-name": "Castle",
-    "trivia": "Francis Castle, also known as The Punisher, is an antihero appearing in American comic books published by Marvel Comics."
+    "first-name": "Michael",
+    "last-name": "Scott",
+    "email": "michael.scott@dunder-mifflin.com",
+    "trivia": "Michael Gary Scott is the regional manager of the Scranton, Pennsylvania branch of paper company, Dunder Mifflin and the central character of the sitcom The Office."
 }
 ```
 
@@ -159,7 +160,7 @@ Parameter | Description | Optional | Valid Values
 --- | --- | --- | ---
 `after` | Only generate dates after this date | Yes | Any date in `YYYY-MM-DD` format
 `before` | Only generate dates before this date | Yes | Any date in `YYYY-MM-DD` format
-`group` | Group that the company should belong to | Yes | `cartoons`, `comics`, `movies`, `tv-shows`
+`group` | Group that the company should belong to | Yes | `games`, `movies`, `tv-shows`
 
 **Response:**
 
@@ -187,25 +188,27 @@ curl --request GET --url "https://funfaker--api--cgvttg4279tq.code.run/date?afte
 }
 ```
 
-## Email
+## Person
 
-Generate email of a pop-culture associated person.
+Generate a pop-culture associated person.
 
-**URL:** `/email`
+**URL:** `/person`
 
 **URL Parameters:**
 
 Parameter | Description | Optional | Valid Values
 --- | --- | --- | ---
 `sex` | Sex of person | Yes | `male`, `female`, `other`
-`group` | Group that the person should belong to | Yes | `comics`, `movies`
-`domain-name` | Domain name of email (e.g. `gmail`) | Yes | Any
-`domain-suffix` | Domain name of email (e.g. `com`) | Yes | Any
+`group` | Group that the person should belong to | Yes | `comics`, `movies`, `tv-shows`
+`domain-name` | Domain name of person's email (e.g. `gmail`) | Yes | Any
+`domain-suffix` | Domain name of person's email (e.g. `com`) | Yes | Any
 
 **Response:**
 
 ```json
 {
+    "first-name": "first name of person",
+    "last-name": "last name of person",
     "email": "email of person",
     "trivia": "brief description of person"
 }
@@ -214,50 +217,15 @@ Parameter | Description | Optional | Valid Values
 **Example:**
 
 ```bash
-curl --request GET --url "https://funfaker--api--cgvttg4279tq.code.run/email?sex=male&group=comics&domain-name=outlook&domain-suffix=org"
+curl --request GET --url "https://funfaker--api--cgvttg4279tq.code.run/person?sex=female&group=tv-shows&domain-name=outlook&domain-suffix=org"
 ```
 
 ```json
 {
-    "email": "damian.wayne@outlook.org",
-    "trivia": "Damian Wayne, also known as Damian al Ghul is a superhero and the son of Batman and Talia al Ghul, appearing in comic books published by DC Comics."
-}
-```
-
-## Name
-
-Generate first and last names of a pop-culture associated person.
-
-**URL:** `/name`
-
-**URL Parameters:**
-
-Parameter | Description | Optional | Valid Values
---- | --- | --- | ---
-`sex` | Sex of person | Yes | `male`, `female`, `other`
-`group` | Group that the person should belong to | Yes | `comics`, `movies`
-
-**Response:**
-
-```json
-{
-    "first-name": "first name of person",
-    "last-name": "last name of person",
-    "trivia": "brief description of person"
-}
-```
-
-**Example:**
-
-```bash
-curl --request GET --url "https://funfaker--api--cgvttg4279tq.code.run/name?sex=female&group=comics"
-```
-
-```json
-{
-    "first-name": "Kate",
-    "last-name": "Bishop",
-    "trivia": "Kate Bishop, also known as Hawkeye, is the third character and first female to take the Hawkeye name, appearing in American comic books published by Marvel Comics."
+    "first-name": "Margaery",
+    "last-name": "Tyrell",
+    "email": "margaery.tyrell@outlook.org",
+    "trivia": "Margaery Tyrell is the only daughter of Lord Mace Tyrell and his wife, Lady Alerie Hightower, appearing in TV-show Game of Thrones."
 }
 ```
 

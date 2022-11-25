@@ -7,12 +7,14 @@ import (
 	"path"
 	"path/filepath"
 	"runtime"
+	"strings"
 
 	"github.com/alvii147/FunFaker/utils"
 )
 
 // path to persons.json file
 const PERSONS_FILE_NAME = "persons.json"
+const EMAIL_DEFAULT_DOMAIN_SUFFIX = "com"
 
 // enum representing person sex
 type Sex string
@@ -54,6 +56,17 @@ type Person struct {
 	Group     PersonGroup `json:"group"`
 	Domain    string      `json:"domain"`
 	Trivia    string      `json:"trivia"`
+}
+
+// generate email given first and last names, and domain name and suffix
+func GenerateEmail(firstName string, lastName string, domainName string, domainSuffix string) string {
+	return strings.ToLower(firstName) +
+		"." +
+		strings.ToLower(lastName) +
+		"@" +
+		domainName +
+		"." +
+		domainSuffix
 }
 
 // read persons from persons.json

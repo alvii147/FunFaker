@@ -15,8 +15,7 @@ const (
 	ADDRESS_URL   = "/address"
 	COMPANY_URL   = "/company"
 	DATE_URL      = "/date"
-	EMAIL_URL     = "/email"
-	NAME_URL      = "/name"
+	PERSON_URL    = "/person"
 	WEBSITE_URL   = "/website"
 	CATCH_ALL_URL = "/"
 )
@@ -29,10 +28,8 @@ func Routing() {
 	http.HandleFunc(COMPANY_URL, company.HandleCompany)
 	// GET /date
 	http.HandleFunc(DATE_URL, date.HandleDate)
-	// GET /email
-	http.HandleFunc(EMAIL_URL, person.HandleEmail)
-	// GET /name
-	http.HandleFunc(NAME_URL, person.HandleName)
+	// GET /person
+	http.HandleFunc(PERSON_URL, person.HandlePerson)
 	// GET /website
 	http.HandleFunc(WEBSITE_URL, website.HandleWebsite)
 	// invalid URL
