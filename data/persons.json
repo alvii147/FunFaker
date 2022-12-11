@@ -1240,6 +1240,14 @@
         "trivia": "Queen Cersei I Lannister is the daughter of Lord Tywin Lannister and the twentieth ruler of the Seven Kingdoms, appearing in TV-show Game of Thrones."
     },
     {
+        "first-name": "Chandler",
+        "last-name": "Bing",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "domain": "sarcasm",
+        "trivia": "Chandler Muriel Bing is a sarcastic IT Procurment Manager and one of the six protagonists of the sitcom F.R.I.E.N.D.S."
+    },
+    {
         "first-name": "Charles",
         "last-name": "Miner",
         "sex": "Male",
@@ -1440,6 +1448,14 @@
         "trivia": "Joleen MaryAnn Bennett is the CEO of Dunder Mifflin/Sabre, appearing in the sitcom The Office."
     },
     {
+        "first-name": "Joey",
+        "last-name": "Tribiani",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "domain": "days-of-our-lives",
+        "trivia": "Joseph Francis Tribbiani Jr. is a dim-witted womanizer, actor, and one of the six protagonists of the sitcom F.R.I.E.N.D.S."
+    },
+    {
         "first-name": "Joffrey",
         "last-name": "Baratheon",
         "sex": "Male",
@@ -1544,6 +1560,14 @@
         "trivia": "Michael Ehrmantraut is a career criminal, Marine Corps veteran, and former Philadelphia police officer, appearing in the Breaking Bad TV series and later in spinoff Better Call Saul."
     },
     {
+        "first-name": "Monica",
+        "last-name": "Geller",
+        "sex": "Female",
+        "group": "TV-Shows",
+        "domain": "javu",
+        "trivia": "Monica Elizabeth Geller is a head chef with a cleanliness and competitive nature and one of the six protagonists of the sitcom F.R.I.E.N.D.S."
+    },
+    {
         "first-name": "Nacho",
         "last-name": "Varga",
         "sex": "Male",
@@ -1608,12 +1632,28 @@
         "trivia": "Petyr Baelish, also known as Littlefinger, is the Lord and head of House Baelish of the Fingers, appearing in TV-show Game of Thrones."
     },
     {
+        "first-name": "Phoebe",
+        "last-name": "Buffay",
+        "sex": "Female",
+        "group": "TV-Shows",
+        "domain": "smelly-cat",
+        "trivia": "Phoebe Buffay is a masseuse, an off-beat musician of silly wit, and one of the six protagonists of the sitcom F.R.I.E.N.D.S."
+    },
+    {
         "first-name": "Phyllis",
         "last-name": "Lapin",
         "sex": "Female",
         "group": "TV-Shows",
         "domain": "dunder-mifflin",
         "trivia": "Phyllis Margaret Lapin is a sales representative at Dunder Mifflin Paper Company, appearing in the sitcom The Office."
+    },
+    {
+        "first-name": "Rachel",
+        "last-name": "Green",
+        "sex": "Female",
+        "group": "TV-Shows",
+        "domain": "ralph-lauren",
+        "trivia": "Rachel Karen Green is a spoiled runaway bride turned fashion executive and one of the six protagonists of the sitcom F.R.I.E.N.D.S."
     },
     {
         "first-name": "Ramsay",
@@ -1646,6 +1686,14 @@
         "group": "TV-Shows",
         "domain": "dunder-mifflin",
         "trivia": "Robert California is the CEO of Dunder Mifflin/Sabre, appearing in the sitcom The Office."
+    },
+    {
+        "first-name": "Ross",
+        "last-name": "Geller",
+        "sex": "Male",
+        "group": "TV-Shows",
+        "domain": "paleontology",
+        "trivia": "Ross Eustace Geller is a paleontologist of nerdy personality and awkward sense of humor, and one of the six protagonists of the sitcom F.R.I.E.N.D.S."
     },
     {
         "first-name": "Roy",
