@@ -8,7 +8,7 @@
 
 <div align="center">
 
-[![](https://img.shields.io/github/workflow/status/alvii147/FunFaker/Go%20GitHub%20CI?label=Tests&logo=github)](https://github.com/alvii147/FunFaker/actions) [![](https://goreportcard.com/badge/github.com/alvii147/FunFaker)](https://goreportcard.com/report/github.com/alvii147/FunFaker) [![Live Demo](https://img.shields.io/badge/Northflank-Live%20Demo-02133e)](https://funfaker--api--cgvttg4279tq.code.run/name)
+[![](https://img.shields.io/github/actions/workflow/status/alvii147/FunFaker/github-ci.yml?branch=master&label=Tests&logo=github)](https://github.com/alvii147/FunFaker/actions) [![](https://goreportcard.com/badge/github.com/alvii147/FunFaker)](https://goreportcard.com/report/github.com/alvii147/FunFaker) [![Live Demo](https://img.shields.io/badge/Northflank-Live%20Demo-02133e)](https://funfaker--api--cgvttg4279tq.code.run/name)
 
 </div>
 
