@@ -1,3 +1,5 @@
+[![Support Palestine Banner](https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-support.svg)](https://www.pcrf.net/)
+
 <p align="center">
     <img alt="FunFaker Logo" src="img/FunFakerLogo.png" width=200 />
 </p>
@@ -8,7 +10,7 @@
 
 <div align="center">
 
-[![GitHub CI](https://img.shields.io/github/actions/workflow/status/alvii147/FunFaker/github-ci.yml?branch=master&label=GitHub%20CI&logo=github)](https://github.com/alvii147/FunFaker/actions) [![Go Report Card](https://goreportcard.com/badge/github.com/alvii147/FunFaker)](https://goreportcard.com/report/github.com/alvii147/FunFaker) [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause) [![Deployment](https://img.shields.io/badge/Northflank-deployed-02133e)](https://funfaker--api--cgvttg4279tq.code.run/name) [![Ceasefire Now](https://badge.techforpalestine.org/default)](https://techforpalestine.org/learn-more)
+[![GitHub CI](https://img.shields.io/github/actions/workflow/status/alvii147/FunFaker/github-ci.yml?branch=master&label=GitHub%20CI&logo=github)](https://github.com/alvii147/FunFaker/actions) [![Go Report Card](https://goreportcard.com/badge/github.com/alvii147/FunFaker)](https://goreportcard.com/report/github.com/alvii147/FunFaker) [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause) [![Deployment](https://img.shields.io/badge/Northflank-deployed-02133e)](https://funfaker--api--cgvttg4279tq.code.run/name)
 
 </div>
 
