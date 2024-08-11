@@ -1,4 +1,6 @@
-[![Free Palestine](https://github.com/alvii147/hinds-banner/blob/main/github/free-palestine-forest.svg)](https://www.pcrf.net/)
+[![Free Palestine](https://hinds-banner.vercel.app/free-palestine?variant=forest)](https://www.pcrf.net/)
+
+[![Genocide Watch](https://hinds-banner.vercel.app/genocide-watch?variant=forest)](https://www.pcrf.net/)
 
 <p align="center">
     <img alt="FunFaker Logo" src="img/FunFakerLogo.png" width=200 />
